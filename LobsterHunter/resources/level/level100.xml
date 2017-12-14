@@ -1,0 +1,61 @@
+<?xml version="1.0" standalone="no" ?>
+<!--
+ * This is a sample level showing the features of this game-engine.
+ * Feel free to modify this level and share your own levels with others who like
+ * this project. When you need help editing you own levels, then ask on the
+ * forum.
+-->
+
+<!-- First level -->
+<Level name="Thanks for playing!" stage="" author="[Authorname here]" url="[URL here]" email="[eMail here]">
+	<!-- GAMEPLAY MUSIC -->
+    <Sound file="resources/snd/menu.ogg"/>
+
+
+	<!-- LEVEL POSITION (press key "d" in game for actual level position) -->
+	<Position>
+    	<x>30</x>
+    	<y>0</y>
+	</Position>
+	
+	
+	<!-- LEVEL BOUNDARIES (relative to level-position) -->
+	<Boundaries>
+		<min>
+			<x>-20</x>
+			<y>0</y>
+		</min>
+		<max>
+			<x>222</x>
+			<y>30</y>
+		</max>
+	</Boundaries>
+	
+	
+	<!-- THE PLAYER -->
+    <Player file="resources/img/link.png">
+    	<sound file="resources/snd/dying.ogg" type="on_dead"/>
+    	<sound file="resources/snd/jump.ogg" type="on_jump"/>
+    	<sound file="resources/snd/sword_swing.ogg" type="on_sword"/>
+    	<sound file="resources/snd/arrow_shot.ogg" type="on_bow"/>
+    	<sound file="resources/snd/boomerang_throw.ogg" type="on_boomerang"/>
+    	<direction>right</direction>
+    	<x>400</x>
+    	<y>200</y>
+    	<gravitation>0</gravitation>
+    	<speed>
+    		<x>0</x>
+    		<y>0</y>
+    	</speed>
+	</Player>
+    
+    
+    <!-- BACKGROUND LAYERS -->
+	<!-- Level background -->
+    <Object file="resources/img/zelda_menu.png" type="background" action="action_static" collision="collision_none">
+    	<layer>0</layer>
+    	<distance>0</distance>
+    	<x>0</x>
+    	<y>0</y>
+    </Object>
+</Level>

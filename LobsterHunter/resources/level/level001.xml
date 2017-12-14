@@ -1,0 +1,524 @@
+<?xml version="1.0" standalone="no" ?>
+<!--
+ * This is a sample level showing the features of this game-engine.
+ * Feel free to modify this level and share your own levels with others who like
+ * this project. When you need help editing you own levels, then ask on the
+ * forum.
+-->
+
+<!-- First level -->
+<Level name="Kokiri forest" stage="1-1" author="[Authorname here]" url="[URL here]" email="[eMail here]">
+	<!-- GAMEPLAY MUSIC -->
+    <Sound file="resources/snd/darkworld001.ogg"/>
+
+
+	<!-- LEVEL POSITION (press key "d" in game for actual level position) -->
+	<Position>
+    	<x>30</x>
+    	<y>0</y>
+	</Position>
+	
+	
+	<!-- LEVEL BOUNDARIES (relative to level-position) -->
+	<Boundaries>
+		<min>
+			<x>-20</x>
+			<y>0</y>
+		</min>
+		<max>
+			<x>222</x>
+			<y>30</y>
+		</max>
+	</Boundaries>
+	
+	
+	<!-- THE PLAYER -->
+    <Player file="resources/img/link.png">
+    	<sound file="resources/snd/dying.ogg" type="on_dead"/>
+    	<sound file="resources/snd/jump.ogg" type="on_jump"/>
+    	<sound file="resources/snd/sword_swing.ogg" type="on_sword"/>
+    	<sound file="resources/snd/arrow_shot.ogg" type="on_bow"/>
+    	<sound file="resources/snd/boomerang_throw.ogg" type="on_boomerang"/>
+    	<direction>right</direction>
+    	<x>400</x>
+    	<y>200</y>
+    	<gravitation>2</gravitation>
+    	<speed>
+    		<x>5</x>
+    		<y>32</y>
+    	</speed>
+	</Player>
+    
+    
+    <!-- BACKGROUND LAYERS -->
+	<!-- Level background -->
+    <Object file="resources/img/background_night.png" type="background" action="action_static" collision="collision_none">
+    	<layer>0</layer>
+    	<distance>0</distance>
+    	<x>0</x>
+    	<y>0</y>
+    </Object>
+    
+	<!-- Clowds in the sky -->
+    <Object file="resources/img/clowds_type_1.png" type="background" action="action_static" collision="collision_none">
+    	<layer>1</layer>
+    	<distance>16</distance>
+    	<x>0</x>
+    	<y>0</y>
+    </Object>
+    <Object file="resources/img/clowds_type_2.png" type="background" action="action_static" collision="collision_none">
+    	<layer>1</layer>
+    	<distance>8</distance>
+    	<x>400</x>
+    	<y>0</y>
+    </Object>
+    <Object file="resources/img/clowds_type_3.png" type="background" action="action_static" collision="collision_none">
+    	<layer>1</layer>
+    	<distance>12</distance>
+    	<x>700</x>
+    	<y>0</y>
+    </Object>
+    
+    
+    <!-- GAME OBJECTS -->
+    <!-- Finish -->
+    <Object file="resources/img/finish128x128.png" type="finish" action="action_static" collision="collision_finish">
+    	<sound file="resources/snd/rupee.ogg"/>
+    	<layer>10</layer>
+		<distance>16</distance>
+    	<x>3800</x>
+    	<y>600</y>
+		<score>200</score>
+    </Object>
+
+
+    <!-- Water -->
+    <Object file="resources/img/lava1024x20.png" type="water" action="action_animation_0" collision="collision_deadly">
+    	<layer>10</layer>
+    	<animation>
+    		<width>1024</width>
+    		<height>20</height>
+    		<frames>4</frames>
+    		<speed>5</speed>
+    	</animation>
+		<distance>0</distance>
+    	<x>0</x>
+    	<y>748</y>
+    </Object>
+
+
+    <!-- Skeleton -->
+    <Object file="resources/img/skeleton128x160.png" action="action_animation_0" collision="collision_deadly">
+    	<layer>10</layer>
+    	<animation>
+    		<width>128</width>
+    		<height>160</height>
+    		<frames>2</frames>
+    		<speed>20</speed>
+    	</animation>
+		<distance>16</distance>
+    	<x>950</x>
+    	<y>580</y>
+    </Object>
+
+
+	<!-- Trees in the background -->
+    <Object file="resources/img/green_tree256x256.png" type="tree" action="action_static" collision="collision_none">
+		<layer>5</layer>
+		<distance>16</distance>
+		<x>300</x>
+		<y>460</y>
+    </Object>
+    <Object file="resources/img/green_tree256x256.png" type="tree" action="action_static" collision="collision_none">
+		<layer>5</layer>
+		<distance>16</distance>
+		<x>400</x>
+		<y>460</y>
+    </Object>
+    <Object file="resources/img/green_tree256x256.png" type="tree" action="action_static" collision="collision_none">
+		<layer>5</layer>
+		<distance>16</distance>
+		<x>930</x>
+		<y>460</y>
+    </Object>
+    <Object file="resources/img/green_tree256x256.png" type="tree" action="action_static" collision="collision_none">
+		<layer>5</layer>
+		<distance>16</distance>
+		<x>1420</x>
+		<y>460</y>
+    </Object>
+    <Object file="resources/img/green_tree256x256.png" type="tree" action="action_static" collision="collision_none">
+		<layer>5</layer>
+		<distance>16</distance>
+		<x>2420</x>
+		<y>400</y>
+    </Object>
+    
+    
+    <!-- Extra-Lifes -->
+    <Object file="resources/img/heart64x64.png" type="rubin" action="action_static" collision="collision_extralife">
+    	<sound file="resources/snd/rupee.ogg"/>
+    	<layer>10</layer>
+		<distance>16</distance>
+    	<x>3500</x>
+    	<y>350</y>
+		<score>200</score>
+    </Object>
+    <Object file="resources/img/heart64x64.png" type="rubin" action="action_static" collision="collision_extralife">
+    	<sound file="resources/snd/rupee.ogg"/>
+    	<layer>10</layer>
+		<distance>16</distance>
+    	<x>3600</x>
+    	<y>450</y>
+		<score>200</score>
+    </Object>
+    <Object file="resources/img/heart64x64.png" type="rubin" action="action_static" collision="collision_extralife">
+    	<sound file="resources/snd/rupee.ogg"/>
+    	<layer>10</layer>
+		<distance>16</distance>
+    	<x>3700</x>
+    	<y>550</y>
+		<score>200</score>
+    </Object>
+    <Object file="resources/img/heart64x64.png" type="rubin" action="action_static" collision="collision_extralife">
+    	<sound file="resources/snd/rupee.ogg"/>
+    	<layer>10</layer>
+		<distance>16</distance>
+    	<x>3800</x>
+    	<y>350</y>
+		<score>200</score>
+    </Object>
+    <Object file="resources/img/heart64x64.png" type="rubin" action="action_static" collision="collision_extralife">
+    	<sound file="resources/snd/rupee.ogg"/>
+    	<layer>10</layer>
+		<distance>16</distance>
+    	<x>3900</x>
+    	<y>350</y>
+		<score>200</score>
+    </Object>
+    <Object file="resources/img/heart64x64.png" type="rubin" action="action_static" collision="collision_extralife">
+    	<sound file="resources/snd/rupee.ogg"/>
+    	<layer>10</layer>
+		<distance>16</distance>
+    	<x>4000</x>
+    	<y>350</y>
+		<score>200</score>
+    </Object>
+
+	<!-- Swords -->    
+    <Object file="resources/img/sword64x64.png" action="action_static" collision="collision_sword">
+    	<sound file="resources/snd/rupee.ogg"/>
+    	<layer>10</layer>
+		<distance>16</distance>
+    	<x>2000</x>
+    	<y>400</y>
+		<score>1000</score>
+    </Object>
+    <Object file="resources/img/bow64x64.png" action="action_static" collision="collision_bow">
+    	<sound file="resources/snd/rupee.ogg"/>
+    	<layer>10</layer>
+		<distance>16</distance>
+    	<x>2200</x>
+    	<y>400</y>
+		<score>1000</score>
+    </Object>
+    <Object file="resources/img/sword64x64.png" action="action_static" collision="collision_sword">
+    	<sound file="resources/snd/rupee.ogg"/>
+    	<layer>10</layer>
+		<distance>16</distance>
+    	<x>1500</x>
+    	<y>400</y>
+		<score>1000</score>
+    </Object>
+    <Object file="resources/img/bow64x64.png" action="action_static" collision="collision_bow">
+    	<sound file="resources/snd/rupee.ogg"/>
+    	<layer>10</layer>
+		<distance>16</distance>
+    	<x>1700</x>
+    	<y>400</y>
+		<score>1000</score>
+    </Object>
+    <Object file="resources/img/boomerang64x64.png" action="action_static" collision="collision_boomerang">
+    	<sound file="resources/snd/rupee.ogg"/>
+    	<layer>10</layer>
+		<distance>16</distance>
+    	<x>400</x>
+    	<y>400</y>
+		<score>1000</score>
+    </Object>
+    <Object file="resources/img/boomerang64x64.png" action="action_static" collision="collision_boomerang">
+    	<sound file="resources/snd/rupee.ogg"/>
+    	<layer>10</layer>
+		<distance>16</distance>
+    	<x>3500</x>
+    	<y>400</y>
+		<score>1000</score>
+    </Object>
+    
+    
+    <!-- Rubins -->
+    <Object file="resources/img/blue_rubin.png" type="rubin" action="action_animation_0" collision="collision_rubin">
+    	<sound file="resources/snd/rupee.ogg"/>
+    	<animation>
+    		<width>64</width>
+    		<height>64</height>
+    		<frames>5</frames>
+    		<speed>2</speed>
+    	</animation>
+    	<layer>10</layer>
+		<distance>16</distance>
+    	<x>250</x>
+    	<y>400</y>
+		<score>200</score>
+    </Object>
+    <Object file="resources/img/red_rubin.png" type="rubin" action="action_animation_0" collision="collision_rubin">
+    	<sound file="resources/snd/rupee.ogg" type="on_collision"/>
+    	<animation>
+    		<width>64</width>
+    		<height>64</height>
+    		<frames>5</frames>
+    	</animation>
+		<layer>10</layer>
+		<distance>16</distance>
+		<x>150</x>
+		<y>450</y>
+		<score>300</score>
+    </Object>
+    <Object file="resources/img/green_rubin.png" type="rubin" action="action_animation_0" collision="collision_rubin">
+    	<sound file="resources/snd/rupee.ogg" type="on_collision"/>
+    	<animation>
+    		<width>64</width>
+    		<height>64</height>
+    		<frames>5</frames>
+    	</animation>
+		<layer>10</layer>
+		<distance>16</distance>
+		<x>600</x>
+		<y>500</y>
+		<score>300</score>
+    </Object>
+    <Object file="resources/img/green_rubin.png" type="rubin" action="action_animation_0" collision="collision_rubin">
+    	<sound file="resources/snd/rupee.ogg" type="on_collision"/>
+    	<animation>
+    		<width>64</width>
+    		<height>64</height>
+    		<frames>5</frames>
+    	</animation>
+		<layer>10</layer>
+		<distance>16</distance>
+		<x>900</x>
+		<y>500</y>
+		<score>300</score>
+    </Object>
+    <Object file="resources/img/blue_rubin.png" type="rubin" action="action_animation_0" collision="collision_rubin">
+    	<sound file="resources/snd/rupee.ogg" type="on_collision"/>
+    	<animation>
+    		<width>64</width>
+    		<height>64</height>
+    		<frames>5</frames>
+    	</animation>
+    	<layer>10</layer>
+		<distance>16</distance>
+    	<x>750</x>
+    	<y>500</y>
+		<score>200</score>
+    </Object>
+    <Object file="resources/img/green_rubin.png" type="rubin" action="action_animation_0" collision="collision_rubin">
+    	<sound file="resources/snd/rupee.ogg" type="on_collision"/>
+    	<animation>
+    		<width>64</width>
+    		<height>64</height>
+    		<frames>5</frames>
+    	</animation>
+    	<layer>10</layer>
+		<distance>16</distance>
+    	<x>1000</x>
+    	<y>600</y>
+		<score>200</score>
+    </Object>
+    <Object file="resources/img/green_rubin.png" type="rubin" action="action_animation_0" collision="collision_rubin">
+    	<sound file="resources/snd/rupee.ogg" type="on_collision"/>
+    	<animation>
+    		<width>64</width>
+    		<height>64</height>
+    		<frames>5</frames>
+    	</animation>
+		<layer>10</layer>
+		<distance>16</distance>
+		<x>1200</x>
+		<y>550</y>
+		<score>300</score>
+    </Object>
+    <Object file="resources/img/green_rubin.png" type="rubin" action="action_animation_0" collision="collision_rubin">
+    	<sound file="resources/snd/rupee.ogg" type="on_collision"/>
+    	<animation>
+    		<width>64</width>
+    		<height>64</height>
+    		<frames>5</frames>
+    	</animation>
+		<layer>10</layer>
+		<distance>16</distance>
+		<x>1300</x>
+		<y>550</y>
+		<score>300</score>
+    </Object>
+    <Object file="resources/img/green_rubin.png" type="rubin" action="action_animation_0" collision="collision_rubin">
+    	<sound file="resources/snd/rupee.ogg" type="on_collision"/>
+    	<animation>
+    		<width>64</width>
+    		<height>64</height>
+    		<frames>5</frames>
+    	</animation>
+		<layer>10</layer>
+		<distance>16</distance>
+		<x>1450</x>
+		<y>500</y>
+		<score>300</score>
+    </Object>
+    <Object file="resources/img/red_rubin.png" type="rubin" action="action_animation_0" collision="collision_rubin">
+    	<sound file="resources/snd/rupee.ogg" type="on_collision"/>
+    	<animation>
+    		<width>64</width>
+    		<height>64</height>
+    		<frames>5</frames>
+    	</animation>
+		<layer>10</layer>
+		<distance>16</distance>
+		<x>2420</x>
+		<y>500</y>
+		<score>300</score>
+    </Object>
+    <Object file="resources/img/red_rubin.png" type="rubin" action="action_animation_0" collision="collision_rubin">
+    	<sound file="resources/snd/rupee.ogg" type="on_collision"/>
+    	<animation>
+    		<width>64</width>
+    		<height>64</height>
+    		<frames>5</frames>
+    	</animation>
+		<layer>10</layer>
+		<distance>16</distance>
+		<x>2520</x>
+		<y>450</y>
+		<score>300</score>
+    </Object>
+    <Object file="resources/img/red_rubin.png" type="rubin" action="action_animation_0" collision="collision_rubin">
+    	<sound file="resources/snd/rupee.ogg" type="on_collision"/>
+    	<animation>
+    		<width>64</width>
+    		<height>64</height>
+    		<frames>5</frames>
+    	</animation>
+		<layer>10</layer>
+		<distance>16</distance>
+		<x>2620</x>
+		<y>500</y>
+		<score>300</score>
+    </Object>
+    
+
+    <!-- PLATFORM -->
+    <Object file="resources/img/floor_platform.png" type="floor" action="action_static" collision="collision_object">
+    	<layer>10</layer>
+		<distance>16</distance>
+    	<!-- Moving platform -->
+		<moving>
+	    	<speed>
+    			<x>-5</x>
+    			<y>5</y>
+	    	</speed>
+			<steps>50</steps>
+		</moving>
+    	<x>150</x>
+    	<y>400</y>
+    </Object>
+    <Object file="resources/img/floor_platform.png" type="floor" action="action_static" collision="collision_object">
+    	<layer>10</layer>
+		<distance>16</distance>
+    	<x>350</x>
+    	<y>450</y>
+    </Object>
+    <Object file="resources/img/floor_platform.png" type="floor" action="action_static" collision="collision_object">
+    	<layer>10</layer>
+		<distance>16</distance>
+    	<x>800</x>
+    	<y>400</y>
+    </Object>
+    <Object file="resources/img/floor_platform.png" type="floor" action="action_static" collision="collision_object">
+    	<layer>10</layer>
+		<distance>16</distance>
+    	<x>2400</x>
+    	<y>650</y>
+    </Object>
+
+
+    <!-- FLOOR -->
+    <Object file="resources/img/floor_corner_left.png" type="floor" action="action_static" collision="collision_object">
+    	<layer>10</layer>
+		<distance>16</distance>
+    	<x>100</x>
+    	<y>710</y>
+    </Object>
+    <Object file="resources/img/floor_long.png" type="floor" action="action_static" collision="collision_object">
+    	<layer>10</layer>
+		<distance>16</distance>
+    	<x>200</x>
+    	<y>710</y>
+    </Object>
+    <Object file="resources/img/floor_corner_right.png" type="floor" action="action_static" collision="collision_object">
+    	<layer>10</layer>
+		<distance>16</distance>
+    	<x>1160</x>
+    	<y>710</y>
+    </Object>
+
+    <Object file="resources/img/floor_corner_left.png" type="floor" action="action_static" collision="collision_object">
+    	<layer>10</layer>
+		<distance>16</distance>
+    	<x>1400</x>
+    	<y>710</y>
+    </Object>
+    <Object file="resources/img/floor_short.png" type="floor" action="action_static" collision="collision_object">
+    	<layer>10</layer>
+		<distance>16</distance>
+    	<x>1500</x>
+    	<y>710</y>
+    </Object>
+    <Object file="resources/img/floor_corner_right.png" type="floor" action="action_static" collision="collision_object">
+    	<layer>10</layer>
+		<distance>16</distance>
+    	<x>1600</x>
+    	<y>710</y>
+    </Object>
+    
+    <Object file="resources/img/floor_corner_left.png" type="floor" action="action_static" collision="collision_object">
+    	<layer>10</layer>
+		<distance>16</distance>
+    	<x>2000</x>
+    	<y>710</y>
+    </Object>
+    <Object file="resources/img/floor_corner_right.png" type="floor" action="action_static" collision="collision_object">
+    	<layer>10</layer>
+		<distance>16</distance>
+    	<x>2100</x>
+    	<y>710</y>
+    </Object>
+
+    <Object file="resources/img/floor_corner_left.png" type="floor" action="action_static" collision="collision_object">
+    	<layer>10</layer>
+		<distance>16</distance>
+    	<x>2900</x>
+    	<y>710</y>
+    </Object>
+    <Object file="resources/img/floor_long.png" type="floor" action="action_static" collision="collision_object">
+    	<layer>10</layer>
+		<distance>16</distance>
+    	<x>3000</x>
+    	<y>710</y>
+    </Object>
+    <Object file="resources/img/floor_corner_right.png" type="floor" action="action_static" collision="collision_object">
+    	<layer>10</layer>
+		<distance>16</distance>
+    	<x>3960</x>
+    	<y>710</y>
+    </Object>
+</Level>

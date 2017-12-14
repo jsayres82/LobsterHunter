@@ -1,0 +1,2635 @@
+﻿  main.cpp
+  .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+  
+  Starting pass 1
+  Processed /DEFAULTLIB:msvcprtd
+  Processed /DEFAULTLIB:MSVCRTD
+  Processed /DEFAULTLIB:OLDNAMES
+  Processed /DEFAULTLIB:MSVCMRTD
+  Processed /DEFAULTLIB:MSCOREE
+  LINK : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  
+  Invoking LINK.EXE:
+   /ERRORREPORT:PROMPT @C:\Users\jsayres\AppData\Local\Temp\tmp80ef54adf0194996a4950f1e2b604183.rsp
+   /incremental:no
+   /nologo
+   /fullbuild
+  
+  Starting pass 1
+  Processed /DEFAULTLIB:msvcprtd
+  Processed /DEFAULTLIB:MSVCRTD
+  Processed /DEFAULTLIB:OLDNAMES
+  Processed /DEFAULTLIB:MSVCMRTD
+  Processed /DEFAULTLIB:MSCOREE
+  
+  Searching libraries
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\tinyxml.lib:
+        Found "void __cdecl __vcrt_va_start_verify_argument_type<char const * const>(void)" (??$__vcrt_va_start_verify_argument_type@QBD@@YAXXZ)
+          Referenced in main.obj
+  tinyxml.lib(tinyxml.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+  
+  Invoking LINK.EXE:
+   /ERRORREPORT:PROMPT @C:\Users\jsayres\AppData\Local\Temp\tmp80ef54adf0194996a4950f1e2b604183.rsp /incremental:no /nologo /fullbuild
+   /LTCG
+  
+  Starting pass 1
+  Processed /DEFAULTLIB:msvcprtd
+  Processed /DEFAULTLIB:MSVCRTD
+  Processed /DEFAULTLIB:OLDNAMES
+  Processed /DEFAULTLIB:MSVCMRTD
+  Processed /DEFAULTLIB:MSCOREE
+  
+  Searching libraries
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\tinyxml.lib:
+        Found "void __cdecl __vcrt_va_start_verify_argument_type<char const * const>(void)" (??$__vcrt_va_start_verify_argument_type@QBD@@YAXXZ)
+          Referenced in main.obj
+          Loaded tinyxml.lib(tinyxml.obj)
+  Processed /DEFAULTLIB:MSVCRT
+        Found "public: class TiXmlString & __thiscall TiXmlString::append(char const *,unsigned int)" (?append@TiXmlString@@QAEAAV1@PBDI@Z)
+          Referenced in tinyxml.lib(tinyxml.obj)
+          Loaded tinyxml.lib(tinystr.obj)
+        Found "public: virtual char const * __thiscall TiXmlUnknown::Parse(char const *,class TiXmlParsingData *,enum TiXmlEncoding)" (?Parse@TiXmlUnknown@@UAEPBDPBDPAVTiXmlParsingData@@W4TiXmlEncoding@@@Z)
+          Referenced in tinyxml.lib(tinyxml.obj)
+          Loaded tinyxml.lib(tinyxmlparser.obj)
+        Found "protected: static char const * * TiXmlBase::errorString" (?errorString@TiXmlBase@@1PAPBDA)
+          Referenced in tinyxml.lib(tinyxmlparser.obj)
+          Loaded tinyxml.lib(tinyxmlerror.obj)
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2_mixer.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2_ttf.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2_image.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2main.lib:
+        Found _main
+          Loaded SDL2main.lib(SDL_windows_main.obj)
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\kernel32.lib:
+        Found __imp__GetCommandLineW@0
+          Referenced in SDL2main.lib(SDL_windows_main.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __IMPORT_DESCRIPTOR_KERNEL32
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __NULL_IMPORT_DESCRIPTOR
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found KERNEL32_NULL_THUNK_DATA
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Loaded kernel32.lib(KERNEL32.dll)
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\msvcprtd.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\MSVCRTD.lib:
+        Found "const type_info::`vftable'" (??_7type_info@@6B@)
+          Referenced in main.obj
+          Referenced in tinyxml.lib(tinyxml.obj)
+          Loaded MSVCRTD.lib(std_type_info_static.obj)
+        Found "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+          Referenced in main.obj
+          Loaded MSVCRTD.lib(throw_bad_alloc.obj)
+        Found __fltused
+          Referenced in main.obj
+          Loaded MSVCRTD.lib(fltused.obj)
+        Found @__security_check_cookie@4
+          Referenced in tinyxml.lib(tinyxml.obj)
+          Loaded MSVCRTD.lib(_secchk_.obj)
+        Found "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+          Referenced in tinyxml.lib(tinyxml.obj)
+          Loaded MSVCRTD.lib(delete_array.obj)
+        Found "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+          Referenced in tinyxml.lib(tinyxml.obj)
+          Loaded MSVCRTD.lib(new_scalar.obj)
+        Found "void __cdecl operator delete(void *,unsigned int)" (??3@YAXPAXI@Z)
+          Referenced in tinyxml.lib(tinyxml.obj)
+          Referenced in MSVCRTD.lib(std_type_info_static.obj)
+          Referenced in MSVCRTD.lib(throw_bad_alloc.obj)
+          Loaded MSVCRTD.lib(delete_scalar_size.obj)
+        Found "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+          Referenced in tinyxml.lib(tinyxml.obj)
+          Loaded MSVCRTD.lib(new_array.obj)
+        Found ___report_gsfailure
+          Referenced in MSVCRTD.lib(_secchk_.obj)
+          Loaded MSVCRTD.lib(gs_report.obj)
+        Found ___security_cookie
+          Referenced in MSVCRTD.lib(_secchk_.obj)
+          Referenced in MSVCRTD.lib(gs_report.obj)
+          Loaded MSVCRTD.lib(gs_cookie.obj)
+        Found "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+          Referenced in MSVCRTD.lib(delete_array.obj)
+          Referenced in MSVCRTD.lib(delete_scalar_size.obj)
+          Loaded MSVCRTD.lib(delete_scalar.obj)
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\MSVCMRTD.lib:
+        Found "?.cctor@@$$FYMXXZ" (?.cctor@@$$FYMXXZ)
+          Referenced in main.obj
+          Referenced in .NETFramework,Version=v4.0.AssemblyAttributes.obj
+          Loaded MSVCMRTD.lib(mstartup.obj)
+  Processed /DEFAULTLIB:uuid.lib
+  Processed /DEFAULTLIB:kernel32.lib
+  Processed /DEFAULTLIB:ucrtd.lib
+        Found "extern "C" void __clrcall ___CxxCallUnwindDtor(void (__clrcall*)(void *),void *)" (?___CxxCallUnwindDtor@@$$J0YMXP6MXPAX@Z0@Z)
+          Referenced in main.obj
+          Referenced in MSVCMRTD.lib(mstartup.obj)
+          Loaded MSVCMRTD.lib(managdeh.obj)
+        Found "void __clrcall `eh vector destructor iterator'(void *,unsigned int,unsigned int,void (__clrcall*)(void *))" (??_M@$$FYMXPAXIIP6MX0@Z@Z)
+          Referenced in main.obj
+          Loaded MSVCMRTD.lib(mehvecdtr.obj)
+        Found "extern "C" int __clrcall _atexit_m(void (__clrcall*)(void))" (?_atexit_m@@$$J0YMHP6MXXZ@Z)
+          Referenced in main.obj
+          Loaded MSVCMRTD.lib(msilexit.obj)
+        Found "void __clrcall _initterm_m(void const * (__clrcall*const *)(void),void const * (__clrcall*const *)(void))" (?_initterm_m@@$$FYMXPBQ6MPBXXZ0@Z)
+          Referenced in MSVCMRTD.lib(mstartup.obj)
+          Loaded MSVCMRTD.lib(pureMSILcode.obj)
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\MSCOREE.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\MSVCRT.lib:
+        Found ___scrt_native_dllmain_reason
+          Referenced in MSVCMRTD.lib(mstartup.obj)
+          Loaded MSVCRT.lib(utility.obj)
+        Found ___xi_a
+          Referenced in MSVCMRTD.lib(mstartup.obj)
+          Loaded MSVCRT.lib(initializers.obj)
+   Processed /DISALLOWLIB:libcmt.lib
+   Processed /DISALLOWLIB:libcmtd.lib
+  Processed /DEFAULTLIB:vcruntime.lib
+   Processed /DISALLOWLIB:vcruntimed.lib
+   Processed /DISALLOWLIB:libvcruntime.lib
+   Processed /DISALLOWLIB:libvcruntimed.lib
+  Processed /DEFAULTLIB:ucrt.lib
+   Processed /DISALLOWLIB:libucrt.lib
+   Processed /DISALLOWLIB:libucrtd.lib
+        Found ___isa_available_init
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded MSVCRT.lib(_cpu_disp_.obj)
+        Found __get_startup_argv_mode
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded MSVCRT.lib(argv_mode.obj)
+        Found ___scrt_is_ucrt_dll_in_use
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded MSVCRT.lib(ucrt_detection.obj)
+        Found ___scrt_fastfail
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded MSVCRT.lib(utility_desktop.obj)
+        Found @_guard_check_icall@4
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded MSVCRT.lib(checkcfg.obj)
+        Found __SEH_epilog4
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded MSVCRT.lib(_sehprolg4_.obj)
+        Found __except_handler4
+          Referenced in MSVCRT.lib(utility.obj)
+          Referenced in MSVCRT.lib(_sehprolg4_.obj)
+          Loaded MSVCRT.lib(_chandler4gs_.obj)
+        Found ___guard_check_icall_fptr
+          Referenced in MSVCRT.lib(checkcfg.obj)
+          Loaded MSVCRT.lib(guard_support.obj)
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\x86\ucrtd.lib:
+        Found ___acrt_iob_func
+          Referenced in main.obj
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found ___stdio_common_vfprintf
+          Referenced in main.obj
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __imp__ftell
+          Referenced in tinyxml.lib(tinyxml.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __imp__fputc
+          Referenced in tinyxml.lib(tinyxml.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __imp__fopen
+          Referenced in tinyxml.lib(tinyxml.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __imp__fclose
+          Referenced in tinyxml.lib(tinyxml.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __imp__fseek
+          Referenced in tinyxml.lib(tinyxml.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __imp____stdio_common_vsnprintf_s
+          Referenced in tinyxml.lib(tinyxml.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __imp__fputs
+          Referenced in tinyxml.lib(tinyxml.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __imp__atoi
+          Referenced in tinyxml.lib(tinyxml.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __imp__atof
+          Referenced in tinyxml.lib(tinyxml.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __imp__fread
+          Referenced in tinyxml.lib(tinyxml.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __imp____stdio_common_vsscanf
+          Referenced in tinyxml.lib(tinyxml.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __imp___wassert
+          Referenced in tinyxml.lib(tinyxml.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __imp__tolower
+          Referenced in tinyxml.lib(tinyxmlparser.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __imp__isalpha
+          Referenced in tinyxml.lib(tinyxmlparser.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __imp__isalnum
+          Referenced in tinyxml.lib(tinyxmlparser.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __imp__strncmp
+          Referenced in tinyxml.lib(tinyxmlparser.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __imp__isspace
+          Referenced in tinyxml.lib(tinyxmlparser.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __callnewh
+          Referenced in MSVCRTD.lib(new_scalar.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found _malloc
+          Referenced in MSVCRTD.lib(new_scalar.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __free_dbg
+          Referenced in MSVCRTD.lib(delete_scalar.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __seh_filter_dll
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __configure_narrow_argv
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __initialize_narrow_environment
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __initialize_onexit_table
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __register_onexit_function
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __execute_onexit_table
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __crt_atexit
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __crt_at_quick_exit
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __cexit
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found _terminate
+          Referenced in MSVCRT.lib(utility_desktop.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found _memset
+          Referenced in MSVCRT.lib(utility_desktop.obj)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __IMPORT_DESCRIPTOR_ucrtbased
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found ucrtbased_NULL_THUNK_DATA
+          Referenced in ucrtd.lib(ucrtbased.dll)
+          Loaded ucrtd.lib(ucrtbased.dll)
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\vcruntime.lib:
+        Found __purecall
+          Referenced in tinyxml.lib(tinyxml.obj)
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found ___std_terminate
+          Referenced in tinyxml.lib(tinyxml.obj)
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found __imp__memmove
+          Referenced in tinyxml.lib(tinystr.obj)
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found __imp__strchr
+          Referenced in tinyxml.lib(tinyxmlparser.obj)
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found ___std_exception_copy
+          Referenced in MSVCRTD.lib(throw_bad_alloc.obj)
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found ___std_exception_destroy
+          Referenced in MSVCRTD.lib(throw_bad_alloc.obj)
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found __CxxThrowException@8
+          Referenced in MSVCRTD.lib(throw_bad_alloc.obj)
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found __except_handler4_common
+          Referenced in MSVCRT.lib(_chandler4gs_.obj)
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found __IMPORT_DESCRIPTOR_VCRUNTIME140
+          Referenced in vcruntime.lib(VCRUNTIME140.dll)
+          Referenced in vcruntime.lib(VCRUNTIME140.dll)
+          Referenced in vcruntime.lib(VCRUNTIME140.dll)
+          Referenced in vcruntime.lib(VCRUNTIME140.dll)
+          Referenced in vcruntime.lib(VCRUNTIME140.dll)
+          Referenced in vcruntime.lib(VCRUNTIME140.dll)
+          Referenced in vcruntime.lib(VCRUNTIME140.dll)
+          Referenced in vcruntime.lib(VCRUNTIME140.dll)
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found VCRUNTIME140_NULL_THUNK_DATA
+          Referenced in vcruntime.lib(VCRUNTIME140.dll)
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\x86\ucrt.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\tinyxml.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2_mixer.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2_ttf.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2_image.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2.lib:
+        Found _SDL_SetMainReady
+          Referenced in SDL2main.lib(SDL_windows_main.obj)
+          Loaded SDL2.lib(SDL2.dll)
+        Found _SDL_free
+          Referenced in SDL2main.lib(SDL_windows_main.obj)
+          Loaded SDL2.lib(SDL2.dll)
+        Found _SDL_iconv_string
+          Referenced in SDL2main.lib(SDL_windows_main.obj)
+          Loaded SDL2.lib(SDL2.dll)
+        Found _SDL_wcslen
+          Referenced in SDL2main.lib(SDL_windows_main.obj)
+          Loaded SDL2.lib(SDL2.dll)
+        Found _SDL_malloc
+          Referenced in SDL2main.lib(SDL_windows_main.obj)
+          Loaded SDL2.lib(SDL2.dll)
+        Found _SDL_isspace
+          Referenced in SDL2main.lib(SDL_windows_main.obj)
+          Loaded SDL2.lib(SDL2.dll)
+        Found _SDL_ShowSimpleMessageBox
+          Referenced in SDL2main.lib(SDL_windows_main.obj)
+          Loaded SDL2.lib(SDL2.dll)
+        Found __IMPORT_DESCRIPTOR_SDL2
+          Referenced in SDL2.lib(SDL2.dll)
+          Referenced in SDL2.lib(SDL2.dll)
+          Referenced in SDL2.lib(SDL2.dll)
+          Referenced in SDL2.lib(SDL2.dll)
+          Referenced in SDL2.lib(SDL2.dll)
+          Referenced in SDL2.lib(SDL2.dll)
+          Referenced in SDL2.lib(SDL2.dll)
+          Loaded SDL2.lib(SDL2.dll)
+        Found SDL2_NULL_THUNK_DATA
+          Referenced in SDL2.lib(SDL2.dll)
+          Loaded SDL2.lib(SDL2.dll)
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2main.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\kernel32.lib:
+        Found __imp__UnhandledExceptionFilter@4
+          Referenced in MSVCRTD.lib(gs_report.obj)
+          Referenced in MSVCRT.lib(utility_desktop.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__SetUnhandledExceptionFilter@4
+          Referenced in MSVCRTD.lib(gs_report.obj)
+          Referenced in MSVCRT.lib(utility_desktop.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetCurrentProcess@0
+          Referenced in MSVCRTD.lib(gs_report.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__TerminateProcess@8
+          Referenced in MSVCRTD.lib(gs_report.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found _IsProcessorFeaturePresent@4
+          Referenced in MSVCRTD.lib(gs_report.obj)
+          Referenced in MSVCRT.lib(_cpu_disp_.obj)
+          Referenced in MSVCRT.lib(utility_desktop.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__IsDebuggerPresent@0
+          Referenced in MSVCRT.lib(utility_desktop.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetStartupInfoW@4
+          Referenced in MSVCRT.lib(utility_desktop.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetModuleHandleW@4
+          Referenced in MSVCRT.lib(utility_desktop.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\msvcprtd.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\MSVCRTD.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\MSVCMRTD.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\MSCOREE.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\MSVCRT.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\x86\ucrtd.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\vcruntime.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\x86\ucrt.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\tinyxml.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2_mixer.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2_ttf.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2_image.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2main.lib:
+  
+  Finished searching libraries
+LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+LINK : warning LNK4098: defaultlib 'ucrtd.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+  
+  Finished pass 1
+  
+  
+  Searching libraries
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\tinyxml.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2_mixer.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2_ttf.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2_image.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2main.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\msvcprtd.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\MSVCRTD.lib:
+        Found ___scrt_stub_for_acrt_initialize
+          Loaded MSVCRTD.lib(ucrt_stubs.obj)
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\MSVCMRTD.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\MSCOREE.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\MSVCRT.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\x86\ucrtd.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\vcruntime.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\x86\ucrt.lib:
+  
+  Finished searching libraries
+  Search transition ??_Eexception@std@@UAEPAXI@Z->__t2m@??_Eexception@std@@UAEPAXI@Z
+  Search transition ?__std_exception_copy@@$$J0YAXPBU__std_exception_data@@PAU1@@Z->___std_exception_copy
+  Search transition ?__std_exception_destroy@@$$J0YAXPAU__std_exception_data@@@Z->___std_exception_destroy
+  Search transition ?__ExceptionPtrDestroy@@$$FYAXPAX@Z->?__ExceptionPtrDestroy@@YAXPAX@Z
+  Search transition ?__ExceptionPtrCopy@@$$FYAXPAXPBX@Z->?__ExceptionPtrCopy@@YAXPAXPBX@Z
+  Search transition ?strlen@@$$J0YAIPBD@Z->_strlen
+  Search transition ?memcpy@@$$J0YAPAXPAXPBXI@Z->_memcpy
+  Search transition ?memmove@@$$J0YAPAXPAXPBXI@Z->_memmove
+  Search transition ?_Debug_message@std@@$$FYAXPB_W0I@Z->?_Debug_message@std@@YAXPB_W0I@Z
+  Search transition ??0_Lockit@std@@$$FQAE@H@Z->??0_Lockit@std@@QAE@H@Z
+  Search transition ??1_Lockit@std@@$$FQAE@XZ->??1_Lockit@std@@QAE@XZ
+  Search transition ?_Xbad_alloc@std@@$$FYAXXZ->?_Xbad_alloc@std@@YAXXZ
+  Search transition ??2@$$FYAPAXI@Z->??2@YAPAXI@Z
+  Search transition ?_CrtDbgReportW@@$$J0YAHHPB_WH00ZZ->__CrtDbgReportW
+  Search transition ?_invalid_parameter@@$$J0YAXPB_W00II@Z->__invalid_parameter
+  Search transition ??3@$$FYAXPAX@Z->??3@YAXPAX@Z
+  Search transition ??_Eruntime_error@std@@UAEPAXI@Z->__t2m@??_Eruntime_error@std@@UAEPAXI@Z
+  Search transition ??_E_System_error@std@@UAEPAXI@Z->__t2m@??_E_System_error@std@@UAEPAXI@Z
+  Search transition ?SDL_DestroyTexture@@$$J0YAXPAUSDL_Texture@@@Z->_SDL_DestroyTexture
+  Search transition ?SDL_SetTextureColorMod@@$$J0YAHPAUSDL_Texture@@EEE@Z->_SDL_SetTextureColorMod
+  Search transition ?SDL_SetTextureBlendMode@@$$J0YAHPAUSDL_Texture@@W4SDL_BlendMode@@@Z->_SDL_SetTextureBlendMode
+  Search transition ?SDL_SetTextureAlphaMod@@$$J0YAHPAUSDL_Texture@@E@Z->_SDL_SetTextureAlphaMod
+  Search transition ?SDL_RenderCopyEx@@$$J0YAHPAUSDL_Renderer@@PAUSDL_Texture@@PBUSDL_Rect@@2NPBUSDL_Point@@W4SDL_RendererFlip@@@Z->_SDL_RenderCopyEx
+  Search transition ?SDL_Init@@$$J0YAHI@Z->_SDL_Init
+  Search transition ?SDL_GetError@@$$J0YAPBDXZ->_SDL_GetError
+  Search transition ?printf@@$$J0YAHQBDZZ->_printf
+  Search transition ?SDL_SetHint@@$$J0YA?AW4SDL_bool@@PBD0@Z->_SDL_SetHint
+  Search transition ?SDL_CreateWindow@@$$J0YAPAUSDL_Window@@PBDHHHHI@Z->_SDL_CreateWindow
+  Search transition ?SDL_CreateRenderer@@$$J0YAPAUSDL_Renderer@@PAUSDL_Window@@HI@Z->_SDL_CreateRenderer
+  Search transition ?SDL_SetRenderDrawColor@@$$J0YAHPAUSDL_Renderer@@EEEE@Z->_SDL_SetRenderDrawColor
+  Search transition ?IMG_Init@@$$J0YAHH@Z->_IMG_Init
+  Search transition ?SDL_DestroyRenderer@@$$J0YAXPAUSDL_Renderer@@@Z->_SDL_DestroyRenderer
+  Search transition ?SDL_DestroyWindow@@$$J0YAXPAUSDL_Window@@@Z->_SDL_DestroyWindow
+  Search transition ?IMG_Quit@@$$J0YAXXZ->_IMG_Quit
+  Search transition ?SDL_Quit@@$$J0YAXXZ->_SDL_Quit
+  Search transition ?_Xlength_error@std@@$$FYAXPBD@Z->?_Xlength_error@std@@YAXPBD@Z
+  Search transition ?_Xout_of_range@std@@$$FYAXPBD@Z->?_Xout_of_range@std@@YAXPBD@Z
+  Search transition ??_Ebad_cast@std@@UAEPAXI@Z->__t2m@??_Ebad_cast@std@@UAEPAXI@Z
+  Search transition ??_Esystem_error@std@@UAEPAXI@Z->__t2m@??_Esystem_error@std@@UAEPAXI@Z
+  Search transition ??_Efailure@ios_base@std@@UAEPAXI@Z->__t2m@??_Efailure@ios_base@std@@UAEPAXI@Z
+  Search transition ?__CxxQueryExceptionSize@@$$J0YAHXZ->___CxxQueryExceptionSize
+  Search transition ?__CxxExceptionFilter@@$$J0YAHPAX0H0@Z->___CxxExceptionFilter
+  Search transition ?__CxxRegisterExceptionObject@@$$J0YAHPAX0@Z->___CxxRegisterExceptionObject
+  Search transition ?_CxxThrowException@@$$J18YGXPAXPBU_s__ThrowInfo@@@Z->__CxxThrowException@8
+  Search transition ?__CxxDetectRethrow@@$$J0YAHPAX@Z->___CxxDetectRethrow
+  Search transition ?__CxxUnregisterExceptionObject@@$$J0YAXPAXH@Z->___CxxUnregisterExceptionObject
+  Search transition ?IMG_Load@@$$J0YAPAUSDL_Surface@@PBD@Z->_IMG_Load
+  Search transition ?SDL_MapRGB@@$$J0YAIPBUSDL_PixelFormat@@EEE@Z->_SDL_MapRGB
+  Search transition ?SDL_SetColorKey@@$$J0YAHPAUSDL_Surface@@HI@Z->_SDL_SetColorKey
+  Search transition ?SDL_CreateTextureFromSurface@@$$J0YAPAUSDL_Texture@@PAUSDL_Renderer@@PAUSDL_Surface@@@Z->_SDL_CreateTextureFromSurface
+  Search transition ?SDL_FreeSurface@@$$J0YAXPAUSDL_Surface@@@Z->_SDL_FreeSurface
+  Search transition ?SDL_PollEvent@@$$J0YAHPATSDL_Event@@@Z->_SDL_PollEvent
+  Search transition ?SDL_RenderClear@@$$J0YAHPAUSDL_Renderer@@@Z->_SDL_RenderClear
+  Search transition ?SDL_RenderPresent@@$$J0YAXPAUSDL_Renderer@@@Z->_SDL_RenderPresent
+  Search transition ??_V@$$FYAXPAXI@Z->??_V@YAXPAXI@Z
+  Search transition ??3@$$FYAXPAXI@Z->??3@YAXPAXI@Z
+  Search transition ??_ETiXmlBase@@UAEPAXI@Z->__t2m@??_ETiXmlBase@@UAEPAXI@Z
+  Search transition ??_ETiXmlNode@@UAEPAXI@Z->__t2m@??_ETiXmlNode@@UAEPAXI@Z
+  Search transition ??_ETiXmlUnknown@@UAEPAXI@Z->__t2m@??_ETiXmlUnknown@@UAEPAXI@Z
+  Search transition ??_ETiXmlComment@@UAEPAXI@Z->__t2m@??_ETiXmlComment@@UAEPAXI@Z
+  Search transition ??_ETiXmlElement@@UAEPAXI@Z->__t2m@??_ETiXmlElement@@UAEPAXI@Z
+  Search transition ??_ETiXmlAttribute@@UAEPAXI@Z->__t2m@??_ETiXmlAttribute@@UAEPAXI@Z
+  Search transition ??_ETiXmlDeclaration@@UAEPAXI@Z->__t2m@??_ETiXmlDeclaration@@UAEPAXI@Z
+  Search transition ??_ETiXmlDocument@@UAEPAXI@Z->__t2m@??_ETiXmlDocument@@UAEPAXI@Z
+  Search transition ??_ETiXmlText@@UAEPAXI@Z->__t2m@??_ETiXmlText@@UAEPAXI@Z
+  Search transition ??_Etype_info@@UAEPAXI@Z->__t2m@??_Etype_info@@UAEPAXI@Z
+  Search transition ??_Ebad_alloc@std@@UAEPAXI@Z->__t2m@??_Ebad_alloc@std@@UAEPAXI@Z
+  Search transition ??_Ebad_array_new_length@std@@UAEPAXI@Z->__t2m@??_Ebad_array_new_length@std@@UAEPAXI@Z
+  Search transition ?DoNothing@DefaultDomain@<CrtImplementationDetails>@@CGJPAX@Z->__t2m@?DoNothing@DefaultDomain@<CrtImplementationDetails>@@CGJPAX@Z
+  Search transition ?_cexit@@$$J0YAXXZ->__cexit
+  Search transition ?_UninitializeDefaultDomain@LanguageSupport@<CrtImplementationDetails>@@CGJPAX@Z->__t2m@?_UninitializeDefaultDomain@LanguageSupport@<CrtImplementationDetails>@@CGJPAX@Z
+  Search transition ?__security_init_cookie@@$$J0YAXXZ->___security_init_cookie
+  Search transition ?abort@@$$J0YAXXZ->_abort
+  Search transition ?_getFiberPtrId@@$$FYAPAXXZ->?_getFiberPtrId@@YAPAXXZ
+  Search transition ?Sleep@@$$J14YGXK@Z->_Sleep@4
+  Search transition ?__FrameUnwindFilter@@$$J0YAHPAU_EXCEPTION_POINTERS@@@Z->___FrameUnwindFilter
+  Search transition ?terminate@@$$J0YAXXZ->_terminate
+  Search transition ___vcrt_initialize->__t2m@___vcrt_initialize
+  Search transition ___vcrt_uninitialize->__t2m@___vcrt_uninitialize
+  Search transition ___vcrt_uninitialize_critical->__t2m@___vcrt_uninitialize_critical
+  Search transition ___vcrt_thread_attach->__t2m@___vcrt_thread_attach
+  Search transition ___vcrt_thread_detach->__t2m@___vcrt_thread_detach
+  Search transition __is_c_termination_complete->__t2m@__is_c_termination_complete
+  Search transition ___acrt_initialize->__t2m@___acrt_initialize
+  Search transition ___acrt_uninitialize->__t2m@___acrt_uninitialize
+  Search transition ___acrt_uninitialize_critical->__t2m@___acrt_uninitialize_critical
+  Search transition ___acrt_thread_attach->__t2m@___acrt_thread_attach
+  Search transition ___acrt_thread_detach->__t2m@___acrt_thread_detach
+  
+  Searching libraries
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\tinyxml.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2_mixer.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2_ttf.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2_image.lib:
+        Found _IMG_Init
+          Loaded SDL2_image.lib(SDL2_image.dll)
+        Found _IMG_Quit
+          Loaded SDL2_image.lib(SDL2_image.dll)
+        Found _IMG_Load
+          Loaded SDL2_image.lib(SDL2_image.dll)
+        Found __IMPORT_DESCRIPTOR_SDL2_image
+          Referenced in SDL2_image.lib(SDL2_image.dll)
+          Referenced in SDL2_image.lib(SDL2_image.dll)
+          Referenced in SDL2_image.lib(SDL2_image.dll)
+          Loaded SDL2_image.lib(SDL2_image.dll)
+        Found SDL2_image_NULL_THUNK_DATA
+          Referenced in SDL2_image.lib(SDL2_image.dll)
+          Loaded SDL2_image.lib(SDL2_image.dll)
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2.lib:
+        Found _SDL_DestroyTexture
+          Loaded SDL2.lib(SDL2.dll)
+        Found _SDL_SetTextureColorMod
+          Loaded SDL2.lib(SDL2.dll)
+        Found _SDL_SetTextureBlendMode
+          Loaded SDL2.lib(SDL2.dll)
+        Found _SDL_SetTextureAlphaMod
+          Loaded SDL2.lib(SDL2.dll)
+        Found _SDL_RenderCopyEx
+          Loaded SDL2.lib(SDL2.dll)
+        Found _SDL_Init
+          Loaded SDL2.lib(SDL2.dll)
+        Found _SDL_GetError
+          Loaded SDL2.lib(SDL2.dll)
+        Found _SDL_SetHint
+          Loaded SDL2.lib(SDL2.dll)
+        Found _SDL_CreateWindow
+          Loaded SDL2.lib(SDL2.dll)
+        Found _SDL_CreateRenderer
+          Loaded SDL2.lib(SDL2.dll)
+        Found _SDL_SetRenderDrawColor
+          Loaded SDL2.lib(SDL2.dll)
+        Found _SDL_DestroyRenderer
+          Loaded SDL2.lib(SDL2.dll)
+        Found _SDL_DestroyWindow
+          Loaded SDL2.lib(SDL2.dll)
+        Found _SDL_Quit
+          Loaded SDL2.lib(SDL2.dll)
+        Found _SDL_MapRGB
+          Loaded SDL2.lib(SDL2.dll)
+        Found _SDL_SetColorKey
+          Loaded SDL2.lib(SDL2.dll)
+        Found _SDL_CreateTextureFromSurface
+          Loaded SDL2.lib(SDL2.dll)
+        Found _SDL_FreeSurface
+          Loaded SDL2.lib(SDL2.dll)
+        Found _SDL_PollEvent
+          Loaded SDL2.lib(SDL2.dll)
+        Found _SDL_RenderClear
+          Loaded SDL2.lib(SDL2.dll)
+        Found _SDL_RenderPresent
+          Loaded SDL2.lib(SDL2.dll)
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2main.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\kernel32.lib:
+        Found _Sleep@4
+          Loaded kernel32.lib(KERNEL32.dll)
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\msvcprtd.lib:
+        Found "void __cdecl __ExceptionPtrDestroy(void *)" (?__ExceptionPtrDestroy@@YAXPAX@Z)
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found "void __cdecl __ExceptionPtrCopy(void *,void const *)" (?__ExceptionPtrCopy@@YAXPAXPBX@Z)
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found "void __cdecl std::_Debug_message(wchar_t const *,wchar_t const *,unsigned int)" (?_Debug_message@std@@YAXPB_W0I@Z)
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found "public: __thiscall std::_Lockit::_Lockit(int)" (??0_Lockit@std@@QAE@H@Z)
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found "public: __thiscall std::_Lockit::~_Lockit(void)" (??1_Lockit@std@@QAE@XZ)
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found "void __cdecl std::_Xbad_alloc(void)" (?_Xbad_alloc@std@@YAXXZ)
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found "void __cdecl std::_Xlength_error(char const *)" (?_Xlength_error@std@@YAXPBD@Z)
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found "void __cdecl std::_Xout_of_range(char const *)" (?_Xout_of_range@std@@YAXPBD@Z)
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found __IMPORT_DESCRIPTOR_MSVCP140D
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+        Found MSVCP140D_NULL_THUNK_DATA
+          Referenced in msvcprtd.lib(MSVCP140D.dll)
+          Loaded msvcprtd.lib(MSVCP140D.dll)
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\MSVCRTD.lib:
+        Found "void __cdecl operator delete[](void *,unsigned int)" (??_V@YAXPAXI@Z)
+          Loaded MSVCRTD.lib(delete_array_size.obj)
+        Found ___security_init_cookie
+          Loaded MSVCRTD.lib(gs_support.obj)
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\MSVCMRTD.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\MSCOREE.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\MSVCRT.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\x86\ucrtd.lib:
+        Found _strlen
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __CrtDbgReportW
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found __invalid_parameter
+          Loaded ucrtd.lib(ucrtbased.dll)
+        Found _abort
+          Loaded ucrtd.lib(ucrtbased.dll)
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\vcruntime.lib:
+        Found _memcpy
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found ___CxxQueryExceptionSize
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found ___CxxExceptionFilter
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found ___CxxRegisterExceptionObject
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found ___CxxDetectRethrow
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found ___CxxUnregisterExceptionObject
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found ___FrameUnwindFilter
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\x86\ucrt.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\tinyxml.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2_mixer.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2_ttf.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2_image.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2main.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\kernel32.lib:
+        Found __imp__QueryPerformanceCounter@4
+          Referenced in MSVCRTD.lib(gs_support.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetCurrentProcessId@0
+          Referenced in MSVCRTD.lib(gs_support.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetCurrentThreadId@0
+          Referenced in MSVCRTD.lib(gs_support.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetSystemTimeAsFileTime@4
+          Referenced in MSVCRTD.lib(gs_support.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\msvcprtd.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\MSVCRTD.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\MSVCMRTD.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\MSCOREE.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\MSVCRT.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\x86\ucrtd.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\vcruntime.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\x86\ucrt.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\tinyxml.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2_mixer.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2_ttf.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2_image.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2main.lib:
+  
+  Finished searching libraries
+  Search transition ??_ETiXmlBase@@UAEPAXI@Z->__t2m@??_ETiXmlBase@@UAEPAXI@Z
+  Search transition ??_ETiXmlNode@@UAEPAXI@Z->__t2m@??_ETiXmlNode@@UAEPAXI@Z
+  Search transition ??_ETiXmlUnknown@@UAEPAXI@Z->__t2m@??_ETiXmlUnknown@@UAEPAXI@Z
+  Search transition ??_ETiXmlComment@@UAEPAXI@Z->__t2m@??_ETiXmlComment@@UAEPAXI@Z
+  Search transition ??_ETiXmlElement@@UAEPAXI@Z->__t2m@??_ETiXmlElement@@UAEPAXI@Z
+  Search transition ??_ETiXmlAttribute@@UAEPAXI@Z->__t2m@??_ETiXmlAttribute@@UAEPAXI@Z
+  Search transition ??_ETiXmlDeclaration@@UAEPAXI@Z->__t2m@??_ETiXmlDeclaration@@UAEPAXI@Z
+  Search transition ??_ETiXmlDocument@@UAEPAXI@Z->__t2m@??_ETiXmlDocument@@UAEPAXI@Z
+  Search transition ??_ETiXmlText@@UAEPAXI@Z->__t2m@??_ETiXmlText@@UAEPAXI@Z
+  Search transition ??_Etype_info@@UAEPAXI@Z->__t2m@??_Etype_info@@UAEPAXI@Z
+  Search transition ??_Ebad_alloc@std@@UAEPAXI@Z->__t2m@??_Ebad_alloc@std@@UAEPAXI@Z
+  Search transition ??_Ebad_array_new_length@std@@UAEPAXI@Z->__t2m@??_Ebad_array_new_length@std@@UAEPAXI@Z
+  Search transition ___vcrt_initialize->__t2m@___vcrt_initialize
+  Search transition ___vcrt_uninitialize->__t2m@___vcrt_uninitialize
+  Search transition ___vcrt_uninitialize_critical->__t2m@___vcrt_uninitialize_critical
+  Search transition ___vcrt_thread_attach->__t2m@___vcrt_thread_attach
+  Search transition ___vcrt_thread_detach->__t2m@___vcrt_thread_detach
+  Search transition __is_c_termination_complete->__t2m@__is_c_termination_complete
+  Search transition ___acrt_initialize->__t2m@___acrt_initialize
+  Search transition ___acrt_uninitialize->__t2m@___acrt_uninitialize
+  Search transition ___acrt_uninitialize_critical->__t2m@___acrt_uninitialize_critical
+  Search transition ___acrt_thread_attach->__t2m@___acrt_thread_attach
+  Search transition ___acrt_thread_detach->__t2m@___acrt_thread_detach
+  Generating code
+  Finished generating code
+  
+  Searching libraries
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\tinyxml.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2_mixer.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2_ttf.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2_image.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2main.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\msvcprtd.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\MSVCRTD.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\MSVCMRTD.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\MSCOREE.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\MSVCRT.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\x86\ucrtd.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\vcruntime.lib:
+        Found ___CxxFrameHandler3
+          Referenced in tinyxml.lib(tinystr.obj)
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\x86\ucrt.lib:
+  
+  Finished searching libraries
+  Search transition ??_Eexception@std@@UAEPAXI@Z->__t2m@??_Eexception@std@@UAEPAXI@Z
+  Search transition ?__std_exception_copy@@$$J0YAXPBU__std_exception_data@@PAU1@@Z->___std_exception_copy
+  Search transition ?__std_exception_destroy@@$$J0YAXPAU__std_exception_data@@@Z->___std_exception_destroy
+  Search transition ?__ExceptionPtrDestroy@@$$FYAXPAX@Z->?__ExceptionPtrDestroy@@YAXPAX@Z
+  Search transition ?__ExceptionPtrCopy@@$$FYAXPAXPBX@Z->?__ExceptionPtrCopy@@YAXPAXPBX@Z
+  Search transition ?strlen@@$$J0YAIPBD@Z->_strlen
+  Search transition ?memcpy@@$$J0YAPAXPAXPBXI@Z->_memcpy
+  Search transition ?memmove@@$$J0YAPAXPAXPBXI@Z->_memmove
+  Search transition ?_Debug_message@std@@$$FYAXPB_W0I@Z->?_Debug_message@std@@YAXPB_W0I@Z
+  Search transition ??0_Lockit@std@@$$FQAE@H@Z->??0_Lockit@std@@QAE@H@Z
+  Search transition ??1_Lockit@std@@$$FQAE@XZ->??1_Lockit@std@@QAE@XZ
+  Search transition ?_Xbad_alloc@std@@$$FYAXXZ->?_Xbad_alloc@std@@YAXXZ
+  Search transition ??2@$$FYAPAXI@Z->??2@YAPAXI@Z
+  Search transition ?_CrtDbgReportW@@$$J0YAHHPB_WH00ZZ->__CrtDbgReportW
+  Search transition ?_invalid_parameter@@$$J0YAXPB_W00II@Z->__invalid_parameter
+  Search transition ??3@$$FYAXPAX@Z->??3@YAXPAX@Z
+  Search transition ??_Eruntime_error@std@@UAEPAXI@Z->__t2m@??_Eruntime_error@std@@UAEPAXI@Z
+  Search transition ??_E_System_error@std@@UAEPAXI@Z->__t2m@??_E_System_error@std@@UAEPAXI@Z
+  Search transition ?SDL_DestroyTexture@@$$J0YAXPAUSDL_Texture@@@Z->_SDL_DestroyTexture
+  Search transition ?SDL_SetTextureColorMod@@$$J0YAHPAUSDL_Texture@@EEE@Z->_SDL_SetTextureColorMod
+  Search transition ?SDL_SetTextureBlendMode@@$$J0YAHPAUSDL_Texture@@W4SDL_BlendMode@@@Z->_SDL_SetTextureBlendMode
+  Search transition ?SDL_SetTextureAlphaMod@@$$J0YAHPAUSDL_Texture@@E@Z->_SDL_SetTextureAlphaMod
+  Search transition ?SDL_RenderCopyEx@@$$J0YAHPAUSDL_Renderer@@PAUSDL_Texture@@PBUSDL_Rect@@2NPBUSDL_Point@@W4SDL_RendererFlip@@@Z->_SDL_RenderCopyEx
+  Search transition ?SDL_Init@@$$J0YAHI@Z->_SDL_Init
+  Search transition ?SDL_GetError@@$$J0YAPBDXZ->_SDL_GetError
+  Search transition ?printf@@$$J0YAHQBDZZ->_printf
+  Search transition ?SDL_SetHint@@$$J0YA?AW4SDL_bool@@PBD0@Z->_SDL_SetHint
+  Search transition ?SDL_CreateWindow@@$$J0YAPAUSDL_Window@@PBDHHHHI@Z->_SDL_CreateWindow
+  Search transition ?SDL_CreateRenderer@@$$J0YAPAUSDL_Renderer@@PAUSDL_Window@@HI@Z->_SDL_CreateRenderer
+  Search transition ?SDL_SetRenderDrawColor@@$$J0YAHPAUSDL_Renderer@@EEEE@Z->_SDL_SetRenderDrawColor
+  Search transition ?IMG_Init@@$$J0YAHH@Z->_IMG_Init
+  Search transition ?SDL_DestroyRenderer@@$$J0YAXPAUSDL_Renderer@@@Z->_SDL_DestroyRenderer
+  Search transition ?SDL_DestroyWindow@@$$J0YAXPAUSDL_Window@@@Z->_SDL_DestroyWindow
+  Search transition ?IMG_Quit@@$$J0YAXXZ->_IMG_Quit
+  Search transition ?SDL_Quit@@$$J0YAXXZ->_SDL_Quit
+  Search transition ?_Xlength_error@std@@$$FYAXPBD@Z->?_Xlength_error@std@@YAXPBD@Z
+  Search transition ?_Xout_of_range@std@@$$FYAXPBD@Z->?_Xout_of_range@std@@YAXPBD@Z
+  Search transition ??_Ebad_cast@std@@UAEPAXI@Z->__t2m@??_Ebad_cast@std@@UAEPAXI@Z
+  Search transition ??_Esystem_error@std@@UAEPAXI@Z->__t2m@??_Esystem_error@std@@UAEPAXI@Z
+  Search transition ??_Efailure@ios_base@std@@UAEPAXI@Z->__t2m@??_Efailure@ios_base@std@@UAEPAXI@Z
+  Search transition ?__CxxQueryExceptionSize@@$$J0YAHXZ->___CxxQueryExceptionSize
+  Search transition ?__CxxExceptionFilter@@$$J0YAHPAX0H0@Z->___CxxExceptionFilter
+  Search transition ?__CxxRegisterExceptionObject@@$$J0YAHPAX0@Z->___CxxRegisterExceptionObject
+  Search transition ?_CxxThrowException@@$$J18YGXPAXPBU_s__ThrowInfo@@@Z->__CxxThrowException@8
+  Search transition ?__CxxDetectRethrow@@$$J0YAHPAX@Z->___CxxDetectRethrow
+  Search transition ?__CxxUnregisterExceptionObject@@$$J0YAXPAXH@Z->___CxxUnregisterExceptionObject
+  Search transition ?IMG_Load@@$$J0YAPAUSDL_Surface@@PBD@Z->_IMG_Load
+  Search transition ?SDL_MapRGB@@$$J0YAIPBUSDL_PixelFormat@@EEE@Z->_SDL_MapRGB
+  Search transition ?SDL_SetColorKey@@$$J0YAHPAUSDL_Surface@@HI@Z->_SDL_SetColorKey
+  Search transition ?SDL_CreateTextureFromSurface@@$$J0YAPAUSDL_Texture@@PAUSDL_Renderer@@PAUSDL_Surface@@@Z->_SDL_CreateTextureFromSurface
+  Search transition ?SDL_FreeSurface@@$$J0YAXPAUSDL_Surface@@@Z->_SDL_FreeSurface
+  Search transition ?SDL_PollEvent@@$$J0YAHPATSDL_Event@@@Z->_SDL_PollEvent
+  Search transition ?SDL_RenderClear@@$$J0YAHPAUSDL_Renderer@@@Z->_SDL_RenderClear
+  Search transition ?SDL_RenderPresent@@$$J0YAXPAUSDL_Renderer@@@Z->_SDL_RenderPresent
+  Search transition ??_V@$$FYAXPAXI@Z->??_V@YAXPAXI@Z
+  Search transition ??3@$$FYAXPAXI@Z->??3@YAXPAXI@Z
+  Search transition ??_Etype_info@@UAEPAXI@Z->__t2m@??_Etype_info@@UAEPAXI@Z
+  Search transition ??_Ebad_alloc@std@@UAEPAXI@Z->__t2m@??_Ebad_alloc@std@@UAEPAXI@Z
+  Search transition ??_Ebad_array_new_length@std@@UAEPAXI@Z->__t2m@??_Ebad_array_new_length@std@@UAEPAXI@Z
+  Search transition ?DoNothing@DefaultDomain@<CrtImplementationDetails>@@CGJPAX@Z->__t2m@?DoNothing@DefaultDomain@<CrtImplementationDetails>@@CGJPAX@Z
+  Search transition ?_cexit@@$$J0YAXXZ->__cexit
+  Search transition ?_UninitializeDefaultDomain@LanguageSupport@<CrtImplementationDetails>@@CGJPAX@Z->__t2m@?_UninitializeDefaultDomain@LanguageSupport@<CrtImplementationDetails>@@CGJPAX@Z
+  Search transition ?__security_init_cookie@@$$J0YAXXZ->___security_init_cookie
+  Search transition ?abort@@$$J0YAXXZ->_abort
+  Search transition ?_getFiberPtrId@@$$FYAPAXXZ->?_getFiberPtrId@@YAPAXXZ
+  Search transition ?Sleep@@$$J14YGXK@Z->_Sleep@4
+  Search transition ?__FrameUnwindFilter@@$$J0YAHPAU_EXCEPTION_POINTERS@@@Z->___FrameUnwindFilter
+  Search transition ?terminate@@$$J0YAXXZ->_terminate
+  Search transition ___vcrt_initialize->__t2m@___vcrt_initialize
+  Search transition ___vcrt_uninitialize->__t2m@___vcrt_uninitialize
+  Search transition ___vcrt_uninitialize_critical->__t2m@___vcrt_uninitialize_critical
+  Search transition ___vcrt_thread_attach->__t2m@___vcrt_thread_attach
+  Search transition ___vcrt_thread_detach->__t2m@___vcrt_thread_detach
+  Search transition __is_c_termination_complete->__t2m@__is_c_termination_complete
+  Search transition ___acrt_initialize->__t2m@___acrt_initialize
+  Search transition ___acrt_uninitialize->__t2m@___acrt_uninitialize
+  Search transition ___acrt_uninitialize_critical->__t2m@___acrt_uninitialize_critical
+  Search transition ___acrt_thread_attach->__t2m@___acrt_thread_attach
+  Search transition ___acrt_thread_detach->__t2m@___acrt_thread_detach
+  Search transition ??_ETiXmlBase@@UAEPAXI@Z->__t2m@??_ETiXmlBase@@UAEPAXI@Z
+  Search transition ??_ETiXmlNode@@UAEPAXI@Z->__t2m@??_ETiXmlNode@@UAEPAXI@Z
+  Search transition ??_ETiXmlUnknown@@UAEPAXI@Z->__t2m@??_ETiXmlUnknown@@UAEPAXI@Z
+  Search transition ??_ETiXmlComment@@UAEPAXI@Z->__t2m@??_ETiXmlComment@@UAEPAXI@Z
+  Search transition ??_ETiXmlElement@@UAEPAXI@Z->__t2m@??_ETiXmlElement@@UAEPAXI@Z
+  Search transition ??_ETiXmlAttribute@@UAEPAXI@Z->__t2m@??_ETiXmlAttribute@@UAEPAXI@Z
+  Search transition ??_ETiXmlDeclaration@@UAEPAXI@Z->__t2m@??_ETiXmlDeclaration@@UAEPAXI@Z
+  Search transition ??_ETiXmlDocument@@UAEPAXI@Z->__t2m@??_ETiXmlDocument@@UAEPAXI@Z
+  Search transition ??_ETiXmlText@@UAEPAXI@Z->__t2m@??_ETiXmlText@@UAEPAXI@Z
+  
+  Searching libraries
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\tinyxml.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2_mixer.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2_ttf.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2_image.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2main.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\msvcprtd.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\MSVCRTD.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\MSVCMRTD.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\MSCOREE.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\MSVCRT.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\x86\ucrtd.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\vcruntime.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\x86\ucrt.lib:
+  
+  Finished searching libraries
+  Search transition ??_Etype_info@@UAEPAXI@Z->__t2m@??_Etype_info@@UAEPAXI@Z
+  Search transition ??_Ebad_alloc@std@@UAEPAXI@Z->__t2m@??_Ebad_alloc@std@@UAEPAXI@Z
+  Search transition ??_Ebad_array_new_length@std@@UAEPAXI@Z->__t2m@??_Ebad_array_new_length@std@@UAEPAXI@Z
+  Search transition ___vcrt_initialize->__t2m@___vcrt_initialize
+  Search transition ___vcrt_uninitialize->__t2m@___vcrt_uninitialize
+  Search transition ___vcrt_uninitialize_critical->__t2m@___vcrt_uninitialize_critical
+  Search transition ___vcrt_thread_attach->__t2m@___vcrt_thread_attach
+  Search transition ___vcrt_thread_detach->__t2m@___vcrt_thread_detach
+  Search transition __is_c_termination_complete->__t2m@__is_c_termination_complete
+  Search transition ___acrt_initialize->__t2m@___acrt_initialize
+  Search transition ___acrt_uninitialize->__t2m@___acrt_uninitialize
+  Search transition ___acrt_uninitialize_critical->__t2m@___acrt_uninitialize_critical
+  Search transition ___acrt_thread_attach->__t2m@___acrt_thread_attach
+  Search transition ___acrt_thread_detach->__t2m@___acrt_thread_detach
+  Search transition ??_ETiXmlBase@@UAEPAXI@Z->__t2m@??_ETiXmlBase@@UAEPAXI@Z
+  Search transition ??_ETiXmlNode@@UAEPAXI@Z->__t2m@??_ETiXmlNode@@UAEPAXI@Z
+  Search transition ??_ETiXmlUnknown@@UAEPAXI@Z->__t2m@??_ETiXmlUnknown@@UAEPAXI@Z
+  Search transition ??_ETiXmlComment@@UAEPAXI@Z->__t2m@??_ETiXmlComment@@UAEPAXI@Z
+  Search transition ??_ETiXmlElement@@UAEPAXI@Z->__t2m@??_ETiXmlElement@@UAEPAXI@Z
+  Search transition ??_ETiXmlAttribute@@UAEPAXI@Z->__t2m@??_ETiXmlAttribute@@UAEPAXI@Z
+  Search transition ??_ETiXmlDeclaration@@UAEPAXI@Z->__t2m@??_ETiXmlDeclaration@@UAEPAXI@Z
+  Search transition ??_ETiXmlDocument@@UAEPAXI@Z->__t2m@??_ETiXmlDocument@@UAEPAXI@Z
+  Search transition ??_ETiXmlText@@UAEPAXI@Z->__t2m@??_ETiXmlText@@UAEPAXI@Z
+  Merging metadata
+  Finished merging metadata
+  
+  Searching libraries
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\tinyxml.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2_mixer.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2_ttf.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2_image.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2main.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\msvcprtd.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\MSVCRTD.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\MSVCMRTD.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\MSCOREE.lib:
+        Found __CorExeMain@0
+          Loaded MSCOREE.lib(mscoree.dll)
+        Found __IMPORT_DESCRIPTOR_mscoree
+          Referenced in MSCOREE.lib(mscoree.dll)
+          Loaded MSCOREE.lib(mscoree.dll)
+        Found mscoree_NULL_THUNK_DATA
+          Referenced in MSCOREE.lib(mscoree.dll)
+          Loaded MSCOREE.lib(mscoree.dll)
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\MSVCRT.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\x86\ucrtd.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\vcruntime.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\x86\ucrt.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\tinyxml.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2_mixer.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2_ttf.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2_image.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2main.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\msvcprtd.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\MSVCRTD.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\MSVCMRTD.lib:
+  
+  Finished searching libraries
+  Generating clr ijw/native image
+  
+  Searching libraries
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\tinyxml.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2_mixer.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2_ttf.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2_image.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2main.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\msvcprtd.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\MSVCRTD.lib:
+        Found __load_config_used
+          Loaded MSVCRTD.lib(loadcfg.obj)
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\MSVCMRTD.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\MSCOREE.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\MSVCRT.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\x86\ucrtd.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\vcruntime.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\x86\ucrt.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\tinyxml.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2_mixer.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2_ttf.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2_image.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2.lib:
+      Searching C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2main.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\msvcprtd.lib:
+  
+  Finished searching libraries
+  
+  Invoking rc.exe:
+   /v
+   /x
+   /fo
+   "C:\Users\jsayres\AppData\Local\Temp\lnk{36C3B298-09D2-40F7-823B-9E8234E11ED9}.tmp"
+   "C:\Users\jsayres\AppData\Local\Temp\lnk{44462A31-5E78-466D-8F03-0125B5CC8571}.tmp"
+  Microsoft (R) Windows (R) Resource Compiler Version 6.3.9600.17336
+  
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  
+  Creating C:\Users\jsayres\AppData\Local\Temp\lnk{36C3B298-09D2-40F7-823B-9E8234E11ED9}.tmp
+  
+  Using codepage 1252 as default
+  
+  C:\Users\jsayres\AppData\Local\Temp\lnk{44462A31-5E78-466D-8F03-0125B5CC8571}.tmp.
+  Writing 24:1,	lang:0x409,	size 381
+  
+  Invoking cvtres.exe:
+   /machine:x86
+   /verbose
+   /out:"C:\Users\jsayres\AppData\Local\Temp\lnk{7ED6F6F2-8F8A-458A-B6F7-83E28B8F047A}.tmp"
+   /readonly
+   "C:\Users\jsayres\AppData\Local\Temp\lnk{36C3B298-09D2-40F7-823B-9E8234E11ED9}.tmp"
+  Microsoft (R) Windows Resource To Object Converter Version 14.00.24210.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  adding resource. type:MANIFEST, name:1, language:0x0409, flags:0x30, size:381
+main.obj : warning LNK4248: unresolved typeref token (01000015) for 'SDL_Texture'; image may not run
+main.obj : warning LNK4248: unresolved typeref token (01000017) for 'SDL_Renderer'; image may not run
+main.obj : warning LNK4248: unresolved typeref token (0100001A) for 'SDL_Window'; image may not run
+  
+  Unused libraries:
+    C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2_mixer.lib
+    C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\deps\lib\SDL2_ttf.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\gdi32.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\winspool.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\comdlg32.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbc32.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbccp32.lib
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\OLDNAMES.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\x86\ucrt.lib
+  
+  
+  Processing /ORDER options
+      External code objects not listed in the /ORDER file:
+  
+          _mep@??_Eruntime_error@std@@$$FUAEPAXI@Z		; main.obj
+          _mep@???__EgLobsterTexture@@YMXXZ@?A0xf68777b6@@$$FYMXXZ		; main.obj
+          ??_C@_03DLDNIBIK@?$CFlf?$AA@		; tinyxml.lib(tinyxml.obj)
+          ??$forward@V?$allocator@D@std@@@std@@$$FYA$$QAV?$allocator@D@0@AAV10@@Z		; main.obj
+          _mep@?move@Trap@@$$FQAEXXZ		; main.obj
+          ??0system_error@std@@$$FQAE@ABV01@@Z		; main.obj
+          ??_C@_0BH@EPLDMIEN@Error?5parsing?5Unknown?4?$AA@		; tinyxml.lib(tinyxmlerror.obj)
+          ??_M@$$FYMXPAXIIP6MX0@Z@Z		; MSVCMRTD.lib(mehvecdtr.obj)
+          ??_R0?AV_System_error@std@@@8		; main.obj
+          SDL_MapRGB		; SDL2.lib(SDL2.dll)
+          _mep@?Handle@ThisModule@<CrtImplementationDetails>@@$$FCM?AVModuleHandle@System@@XZ		; MSVCMRTD.lib(pureMSILcode.obj)
+          _t2m@?select_on_container_copy_construction@?$_Wrap_alloc@V?$allocator@D@std@@@std@@QBE?AU12@U_Nil@2@@Z		; main.obj
+          ?___CxxCallUnwindDtor@@$$J0YMXP6MXPAX@Z0@Z		; MSVCMRTD.lib(managdeh.obj)
+          _t2m@??$move@AAU?$_Wrap_alloc@V?$allocator@D@std@@@std@@@std@@YA$$QAU?$_Wrap_alloc@V?$allocator@D@std@@@0@AAU10@@Z		; main.obj
+          ?erase@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQAEAAV12@II@Z		; main.obj
+          ??1bad_alloc@std@@UAE@XZ		; MSVCRTD.lib(throw_bad_alloc.obj)
+          ??$?0D@?$allocator@U_Container_proxy@std@@@std@@$$FQAE@ABV?$allocator@D@1@@Z		; main.obj
+          ?_Xran@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQBEXXZ		; main.obj
+          __CxxUnregisterExceptionObject		; vcruntime.lib(VCRUNTIME140.dll)
+          ?move@Trap@@QAEXXZ		; main.obj
+          _mep@??0?$_String_val@U?$_Simple_types@D@std@@@std@@$$FQAE@XZ		; main.obj
+          ?_exit_callback@@$$J0YMXXZ		; MSVCMRTD.lib(msilexit.obj)
+          _mep@?<MarshalCopy>@exception_ptr@std@@$$FSMXPAV12@0@Z		; main.obj
+          ?ToString@ModuleLoadExceptionHandlerException@<CrtImplementationDetails>@@$$FU$AAMP$AAVString@System@@XZ		; MSVCMRTD.lib(mstartup.obj)
+          _imp___execute_onexit_table		; ucrtd.lib(ucrtbased.dll)
+          _mep@?getPosX@Trap@@$$FQAEHXZ		; main.obj
+          ??_R2bad_cast@std@@8		; main.obj
+          _imp__SDL_FreeSurface		; SDL2.lib(SDL2.dll)
+          _t2m@??1bad_cast@std@@UAE@XZ		; main.obj
+          SetUnhandledExceptionFilter@4		; kernel32.lib(KERNEL32.dll)
+          _t2m@??4?$gcroot@P$AAVString@System@@@@QAMAAU0@P$AAVString@System@@@Z		; MSVCMRTD.lib(mstartup.obj)
+          ??_C@_0BL@OCKMEJON@_Ptr_container?5?$DM?5_Ptr_user?$AA@		; main.obj
+          ??4_Iterator_base12@std@@$$FQAEAAU01@ABU01@@Z		; main.obj
+          ??_C@_1CC@BHFGGFMK@?$AAp?$AA?5?$AA?$DM?$AA?5?$AA?$CI?$AAb?$AAu?$AAf?$AA?$CL?$AAl?$AAe?$AAn?$AAg?$AAt?$AAh?$AA?$CJ?$AA?$AA@		; tinyxml.lib(tinyxml.obj)
+          _get_startup_argv_mode		; MSVCRT.lib(argv_mode.obj)
+          ?UninitializeDefaultDomain@LanguageSupport@<CrtImplementationDetails>@@$$FCAXXZ		; MSVCMRTD.lib(mstartup.obj)
+          ??_C@_08MLPGAEIK@encoding?$AA@		; tinyxml.lib(tinyxmlparser.obj)
+          ??1exception_ptr@std@@$$FQAE@XZ		; main.obj
+          ??_C@_1JK@OIAEEEEC@?$AAc?$AA?3?$AA?2?$AAu?$AAs?$AAe?$AAr?$AAs?$AA?2?$AAj?$AAs?$AAa?$AAy?$AAr?$AAe?$AAs?$AA?2?$AAd?$AAo?$AAc?$AAu?$AAm?$AAe?$AAn?$AAt?$AAs?$AA?2?$AAb?$AAe?$AAa?$AAg?$AAl@		; tinyxml.lib(tinyxml.obj)
+          _t2m@?DoCallBackInDefaultDomain@<CrtImplementationDetails>@@YAXP6GJPAX@Z0@Z		; MSVCMRTD.lib(mstartup.obj)
+          _t2m@??$destroy@U_Container_proxy@std@@@?$allocator_traits@V?$allocator@U_Container_proxy@std@@@std@@@std@@SAXAAV?$allocator@U_Container_proxy@std@@@1@PAU_Container_proxy@1@@Z		; main.obj
+          _t2m@??0?$gcroot@P$AAVString@System@@@@QAE@XZ		; MSVCMRTD.lib(mstartup.obj)
+          ??_C@_0DD@GBGGGKGG@?$CI_Ptr_user?5?$CG?5?$CI_BIG_ALLOCATION_AL@		; main.obj
+          __CxxRegisterExceptionObject		; vcruntime.lib(VCRUNTIME140.dll)
+          _t2m@??1_System_error@std@@UAE@XZ		; main.obj
+          ?init@@YA_NXZ		; main.obj
+          ???__FgWinTexture@@YMXXZ@?A0xf68777b6@@$$FYMXXZ		; main.obj
+          _t2m@?<MarshalDestroy>@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@SMXPAV12@@Z		; main.obj
+          ??_R4type_info@@6B@		; MSVCRTD.lib(std_type_info_static.obj)
+          _t2m@??$construct@PADAAPAD@?$_Wrap_alloc@V?$allocator@D@std@@@std@@QAEXPAPADAAPAD@Z		; main.obj
+          _t2m@???__EgBoatTexture@@YMXXZ@?A0xf68777b6@@YMXXZ		; main.obj
+          _mep@?setBlendMode@LTexture@@$$FQAEXW4SDL_BlendMode@@@Z		; main.obj
+          _t2m@?_Allocate@std@@YAPAXII_N@Z		; main.obj
+          _mep@??0locale@std@@$$FQAE@ABV01@@Z		; main.obj
+          ??_C@_17CNPHIMPH@?$AA?$CF?$AAl?$AAs?$AA?$AA@		; main.obj
+          _mep@?_Bx@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@$$FQAEAAT_Bxty@?$_String_val@U?$_Simple_types@D@std@@@2@XZ		; main.obj
+          ??_C@_02GOEMJPDN@?$DP?$DO?$AA@		; tinyxml.lib(tinyxml.obj)
+          ?AddRef@AtExitLock@<CrtImplementationDetails>@@$$FSAXXZ		; MSVCMRTD.lib(msilexit.obj)
+          _mep@?getPosY@Boat@@$$FQAEHXZ		; main.obj
+          SDL_SetHint		; SDL2.lib(SDL2.dll)
+          _imp_??1_Lockit@std@@QAE@XZ		; msvcprtd.lib(MSVCP140D.dll)
+          ??0_Iterator_base12@std@@$$FQAE@ABU01@@Z		; main.obj
+          ??_V@YAXPAXI@Z		; MSVCRTD.lib(delete_array_size.obj)
+          _t2m@___local_stdio_printf_options		; main.obj
+          ?_atexit_m_appdomain@@$$J0YMHP6MXXZ@Z		; MSVCMRTD.lib(msilexit.obj)
+          _imp__SDL_CreateWindow		; SDL2.lib(SDL2.dll)
+          _t2m@?HasPerProcess@DefaultDomain@<CrtImplementationDetails>@@SA_NXZ		; MSVCMRTD.lib(mstartup.obj)
+          ??_R1A@?0A@EA@TiXmlDocument@@8		; tinyxml.lib(tinyxml.obj)
+          _t2m@?DoNothing@DefaultDomain@<CrtImplementationDetails>@@CGJPAX@Z		; MSVCMRTD.lib(mstartup.obj)
+          _mep@???__E?Uninitialized@CurrentDomain@<CrtImplementationDetails>@@$$Q2HA@@YMXXZ@?A0x13efd873@@$$FYMXXZ		; MSVCMRTD.lib(mstartup.obj)
+          isspace		; ucrtd.lib(ucrtbased.dll)
+          ??_C@_01CLKCMJKC@?5?$AA@		; tinyxml.lib(tinyxml.obj)
+          __scrt_stub_for_acrt_uninitialize_critical		; MSVCRTD.lib(ucrt_stubs.obj)
+          ??_C@_03MCHNFBAC@?$FN?$FN?$DO?$AA@		; tinyxml.lib(tinyxml.obj)
+          ??_C@_03MFNJFHN@?5?1?$DO?$AA@		; tinyxml.lib(tinyxml.obj)
+          ??3@YAXPAX@Z		; MSVCRTD.lib(delete_scalar.obj)
+          ??1LTexture@@QAE@XZ		; main.obj
+          ?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQAEXII@Z		; main.obj
+          ??$?0AAU?$_Wrap_alloc@V?$allocator@D@std@@@std@@@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@$$FQAE@AAU?$_Wrap_alloc@V?$allocator@D@std@@@1@@Z		; main.obj
+          _mep@?_initterm_e@@$$FYMHPAP6AHXZ0@Z		; MSVCMRTD.lib(pureMSILcode.obj)
+          ???__FgBGTexture@@YMXXZ@?A0xf68777b6@@$$FYMXXZ		; main.obj
+          _t2m@??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ		; main.obj
+          SDL_DestroyRenderer		; SDL2.lib(SDL2.dll)
+          _mep@??$forward@AAPAD@std@@$$FYAAAPADAAPAD@Z		; main.obj
+          _t2m@???__E?InitializedPerProcess@CurrentDomain@<CrtImplementationDetails>@@$$Q2W4Progress@2@A@@YMXXZ@?A0x13efd873@@YMXXZ		; MSVCMRTD.lib(mstartup.obj)
+          ??_C@_02NJPGOMH@?$CFf?$AA@		; tinyxml.lib(tinyxml.obj)
+          _imp____std_terminate		; vcruntime.lib(VCRUNTIME140.dll)
+          ??_C@_0BE@HJPJFJPJ@Failed?5to?5open?5file?$AA@		; tinyxml.lib(tinyxmlerror.obj)
+          ?HasPerProcess@DefaultDomain@<CrtImplementationDetails>@@$$FSA_NXZ		; MSVCMRTD.lib(mstartup.obj)
+          ??_7type_info@@6B@		; MSVCRTD.lib(std_type_info_static.obj)
+          _t2m@??0exception_ptr@std@@QAE@ABV01@@Z		; main.obj
+          ??_C@_1CO@NMILEPCN@?$AAl?$AAa?$AAs?$AAt?$AAC?$AAh?$AAi?$AAl?$AAd?$AA?5?$AA?$DN?$AA?$DN?$AA?5?$AAa?$AAf?$AAt?$AAe?$AAr?$AAT?$AAh?$AAi?$AAs?$AA?$AA@		; tinyxml.lib(tinyxml.obj)
+          ??_C@_1CA@DENGFAKO@?$AAs?$AAr?$AAc?$AA?2?$AAt?$AAi?$AAn?$AAy?$AAx?$AAm?$AAl?$AA?4?$AAc?$AAp?$AAp?$AA?$AA@		; tinyxml.lib(tinyxml.obj)
+          ??_Gbad_alloc@std@@UAEPAXI@Z		; MSVCRTD.lib(throw_bad_alloc.obj)
+          _mep@?allocate@?$allocator@U_Container_proxy@std@@@std@@$$FQAEPAU_Container_proxy@2@I@Z		; main.obj
+          ??_Eexception@std@@$$FUAEPAXI@Z		; main.obj
+          _CTA3?AVbad_array_new_length@std@@		; MSVCRTD.lib(throw_bad_alloc.obj)
+          ??0ModuleLoadException@<CrtImplementationDetails>@@$$FQ$AAM@P$AAVString@System@@P$AAVException@3@@Z		; MSVCMRTD.lib(mstartup.obj)
+          ??_C@_0BN@HMCJOMKN@_Count?5?$DM?$DN?5?$CIsize_t?$CJ?$CI?91?$CJ?5?1?5_Sz?$AA@		; main.obj
+          ??_C@_1DC@LEADHCOJ@?$AAp?$AAr?$AAe?$AAv?$AAi?$AAo?$AAu?$AAs?$AA?9?$AA?$DO?$AAp?$AAa?$AAr?$AAe?$AAn?$AAt?$AA?5?$AA?$DN?$AA?$DN?$AA?5?$AAt?$AAh?$AAi?$AAs?$AA?$AA@		; tinyxml.lib(tinyxml.obj)
+          ??0Exception@<CrtImplementationDetails>@@$$FQ$AAM@P$AAVString@System@@@Z		; MSVCMRTD.lib(mstartup.obj)
+          ?_Get_first@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@D@std@@@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@$$FQAEAAU?$_Wrap_alloc@V?$allocator@D@std@@@2@XZ		; main.obj
+          ??_7TiXmlBase@@6B@		; tinyxml.lib(tinyxml.obj)
+          _mep@?_Orphan_me@_Iterator_base12@std@@$$FQAEXXZ		; main.obj
+          ?RemoveRef@AtExitLock@<CrtImplementationDetails>@@$$FSAXXZ		; MSVCMRTD.lib(msilexit.obj)
+          _imp____stdio_common_vfprintf		; ucrtd.lib(ucrtbased.dll)
+          ??0?$_Wrap_alloc@V?$allocator@D@std@@@std@@$$FQAE@XZ		; main.obj
+          _mep@?deallocate@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@$$FQAEXPAU_Container_proxy@2@I@Z		; main.obj
+          _imp_?_Xlength_error@std@@YAXPBD@Z		; msvcprtd.lib(MSVCP140D.dll)
+          _t2m@??1runtime_error@std@@UAE@XZ		; main.obj
+          ???__E?Uninitialized@CurrentDomain@<CrtImplementationDetails>@@$$Q2HA@@YMXXZ@?A0x13efd873@@$$FYMXXZ		; MSVCMRTD.lib(mstartup.obj)
+          __std_terminate		; vcruntime.lib(VCRUNTIME140.dll)
+          _t2m@?_Myres@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QAEAAIXZ		; main.obj
+          _t2m@??1system_error@std@@UAE@XZ		; main.obj
+          ??_C@_1FE@KCNOEABA@?$AAn?$AAo?$AAd?$AAe?$AA?9?$AA?$DO?$AAp?$AAa?$AAr?$AAe?$AAn?$AAt?$AA?5?$AA?$DN?$AA?$DN?$AA?5?$AA0?$AA?5?$AA?$HM?$AA?$HM?$AA?5?$AAn?$AAo?$AAd?$AAe?$AA?9?$AA?$DO?$AAp?$AAa?$AAr?$AAe?$AAn@		; tinyxml.lib(tinyxml.obj)
+          ??_R1A@?0A@EA@bad_cast@std@@8		; main.obj
+          SDL_CreateRenderer		; SDL2.lib(SDL2.dll)
+          _t2m@?NeedsInitialization@DefaultDomain@<CrtImplementationDetails>@@SA_NXZ		; MSVCMRTD.lib(mstartup.obj)
+          _mep@??0?$gcroot@P$AAVString@System@@@@$$FQAE@XZ		; MSVCMRTD.lib(mstartup.obj)
+          _mep@?deallocate@?$_Wrap_alloc@V?$allocator@D@std@@@std@@$$FQAEXPADI@Z		; main.obj
+          ??_C@_0BC@EOODALEL@Unknown?5exception?$AA@		; main.obj
+          __CxxFrameHandler3		; vcruntime.lib(VCRUNTIME140.dll)
+          ??_C@_03PNLDJJMO@?9?9?$DO?$AA@		; tinyxml.lib(tinyxml.obj)
+          _imp_?__ExceptionPtrCopy@@YAXPAXPBX@Z		; msvcprtd.lib(MSVCP140D.dll)
+          ?allocate@?$_Wrap_alloc@V?$allocator@D@std@@@std@@$$FQAEPADI@Z		; main.obj
+          ??_R2TiXmlBase@@8		; tinyxml.lib(tinyxml.obj)
+          _crt_debugger_hook		; MSVCRT.lib(utility_desktop.obj)
+          ??$?0V?$allocator@D@std@@@?$_Wrap_alloc@V?$allocator@D@std@@@std@@$$FQAE@$$QAV?$allocator@D@1@@Z		; main.obj
+          _t2m@?pointer_to@?$pointer_traits@PAU_Container_proxy@std@@@std@@SAPAU_Container_proxy@2@AAU32@@Z		; main.obj
+          SDL_RenderCopyEx		; SDL2.lib(SDL2.dll)
+          _imp__GetCurrentProcess@0		; kernel32.lib(KERNEL32.dll)
+          _mep@?HasPerProcess@DefaultDomain@<CrtImplementationDetails>@@$$FSA_NXZ		; MSVCMRTD.lib(mstartup.obj)
+          _t2m@??$construct@U_Container_proxy@std@@U12@@?$allocator@U_Container_proxy@std@@@std@@QAEXPAU_Container_proxy@1@$$QAU21@@Z		; main.obj
+          _t2m@?erase@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@I@Z		; main.obj
+          _mep@?_Myproxy@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@$$FQAEAAPAU_Container_proxy@2@XZ		; main.obj
+          ?GetObjectData@ModuleLoadExceptionHandlerException@<CrtImplementationDetails>@@$$FU$AAMXP$AAVSerializationInfo@Serialization@Runtime@System@@VStreamingContext@456@@Z		; MSVCMRTD.lib(mstartup.obj)
+          _t2m@?copy@?$char_traits@D@std@@SAPADPADPBDI@Z		; main.obj
+          _unep@?_UninitializeDefaultDomain@LanguageSupport@<CrtImplementationDetails>@@$$FCGJPAX@Z		; MSVCMRTD.lib(mstartup.obj)
+          ??3@YAXPAXI@Z		; MSVCRTD.lib(delete_scalar_size.obj)
+          _mep@?max_size@?$allocator@D@std@@$$FQBEIXZ		; main.obj
+          _t2m@?max_size@?$_Wrap_alloc@V?$allocator@D@std@@@std@@QBEIU_Nil@2@@Z		; main.obj
+          ?<MarshalCopy>@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FSMXPAV12@0@Z		; main.obj
+          _imp___except_handler4_common		; vcruntime.lib(VCRUNTIME140.dll)
+          ?_Myptr@?$_String_val@U?$_Simple_types@D@std@@@std@@$$FQAEPADXZ		; main.obj
+          ?_Myptr@?$_String_val@U?$_Simple_types@D@std@@@std@@$$FQBEPBDXZ		; main.obj
+          ??_C@_1DC@BIKDOIFI@?$AAf?$AAi?$AAr?$AAs?$AAt?$AAC?$AAh?$AAi?$AAl?$AAd?$AA?5?$AA?$DN?$AA?$DN?$AA?5?$AAb?$AAe?$AAf?$AAo?$AAr?$AAe?$AAT?$AAh?$AAi?$AAs?$AA?$AA@		; tinyxml.lib(tinyxml.obj)
+          _t2m@?Initialize@DefaultDomain@<CrtImplementationDetails>@@SAXXZ		; MSVCMRTD.lib(mstartup.obj)
+          _mep@??1exception_ptr@std@@$$FQAE@XZ		; main.obj
+          ??_C@_1IO@IPMLDGDI@?$AAC?$AA?3?$AA?2?$AAP?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAF?$AAi?$AAl?$AAe?$AAs?$AA?5?$AA?$CI?$AAx?$AA8?$AA6?$AA?$CJ?$AA?2?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt@		; main.obj
+          ?_Xbad_alloc@std@@YAXXZ		; msvcprtd.lib(MSVCP140D.dll)
+          ??_C@_0BG@FFJMEOCN@Error?5document?5empty?4?$AA@		; tinyxml.lib(tinyxmlerror.obj)
+          _mep@?select_on_container_copy_construction@?$allocator_traits@V?$allocator@D@std@@@std@@$$FSA?AV?$allocator@D@2@ABV32@@Z		; main.obj
+          ?_Myproxy@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@$$FQAEAAPAU_Container_proxy@2@XZ		; main.obj
+          _mep@?getPosY@Lobster@@$$FQAEHXZ		; main.obj
+          _t2m@?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBD@Z		; main.obj
+          _mep@??$?0D@?$allocator@U_Container_proxy@std@@@std@@$$FQAE@ABV?$allocator@D@1@@Z		; main.obj
+          _mep@?_atexit_m_appdomain@@$$J0YMHP6MXXZ@Z		; MSVCMRTD.lib(msilexit.obj)
+          _t2m@???__E?Uninitialized@CurrentDomain@<CrtImplementationDetails>@@$$Q2HA@@YMXXZ@?A0x13efd873@@YMXXZ		; MSVCMRTD.lib(mstartup.obj)
+          ?max_size@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQBEIXZ		; main.obj
+          _mep@?_exit_callback@@$$J0YMXXZ		; MSVCMRTD.lib(msilexit.obj)
+          ??2@$$FYAPAXIPAX@Z		; main.obj
+          ?setAlpha@LTexture@@QAEXE@Z		; main.obj
+          _mep@?_app_exit_callback@@$$J0YMXXZ		; MSVCMRTD.lib(msilexit.obj)
+          ??_C@_08LCBMGHJI@?$CG?$CDx?$CF02X?$DL?$AA@		; tinyxml.lib(tinyxml.obj)
+          ?move@Boat@@QAEXXZ		; main.obj
+          _mep@?_Myptr@?$_String_val@U?$_Simple_types@D@std@@@std@@$$FQAEPADXZ		; main.obj
+          _mep@?_Adopt@_Iterator_base12@std@@$$FQAEXPBU_Container_base12@2@@Z		; main.obj
+          ??_C@_04GJOGLFEJ@?$CGlt?$DL?$AA@		; tinyxml.lib(tinyxmlparser.obj)
+          SDL_PollEvent		; SDL2.lib(SDL2.dll)
+          ?_Check_offset@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQBEXI@Z		; main.obj
+          _mep@??$forward@U_Container_proxy@std@@@std@@$$FYA$$QAU_Container_proxy@0@AAU10@@Z		; main.obj
+          _t2m@??0?$allocator@D@std@@QAE@XZ		; main.obj
+          _t2m@???__EgTrapTexture@@YMXXZ@?A0xf68777b6@@YMXXZ		; main.obj
+          _t2m@??_Efailure@ios_base@std@@UAEPAXI@Z		; main.obj
+          ??_C@_02KOPDJAMB@?$CC?5?$AA@		; tinyxml.lib(tinyxml.obj)
+          ?InitializeUninitializer@LanguageSupport@<CrtImplementationDetails>@@$$FAAEXXZ		; MSVCMRTD.lib(mstartup.obj)
+          IMG_Load		; SDL2_image.lib(SDL2_image.dll)
+          _t2m@??1LanguageSupport@<CrtImplementationDetails>@@QAE@XZ		; MSVCMRTD.lib(mstartup.obj)
+          ??_R4bad_alloc@std@@6B@		; MSVCRTD.lib(throw_bad_alloc.obj)
+          _mep@?_atexit_helper@@$$J0YMHP6MXXZPAIPAPAP6MXXZ2@Z		; MSVCMRTD.lib(msilexit.obj)
+          _mep@?erase@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQAEAAV12@I@Z		; main.obj
+          IMG_Quit		; SDL2_image.lib(SDL2_image.dll)
+          ??_C@_0BH@BONKCKA@Error?5parsing?5Element?4?$AA@		; tinyxml.lib(tinyxmlerror.obj)
+          ??0_Lockit@std@@QAE@H@Z		; msvcprtd.lib(MSVCP140D.dll)
+          _imp__SetUnhandledExceptionFilter@4		; kernel32.lib(KERNEL32.dll)
+          ?allocate@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@$$FQAEPAU_Container_proxy@2@I@Z		; main.obj
+          ??_Ebad_cast@std@@$$FUAEPAXI@Z		; main.obj
+          IMG_Init		; SDL2_image.lib(SDL2_image.dll)
+          ??_C@_00CNPNBAHC@?$AA@		; tinyxml.lib(tinyxml.obj)
+          _imp__GetCurrentProcessId@0		; kernel32.lib(KERNEL32.dll)
+          ?ThrowNestedModuleLoadException@<CrtImplementationDetails>@@$$FYMXP$AAVException@System@@0@Z		; MSVCMRTD.lib(mstartup.obj)
+          ?_handle@AtExitLock@<CrtImplementationDetails>@@$$FCMP$AA__ZVGCHandle@InteropServices@Runtime@System@@XZ		; MSVCMRTD.lib(msilexit.obj)
+          ??_C@_0BH@MPJHJCKO@Error?5parsing?5Comment?4?$AA@		; tinyxml.lib(tinyxmlerror.obj)
+          ?DomainUnload@LanguageSupport@<CrtImplementationDetails>@@$$FCMXP$AAVObject@System@@P$AAVEventArgs@4@@Z		; MSVCMRTD.lib(mstartup.obj)
+          ???__EgLobsterTexture@@YMXXZ@?A0xf68777b6@@$$FYMXXZ		; main.obj
+          __scrt_stub_for_acrt_initialize		; MSVCRTD.lib(ucrt_stubs.obj)
+          _free_dbg		; ucrtd.lib(ucrtbased.dll)
+          ?_Alloc_proxy@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@$$FQAEXXZ		; main.obj
+          _onexit_m_appdomain		; MSVCMRTD.lib(msilexit.obj)
+          _CTA2?AVbad_alloc@std@@		; MSVCRTD.lib(throw_bad_alloc.obj)
+          _mep@?_Tidy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQAEX_NI@Z		; main.obj
+          ??_C@_0BN@KKMBBCED@Error?5reading?5Element?5value?4?$AA@		; tinyxml.lib(tinyxmlerror.obj)
+          ??$forward@AAPAD@std@@$$FYAAAPADAAPAD@Z		; main.obj
+          _t2m@?<MarshalDestroy>@exception_ptr@std@@SMXPAV12@@Z		; main.obj
+          ??_R1A@?0A@EA@TiXmlDeclaration@@8		; tinyxml.lib(tinyxml.obj)
+          ??_R1A@?0A@EA@type_info@@8		; MSVCRTD.lib(std_type_info_static.obj)
+          _mep@?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQAEAAV12@PBDI@Z		; main.obj
+          _mep@??_Efailure@ios_base@std@@$$FUAEPAXI@Z		; main.obj
+          _imp____CxxExceptionFilter		; vcruntime.lib(VCRUNTIME140.dll)
+          ???__FgLobsterTexture@@YMXXZ@?A0xf68777b6@@$$FYMXXZ		; main.obj
+          ??_C@_1CC@FAAMJHE@?$AAc?$AAu?$AAr?$AAs?$AAo?$AAr?$AA?4?$AAr?$AAo?$AAw?$AA?5?$AA?$DO?$AA?$DN?$AA?5?$AA?9?$AA1?$AA?$AA@		; tinyxml.lib(tinyxmlparser.obj)
+          ??_E_System_error@std@@$$FUAEPAXI@Z		; main.obj
+          _mep@??1failure@ios_base@std@@$$FUAE@XZ		; main.obj
+          _t2m@??0exception@std@@QAE@ABV01@@Z		; main.obj
+          _t2m@??0?$_String_val@U?$_Simple_types@D@std@@@std@@QAE@XZ		; main.obj
+          _mep@??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQAE@XZ		; main.obj
+          ??_R1A@?0A@EA@TiXmlAttribute@@8		; tinyxml.lib(tinyxml.obj)
+          ??0?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@$$FQAE@XZ		; main.obj
+          _imp__UnhandledExceptionFilter@4		; kernel32.lib(KERNEL32.dll)
+          ??_R4TiXmlDeclaration@@6B@		; tinyxml.lib(tinyxml.obj)
+          ??_C@_1CC@GKJLLHIM@?$AA?$CC?$AA_?$AAP?$AAt?$AAr?$AA?5?$AA?$CB?$AA?$DN?$AA?5?$AA0?$AA?$CC?$AA?5?$AA?$CG?$AA?$CG?$AA?5?$AA0?$AA?$AA@		; main.obj
+          _mep@??$move@AAU?$_Wrap_alloc@V?$allocator@D@std@@@std@@@std@@$$FYA$$QAU?$_Wrap_alloc@V?$allocator@D@std@@@0@AAU10@@Z		; main.obj
+          __scrt_fastfail		; MSVCRT.lib(utility_desktop.obj)
+          ??_C@_0DB@GLFJLNCE@2?5?$CK?5sizeof?$CIvoid?5?$CK?$CJ?5?$DM?$DN?5_Ptr_user?5@		; main.obj
+          ?move@?$char_traits@D@std@@$$FSAPADPADPBDI@Z		; main.obj
+          _t2m@??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PBD@Z		; main.obj
+          ?InitializePerProcess@LanguageSupport@<CrtImplementationDetails>@@$$FAAEXXZ		; MSVCMRTD.lib(mstartup.obj)
+          ???__FgTrapTexture@@YMXXZ@?A0xf68777b6@@$$FYMXXZ		; main.obj
+          ___CxxCallUnwindDelDtor		; MSVCMRTD.lib(managdeh.obj)
+          _t2m@??$?0AAU?$_Wrap_alloc@V?$allocator@D@std@@@std@@@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAE@AAU?$_Wrap_alloc@V?$allocator@D@std@@@1@@Z		; main.obj
+          ?ThrowModuleLoadException@<CrtImplementationDetails>@@$$FYMXP$AAVString@System@@P$AAVException@3@@Z		; MSVCMRTD.lib(mstartup.obj)
+          _mep@?render@Trap@@$$FQAEXHH@Z		; main.obj
+          ??0bad_alloc@std@@QAE@XZ		; MSVCRTD.lib(throw_bad_alloc.obj)
+          _mep@??1?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@D@std@@@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@$$FQAE@XZ		; main.obj
+          __scrt_is_ucrt_dll_in_use		; MSVCRT.lib(ucrt_detection.obj)
+          ?AddHandler@ModuleUninitializer@<CrtImplementationDetails>@@$$FQ$AAMXP$AAVEventHandler@System@@@Z		; MSVCMRTD.lib(mstartup.obj)
+          _t2m@??0?$_Wrap_alloc@V?$allocator@D@std@@@std@@QAE@$$QAU01@@Z		; main.obj
+          _mep@??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQAE@PBD@Z		; main.obj
+          _t2m@?_Get_first@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@D@std@@@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@QBEABU?$_Wrap_alloc@V?$allocator@D@std@@@2@XZ		; main.obj
+          _mep@?GetDefaultDomain@<CrtImplementationDetails>@@$$FYMP$AAVAppDomain@System@@XZ		; MSVCMRTD.lib(mstartup.obj)
+          _mep@??1bad_cast@std@@$$FUAE@XZ		; main.obj
+          _mep@?render@LTexture@@$$FQAEXHHPAUSDL_Rect@@NPAUSDL_Point@@W4SDL_RendererFlip@@@Z		; main.obj
+          ?_atexit_m@@$$J0YMHP6MXXZ@Z		; MSVCMRTD.lib(msilexit.obj)
+          ??1bad_array_new_length@std@@UAE@XZ		; MSVCRTD.lib(throw_bad_alloc.obj)
+          _t2m@?deallocate@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAEXPAU_Container_proxy@2@I@Z		; main.obj
+          ??_R3TiXmlText@@8		; tinyxml.lib(tinyxml.obj)
+          ??_R3TiXmlNode@@8		; tinyxml.lib(tinyxml.obj)
+          _mep@?_Myres@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@$$FQAEAAIXZ		; main.obj
+          _t2m@??$?0V?$allocator@D@std@@@?$_Wrap_alloc@V?$allocator@D@std@@@std@@QAE@$$QAV?$allocator@D@1@@Z		; main.obj
+          ?__alloc_global_lock@?A0x27925454@@YA_NXZ		; MSVCMRTD.lib(msilexit.obj)
+          ??0Trap@@QAE@HH@Z		; main.obj
+          _t2m@?move@?$char_traits@D@std@@SAPADPADPBDI@Z		; main.obj
+          _t2m@?IsInitialized@AtExitLock@<CrtImplementationDetails>@@SA_NXZ		; MSVCMRTD.lib(msilexit.obj)
+          _imp__GetCurrentThreadId@0		; kernel32.lib(KERNEL32.dll)
+          SDL_malloc		; SDL2.lib(SDL2.dll)
+          _unep@?DoNothing@DefaultDomain@<CrtImplementationDetails>@@$$FCGJPAX@Z		; MSVCMRTD.lib(mstartup.obj)
+          ??_C@_17BJLLLIIO@?$AAe?$AAn?$AAc?$AA?$AA@		; tinyxml.lib(tinyxmlparser.obj)
+          ?setPosY@Trap@@QAEXH@Z		; main.obj
+          _imp__SDL_GetError		; SDL2.lib(SDL2.dll)
+          _mep@??1?$_String_val@U?$_Simple_types@D@std@@@std@@$$FQAE@XZ		; main.obj
+          _mep@?_Xran@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQBEXXZ		; main.obj
+          SDL_GetError		; SDL2.lib(SDL2.dll)
+          NtCurrentTeb		; MSVCMRTD.lib(mstartup.obj)
+          _mep@?deallocate@?$allocator@D@std@@$$FQAEXPADI@Z		; main.obj
+          ??0ModuleLoadExceptionHandlerException@<CrtImplementationDetails>@@$$FQ$AAM@P$AAVString@System@@P$AAVException@3@1@Z		; MSVCMRTD.lib(mstartup.obj)
+          _t2m@?erase@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@II@Z		; main.obj
+          _imp__malloc		; ucrtd.lib(ucrtbased.dll)
+          _t2m@?InitializeDefaultAppDomain@LanguageSupport@<CrtImplementationDetails>@@AAEXXZ		; MSVCMRTD.lib(mstartup.obj)
+          ??_C@_0BM@NCHBIJBE@Failed?5to?5read?5Element?5name?$AA@		; tinyxml.lib(tinyxmlerror.obj)
+          _except_handler4_common		; vcruntime.lib(VCRUNTIME140.dll)
+          __acrt_iob_func		; ucrtd.lib(ucrtbased.dll)
+          _imp____CxxQueryExceptionSize		; vcruntime.lib(VCRUNTIME140.dll)
+          ?_lock_Set@AtExitLock@<CrtImplementationDetails>@@$$FCMXP$AAVObject@System@@@Z		; MSVCMRTD.lib(msilexit.obj)
+          ?InitializeNative@LanguageSupport@<CrtImplementationDetails>@@$$FAAEXXZ		; MSVCMRTD.lib(mstartup.obj)
+          ??_C@_1HE@CDMBFOKC@?$AA?$CC?$AA?$CI?$AA_?$AAP?$AAt?$AAr?$AA_?$AAu?$AAs?$AAe?$AAr?$AA?5?$AA?$CG?$AA?5?$AA?$CI?$AA_?$AAB?$AAI?$AAG?$AA_?$AAA?$AAL?$AAL?$AAO?$AAC?$AAA?$AAT?$AAI?$AAO?$AAN?$AA_?$AAA@		; main.obj
+          _imp__memcpy		; vcruntime.lib(VCRUNTIME140.dll)
+          _t2m@?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXII@Z		; main.obj
+          _mep@??1?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@$$FQAE@XZ		; main.obj
+          GetCommandLineW@0		; kernel32.lib(KERNEL32.dll)
+          ??_R3bad_cast@std@@8		; main.obj
+          _imp__strlen		; ucrtd.lib(ucrtbased.dll)
+          _imp__SDL_wcslen		; SDL2.lib(SDL2.dll)
+          ??_R4TiXmlDocument@@6B@		; tinyxml.lib(tinyxml.obj)
+          _mep@?deallocate@?$allocator@U_Container_proxy@std@@@std@@$$FQAEXPAU_Container_proxy@2@I@Z		; main.obj
+          _imp__memset		; ucrtd.lib(ucrtbased.dll)
+          _imp__strchr		; vcruntime.lib(VCRUNTIME140.dll)
+          ??1failure@ios_base@std@@$$FUAE@XZ		; main.obj
+          ??_7_System_error@std@@6B@		; main.obj
+          _t2m@??$?0U?$_Wrap_alloc@V?$allocator@D@std@@@std@@X@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QAE@$$QAU?$_Wrap_alloc@V?$allocator@D@std@@@1@@Z		; main.obj
+          SDL_SetColorKey		; SDL2.lib(SDL2.dll)
+          ??1exception@std@@UAE@XZ		; MSVCRTD.lib(throw_bad_alloc.obj)
+          _t2m@?max_size@?$allocator_traits@V?$allocator@D@std@@@std@@SAIABV?$allocator@D@2@@Z		; main.obj
+          ?deallocate@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@$$FQAEXPAU_Container_proxy@2@I@Z		; main.obj
+          ??_R0?AVruntime_error@std@@@8		; main.obj
+          SDL_wcslen		; SDL2.lib(SDL2.dll)
+          _GUID_cb2f6723_ab3a_11d2_9c40_00c04fa30a3e		; MSVCMRTD.lib(mstartup.obj)
+          _imp__GetModuleHandleW@4		; kernel32.lib(KERNEL32.dll)
+          _mep@??$?0AAU?$_Wrap_alloc@V?$allocator@D@std@@@std@@@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@$$FQAE@AAU?$_Wrap_alloc@V?$allocator@D@std@@@1@@Z		; main.obj
+          ??0LTexture@@QAE@XZ		; main.obj
+          ??_R4TiXmlElement@@6B@		; tinyxml.lib(tinyxml.obj)
+          _t2m@???__FgBGCloudsTexture@@YMXXZ@?A0xf68777b6@@YMXXZ		; main.obj
+          __scrt_initialize_winrt		; MSVCRT.lib(utility_desktop.obj)
+          _t2m@?AddRef@AtExitLock@<CrtImplementationDetails>@@SAXXZ		; MSVCMRTD.lib(msilexit.obj)
+          _mep@??0bad_cast@std@@$$FQAE@ABV01@@Z		; main.obj
+          ?_initterm_m@@YMXPBQ6MPBXXZ0@Z		; MSVCMRTD.lib(pureMSILcode.obj)
+          SDL_DestroyWindow		; SDL2.lib(SDL2.dll)
+          _t2m@??1exception@std@@UAE@XZ		; main.obj
+          ??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQAE@XZ		; main.obj
+          _t2m@??0_Bxty@?$_String_val@U?$_Simple_types@D@std@@@std@@QAE@XZ		; main.obj
+          ??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQAE@ABV01@@Z		; main.obj
+          _t2m@???__FgTrapTexture@@YMXXZ@?A0xf68777b6@@YMXXZ		; main.obj
+          _mep@?_Xlen@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQBEXXZ		; main.obj
+          ??0bad_alloc@std@@AAE@QBD@Z		; MSVCRTD.lib(throw_bad_alloc.obj)
+          ??0?$allocator@_W@std@@$$FQAE@ABV01@@Z		; main.obj
+          _imp___callnewh		; ucrtd.lib(ucrtbased.dll)
+          _t2m@??$forward@V?$allocator@D@std@@@std@@YA$$QAV?$allocator@D@0@AAV10@@Z		; main.obj
+          ??_R3TiXmlElement@@8		; tinyxml.lib(tinyxml.obj)
+          ??_C@_1GI@DHJGPFNI@?$AA?$CC?$AA_?$AAP?$AAt?$AAr?$AA_?$AAu?$AAs?$AAe?$AAr?$AA?5?$AA?9?$AA?5?$AA_?$AAP?$AAt?$AAr?$AA_?$AAc?$AAo?$AAn?$AAt?$AAa?$AAi?$AAn?$AAe?$AAr?$AA?5?$AA?$DM?$AA?$DN?$AA?5?$AA_@		; main.obj
+          ?allocate@?$allocator@D@std@@$$FQAEPADI@Z		; main.obj
+          _t2m@??_Eruntime_error@std@@UAEPAXI@Z		; main.obj
+          _t2m@?<MarshalCopy>@exception_ptr@std@@SMXPAV12@0@Z		; main.obj
+          ??_Esystem_error@std@@$$FUAEPAXI@Z		; main.obj
+          _mep@?UninitializeAppDomain@LanguageSupport@<CrtImplementationDetails>@@$$FCAXXZ		; MSVCMRTD.lib(mstartup.obj)
+          _imp_?__ExceptionPtrDestroy@@YAXPAX@Z		; msvcprtd.lib(MSVCP140D.dll)
+          ?_initatexit_m@@$$J0YMHXZ		; MSVCMRTD.lib(msilexit.obj)
+          ??_M@$$FYMXPAXIHP6MX0@Z@Z		; MSVCMRTD.lib(mehvecdtr.obj)
+          ??_C@_0M@HFFOIJBL@Fatal?5Error?$AA@		; SDL2main.lib(SDL_windows_main.obj)
+          ??1?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@D@std@@@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@$$FQAE@XZ		; main.obj
+          ??_R2exception@std@@8		; main.obj
+          _mep@?_Myptr@?$_String_val@U?$_Simple_types@D@std@@@std@@$$FQBEPBDXZ		; main.obj
+          ?getPosX@Lobster@@QAEHXZ		; main.obj
+          ??_C@_09BLLNCBLF@?$DM?$CB?$FLCDATA?$FL?$AA@		; tinyxml.lib(tinyxml.obj)
+          __FrameUnwindFilter		; vcruntime.lib(VCRUNTIME140.dll)
+          _mep@?_Getal@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@$$FQBEABU?$_Wrap_alloc@V?$allocator@D@std@@@2@XZ		; main.obj
+          _mep@?_initterm@@$$FYMXPAP6AXXZ0@Z		; MSVCMRTD.lib(pureMSILcode.obj)
+          _t2m@??0?$allocator@D@std@@QAE@ABV01@@Z		; main.obj
+          _t2m@??0runtime_error@std@@QAE@ABV01@@Z		; main.obj
+          ??_C@_06PNMEMOHD@?$CGapos?$DL?$AA@		; tinyxml.lib(tinyxmlparser.obj)
+          _mep@??$destroy@PAD@?$allocator_traits@V?$allocator@D@std@@@std@@$$FSAXAAV?$allocator@D@1@PAPAD@Z		; main.obj
+          _t2m@?_Getal@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QAEAAU?$_Wrap_alloc@V?$allocator@D@std@@@2@XZ		; main.obj
+          ?get@NestedException@ModuleLoadExceptionHandlerException@<CrtImplementationDetails>@@$$FQ$AAMP$AAVException@System@@XZ		; MSVCMRTD.lib(mstartup.obj)
+          __scrt_stub_for_acrt_uninitialize		; MSVCRTD.lib(ucrt_stubs.obj)
+          _mep@??0runtime_error@std@@$$FQAE@ABV01@@Z		; main.obj
+          _mep@?___CxxCallUnwindVecDtor@@$$J0YMXP6MXPAXIHP6MX0@Z@Z0IH1@Z		; MSVCMRTD.lib(managdeh.obj)
+          ?_Xlen@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQBEXXZ		; main.obj
+          GetStartupInfoW@4		; kernel32.lib(KERNEL32.dll)
+          ?assign@?$char_traits@D@std@@$$FSAXAADABD@Z		; main.obj
+          _mep@???__E?Initialized@CurrentDomain@<CrtImplementationDetails>@@$$Q2HA@@YMXXZ@?A0x13efd873@@$$FYMXXZ		; MSVCMRTD.lib(mstartup.obj)
+          ?close@@YAXXZ		; main.obj
+          ??_R0?AVTiXmlUnknown@@@8		; tinyxml.lib(tinyxml.obj)
+          _imp__IMG_Init		; SDL2_image.lib(SDL2_image.dll)
+          fclose		; ucrtd.lib(ucrtbased.dll)
+          _imp__IMG_Load		; SDL2_image.lib(SDL2_image.dll)
+          ?select_on_container_copy_construction@?$_Wrap_alloc@V?$allocator@D@std@@@std@@$$FQBE?AU12@U_Nil@2@@Z		; main.obj
+          _cexit		; ucrtd.lib(ucrtbased.dll)
+          ?max_size@?$allocator@D@std@@$$FQBEIXZ		; main.obj
+          _mep@?move@Lobster@@$$FQAEXXZ		; main.obj
+          _imp____CxxFrameHandler3		; vcruntime.lib(VCRUNTIME140.dll)
+          ?FromGUID@<CrtImplementationDetails>@@$$FYM?AVGuid@System@@ABU_GUID@@@Z		; MSVCMRTD.lib(mstartup.obj)
+          memcpy		; vcruntime.lib(VCRUNTIME140.dll)
+          atexit		; MSVCRT.lib(utility.obj)
+          _imp__IMG_Quit		; SDL2_image.lib(SDL2_image.dll)
+          _mep@??$addressof@PAD@std@@$$FYAPAPADAAPAD@Z		; main.obj
+          ?_Get_second@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@D@std@@@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@$$FQBEABV?$_String_val@U?$_Simple_types@D@std@@@2@XZ		; main.obj
+          _imp____stdio_common_vsnprintf_s		; ucrtd.lib(ucrtbased.dll)
+          _mep@?_Grow@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQAE_NI_N@Z		; main.obj
+          ?_Myptr@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@$$FQAEPADXZ		; main.obj
+          ??_C@_1JA@IJKHNLMB@?$AAC?$AA?3?$AA?2?$AAP?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAF?$AAi?$AAl?$AAe?$AAs?$AA?5?$AA?$CI?$AAx?$AA8?$AA6?$AA?$CJ?$AA?2?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt@		; main.obj
+          _mep@??$_Unfancy@D@std@@$$FYAPADPAD@Z		; main.obj
+          memset		; ucrtd.lib(ucrtbased.dll)
+          _mep@?_Myptr@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@$$FQAEPADXZ		; main.obj
+          ???__EgBGTexture@@YMXXZ@?A0xf68777b6@@$$FYMXXZ		; main.obj
+          ??_C@_1CE@PHANECNC@?$AAp?$AA?5?$AA?$DM?$AA?$DN?$AA?5?$AA?$CI?$AAb?$AAu?$AAf?$AA?$CL?$AAl?$AAe?$AAn?$AAg?$AAt?$AAh?$AA?$CJ?$AA?$AA@		; tinyxml.lib(tinyxml.obj)
+          __stdio_common_vsnprintf_s		; ucrtd.lib(ucrtbased.dll)
+          _mep@?_handle@AtExitLock@<CrtImplementationDetails>@@$$FCMP$AA__ZVGCHandle@InteropServices@Runtime@System@@XZ		; MSVCMRTD.lib(msilexit.obj)
+          _imp___wassert		; ucrtd.lib(ucrtbased.dll)
+          _t2m@?length@?$char_traits@D@std@@SAIPBD@Z		; main.obj
+          ??_R1A@?0A@EA@TiXmlComment@@8		; tinyxml.lib(tinyxml.obj)
+          _t2m@?_Get_first@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@D@std@@@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@QAEAAU?$_Wrap_alloc@V?$allocator@D@std@@@2@XZ		; main.obj
+          ?__scrt_throw_std_bad_alloc@@YAXXZ		; MSVCRTD.lib(throw_bad_alloc.obj)
+          ?.cctor@@YMXXZ		; MSVCMRTD.lib(mstartup.obj)
+          _mep@?_Inside@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQAE_NPBD@Z		; main.obj
+          _mep@???__E?InitializedPerAppDomain@CurrentDomain@<CrtImplementationDetails>@@$$Q2W4Progress@2@A@@YMXXZ@?A0x13efd873@@$$FYMXXZ		; MSVCMRTD.lib(mstartup.obj)
+          ??_R0?AVTiXmlElement@@@8		; tinyxml.lib(tinyxml.obj)
+          _t2m@??$construct@PADAAPAD@?$allocator@D@std@@QAEXPAPADAAPAD@Z		; main.obj
+          ?IsInitialized@AtExitLock@<CrtImplementationDetails>@@$$FSA_NXZ		; MSVCMRTD.lib(msilexit.obj)
+          ??_C@_07CGFAFKBF@?$CFs?$DN?8?$CFs?8?$AA@		; tinyxml.lib(tinyxml.obj)
+          _t2m@?ThrowModuleLoadException@<CrtImplementationDetails>@@YMXP$AAVString@System@@@Z		; MSVCMRTD.lib(mstartup.obj)
+          _mep@???__FgLobsterTexture@@YMXXZ@?A0xf68777b6@@$$FYMXXZ		; main.obj
+          ??0Exception@<CrtImplementationDetails>@@$$FI$AAM@P$AAVSerializationInfo@Serialization@Runtime@System@@VStreamingContext@345@@Z		; MSVCMRTD.lib(mstartup.obj)
+          _mep@?_Allocate@std@@$$FYAPAXII_N@Z		; main.obj
+          _mep@?HasNative@DefaultDomain@<CrtImplementationDetails>@@$$FSA_NXZ		; MSVCMRTD.lib(mstartup.obj)
+          ?___CxxCallUnwindVecDtor@@$$J0YMXP6MXPAXIHP6MX0@Z@Z0IH1@Z		; MSVCMRTD.lib(managdeh.obj)
+          _TI2?AVbad_alloc@std@@		; MSVCRTD.lib(throw_bad_alloc.obj)
+          ??_C@_07CPCPJPKL@version?$AA@		; tinyxml.lib(tinyxmlparser.obj)
+          GetCurrentThreadId@0		; kernel32.lib(KERNEL32.dll)
+          _t2m@?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@II@Z		; main.obj
+          ??_R1A@?0A@EA@TiXmlElement@@8		; tinyxml.lib(tinyxml.obj)
+          _t2m@?max_size@?$allocator@D@std@@QBEIXZ		; main.obj
+          _mep@?InitializeVtables@LanguageSupport@<CrtImplementationDetails>@@$$FAAEXXZ		; MSVCMRTD.lib(mstartup.obj)
+          strlen		; ucrtd.lib(ucrtbased.dll)
+          malloc		; ucrtd.lib(ucrtbased.dll)
+          ??_C@_0BF@HJPECPBG@Error?5parsing?5CDATA?4?$AA@		; tinyxml.lib(tinyxmlerror.obj)
+          _t2m@??$forward@AAU?$_Wrap_alloc@V?$allocator@D@std@@@std@@@std@@YAAAU?$_Wrap_alloc@V?$allocator@D@std@@@0@AAU10@@Z		; main.obj
+          ??_Gtype_info@@UAEPAXI@Z		; MSVCRTD.lib(std_type_info_static.obj)
+          _t2m@?_Eos@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXI@Z		; main.obj
+          _imp__SDL_SetColorKey		; SDL2.lib(SDL2.dll)
+          _t2m@???__FgLobsterTexture@@YMXXZ@?A0xf68777b6@@YMXXZ		; main.obj
+          ??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQAE@PBD@Z		; main.obj
+          strchr		; vcruntime.lib(VCRUNTIME140.dll)
+          _t2m@?_Get_data@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QBEABV?$_String_val@U?$_Simple_types@D@std@@@2@XZ		; main.obj
+          _t2m@??0system_error@std@@QAE@ABV01@@Z		; main.obj
+          ??0runtime_error@std@@$$FQAE@ABV01@@Z		; main.obj
+          _mep@?InitializePerProcess@LanguageSupport@<CrtImplementationDetails>@@$$FAAEXXZ		; MSVCMRTD.lib(mstartup.obj)
+          ?set@NestedException@ModuleLoadExceptionHandlerException@<CrtImplementationDetails>@@$$FQ$AAMXP$AAVException@System@@@Z		; MSVCMRTD.lib(mstartup.obj)
+          _t2m@?_Myproxy@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QAEAAPAU_Container_proxy@2@XZ		; main.obj
+          ?_initterm@@$$FYMXPAP6AXXZ0@Z		; MSVCMRTD.lib(pureMSILcode.obj)
+          _mep@??$_Debug_pointer_if@$$CBD@std@@$$FYAX_NPBDPB_WI@Z		; main.obj
+          _t2m@?_Get_second@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@D@std@@@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@QAEAAV?$_String_val@U?$_Simple_types@D@std@@@2@XZ		; main.obj
+          _mep@??1system_error@std@@$$FUAE@XZ		; main.obj
+          ??_7TiXmlElement@@6B@		; tinyxml.lib(tinyxml.obj)
+          SDL_SetTextureBlendMode		; SDL2.lib(SDL2.dll)
+          SDL_SetMainReady		; SDL2.lib(SDL2.dll)
+          _t2m@??4_Iterator_base12@std@@QAEAAU01@ABU01@@Z		; main.obj
+          ??_R4TiXmlBase@@6B@		; tinyxml.lib(tinyxml.obj)
+          ??_R3TiXmlDeclaration@@8		; tinyxml.lib(tinyxml.obj)
+          _mep@??_M@$$FYMXPAXIHP6MX0@Z@Z		; MSVCMRTD.lib(mehvecdtr.obj)
+          ?_Getal@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@$$FQAEAAU?$_Wrap_alloc@V?$allocator@D@std@@@2@XZ		; main.obj
+          ??$_Debug_pointer@$$CBD@std@@$$FYAXPBDPB_WI@Z		; main.obj
+          ??4?$gcroot@P$AAVString@System@@@@$$FQAMAAU0@P$AAVString@System@@@Z		; MSVCMRTD.lib(mstartup.obj)
+          ??_C@_01EEMJAFIK@?6?$AA@		; tinyxml.lib(tinyxml.obj)
+          ??$destroy@PAD@?$_Wrap_alloc@V?$allocator@D@std@@@std@@$$FQAEXPAPAD@Z		; main.obj
+          ??$construct@PADAAPAD@?$allocator_traits@V?$allocator@D@std@@@std@@$$FSAXAAV?$allocator@D@1@PAPADAAPAD@Z		; main.obj
+          _imp__GetStartupInfoW@4		; kernel32.lib(KERNEL32.dll)
+          GetCurrentProcess@0		; kernel32.lib(KERNEL32.dll)
+          __report_securityfailure		; MSVCRTD.lib(gs_report.obj)
+          ??_C@_05EGJIMALK@UTF?98?$AA@		; tinyxml.lib(tinyxmlparser.obj)
+          _mep@??0Boat@@$$FQAE@XZ		; main.obj
+          ??_C@_05JKJFEODM@?$CGamp?$DL?$AA@		; tinyxml.lib(tinyxmlparser.obj)
+          _imp__QueryPerformanceCounter@4		; kernel32.lib(KERNEL32.dll)
+          ??B?$gcroot@P$AAVString@System@@@@$$FQBMP$AAVString@System@@XZ		; MSVCMRTD.lib(mstartup.obj)
+          ??_R3bad_array_new_length@std@@8		; MSVCRTD.lib(throw_bad_alloc.obj)
+          ?__local_stdio_printf_options@@$$J0YAPA_KXZ		; main.obj
+          _t2m@?__release_appdomain@@YAXPAUIUnknown@@@Z		; MSVCMRTD.lib(mstartup.obj)
+          ??0Exception@<CrtImplementationDetails>@@$$FQ$AAM@P$AAVString@System@@P$AAV03@@Z		; MSVCMRTD.lib(mstartup.obj)
+          _mep@?_Mysize@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@$$FQAEAAIXZ		; main.obj
+          _mep@?_Mysize@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@$$FQBEABIXZ		; main.obj
+          ??_C@_09GLJCAGLP@_Ptr?5?$CB?$DN?50?$AA@		; main.obj
+          _mep@?DoCallBackInDefaultDomain@<CrtImplementationDetails>@@$$FYAXP6GJPAX@Z0@Z		; MSVCMRTD.lib(mstartup.obj)
+          ??_C@_1JA@HEEMAOGC@?$AAC?$AA?3?$AA?2?$AAP?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAF?$AAi?$AAl?$AAe?$AAs?$AA?5?$AA?$CI?$AAx?$AA8?$AA6?$AA?$CJ?$AA?2?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt@		; main.obj
+          ?GetDefaultDomain@<CrtImplementationDetails>@@$$FYMP$AAVAppDomain@System@@XZ		; MSVCMRTD.lib(mstartup.obj)
+          ??_R4bad_array_new_length@std@@6B@		; MSVCRTD.lib(throw_bad_alloc.obj)
+          _mep@?handleEvent@Boat@@$$FQAEXAATSDL_Event@@@Z		; main.obj
+          ?deallocate@?$allocator@U_Container_proxy@std@@@std@@$$FQAEXPAU_Container_proxy@2@I@Z		; main.obj
+          _t2m@?_Bx@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QAEAAT_Bxty@?$_String_val@U?$_Simple_types@D@std@@@2@XZ		; main.obj
+          _t2m@??$forward@U?$_Wrap_alloc@V?$allocator@D@std@@@std@@@std@@YA$$QAU?$_Wrap_alloc@V?$allocator@D@std@@@0@AAU10@@Z		; main.obj
+          _t2m@?HasNative@DefaultDomain@<CrtImplementationDetails>@@SA_NXZ		; MSVCMRTD.lib(mstartup.obj)
+          ??_C@_02JDPG@rb?$AA@		; tinyxml.lib(tinyxml.obj)
+          ??_R1A@?0A@EA@TiXmlNode@@8		; tinyxml.lib(tinyxml.obj)
+          _mep@?copy@?$char_traits@D@std@@$$FSAPADPADPBDI@Z		; main.obj
+          _mep@?select_on_container_copy_construction@?$_Wrap_alloc@V?$allocator@D@std@@@std@@$$FQBE?AU12@U_Nil@2@@Z		; main.obj
+          _mep@?allocate@?$allocator@D@std@@$$FQAEPADI@Z		; main.obj
+          ?select_on_container_copy_construction@?$allocator_traits@V?$allocator@D@std@@@std@@$$FSA?AV?$allocator@D@2@ABV32@@Z		; main.obj
+          _mep@?<MarshalDestroy>@exception_ptr@std@@$$FSMXPAV12@@Z		; main.obj
+          _t2m@?__scrt_is_safe_for_managed_code@@YA_NXZ		; MSVCMRTD.lib(mstartup.obj)
+          ??0ModuleLoadExceptionHandlerException@<CrtImplementationDetails>@@$$FI$AAM@P$AAVSerializationInfo@Serialization@Runtime@System@@VStreamingContext@345@@Z		; MSVCMRTD.lib(mstartup.obj)
+          _imp____FrameUnwindFilter		; vcruntime.lib(VCRUNTIME140.dll)
+          _imp_?_Xbad_alloc@std@@YAXXZ		; msvcprtd.lib(MSVCP140D.dll)
+          _mep@??1LTexture@@$$FQAE@XZ		; main.obj
+          _imp__SDL_SetRenderDrawColor		; SDL2.lib(SDL2.dll)
+          _mep@?Exit@AtExitLock@<CrtImplementationDetails>@@$$FSAXXZ		; MSVCMRTD.lib(msilexit.obj)
+          ?_OptionsStorage@?1??__local_stdio_scanf_options@@9@4_KA		; tinyxml.lib(tinyxml.obj)
+          ?InitializeDefaultAppDomain@LanguageSupport@<CrtImplementationDetails>@@$$FAAEXXZ		; MSVCMRTD.lib(mstartup.obj)
+          ??_C@_0BC@HMFFDDLH@Error?3?5empty?5tag?4?$AA@		; tinyxml.lib(tinyxmlerror.obj)
+          _t2m@?GetDefaultDomain@<CrtImplementationDetails>@@YMP$AAVAppDomain@System@@XZ		; MSVCMRTD.lib(mstartup.obj)
+          ?__dealloc_global_lock@?A0x27925454@@$$FYAXXZ		; MSVCMRTD.lib(msilexit.obj)
+          ??1?$gcroot@P$AAVString@System@@@@$$FQAE@XZ		; MSVCMRTD.lib(mstartup.obj)
+          _t2m@?Cleanup@LanguageSupport@<CrtImplementationDetails>@@AAMXP$AAVException@System@@@Z		; MSVCMRTD.lib(mstartup.obj)
+          ?DoNothing@DefaultDomain@<CrtImplementationDetails>@@$$FCGJPAX@Z		; MSVCMRTD.lib(mstartup.obj)
+          ?UninitializeAppDomain@LanguageSupport@<CrtImplementationDetails>@@$$FCAXXZ		; MSVCMRTD.lib(mstartup.obj)
+          ??_R0?AVTiXmlDocument@@@8		; tinyxml.lib(tinyxml.obj)
+          _mep@?address@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@$$FQBEPAU_Container_proxy@2@AAU32@@Z		; main.obj
+          __std_exception_copy		; vcruntime.lib(VCRUNTIME140.dll)
+          ??_C@_04NNJCMPBN@?$DM?$CFs?$DO?$AA@		; tinyxml.lib(tinyxml.obj)
+          ??_C@_1CC@PEHEJHGC@?$AAi?$AAn?$AAd?$AAe?$AAx?$AA?5?$AA?$DM?$AA?5?$AAl?$AAe?$AAn?$AAg?$AAt?$AAh?$AA?$CI?$AA?$CJ?$AA?$AA@		; tinyxml.lib(tinyxml.obj)
+          ?__get_default_appdomain@@$$FYAJPAPAUIUnknown@@@Z		; MSVCMRTD.lib(mstartup.obj)
+          _imp__terminate		; ucrtd.lib(ucrtbased.dll)
+          _mep@??0?$allocator@X@std@@$$FQAE@ABV01@@Z		; main.obj
+          _t2m@??$destroy@U_Container_proxy@std@@@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAEXPAU_Container_proxy@1@@Z		; main.obj
+          ??1_Lockit@std@@QAE@XZ		; msvcprtd.lib(MSVCP140D.dll)
+          ???__EgBGCloudsTexture@@YMXXZ@?A0xf68777b6@@$$FYMXXZ		; main.obj
+          _mep@?c_str@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQBEPBDXZ		; main.obj
+          ??0_Bxty@?$_String_val@U?$_Simple_types@D@std@@@std@@$$FQAE@XZ		; main.obj
+          ?RegisterModuleUninitializer@<CrtImplementationDetails>@@$$FYMXP$AAVEventHandler@System@@@Z		; MSVCMRTD.lib(mstartup.obj)
+          _mep@??$forward@U?$_Wrap_alloc@V?$allocator@D@std@@@std@@@std@@$$FYA$$QAU?$_Wrap_alloc@V?$allocator@D@std@@@0@AAU10@@Z		; main.obj
+          _mep@??0?$allocator@_W@std@@$$FQAE@ABV01@@Z		; main.obj
+          ??_R2runtime_error@std@@8		; main.obj
+          _t2m@??$_Unfancy@U_Container_proxy@std@@@std@@YAPAU_Container_proxy@0@PAU10@@Z		; main.obj
+          _callnewh		; ucrtd.lib(ucrtbased.dll)
+          _mep@?__global_unlock@?A0x27925454@@$$FYA_NXZ		; MSVCMRTD.lib(msilexit.obj)
+          QueryPerformanceCounter@4		; kernel32.lib(KERNEL32.dll)
+          ?_Get_first@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@D@std@@@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@$$FQBEABU?$_Wrap_alloc@V?$allocator@D@std@@@2@XZ		; main.obj
+          ??_7TiXmlAttribute@@6B@		; tinyxml.lib(tinyxml.obj)
+          ??0?$gcroot@P$AAVString@System@@@@$$FQAE@XZ		; MSVCMRTD.lib(mstartup.obj)
+          ??_7bad_alloc@std@@6B@		; MSVCRTD.lib(throw_bad_alloc.obj)
+          _t2m@??_Eexception@std@@UAEPAXI@Z		; main.obj
+          _load_config_used		; MSVCRTD.lib(loadcfg.obj)
+          _mep@?_Deallocate@std@@$$FYAXPAXII@Z		; main.obj
+          ??_R3TiXmlUnknown@@8		; tinyxml.lib(tinyxml.obj)
+          _imp____CxxRegisterExceptionObject		; vcruntime.lib(VCRUNTIME140.dll)
+          _mep@??B?$gcroot@P$AAVString@System@@@@$$FQBMP$AAVString@System@@XZ		; MSVCMRTD.lib(mstartup.obj)
+          ?free@LTexture@@QAEXXZ		; main.obj
+          ??_R2failure@ios_base@std@@8		; main.obj
+          ?_initterm_e@@$$FYMHPAP6AHXZ0@Z		; MSVCMRTD.lib(pureMSILcode.obj)
+          ??_R4exception@std@@6B@		; main.obj
+          ?_onexit_m@@$$J0YMP6MHXZP6MHXZ@Z		; MSVCMRTD.lib(msilexit.obj)
+          ??_C@_08INEPGKHH@No?5error?$AA@		; tinyxml.lib(tinyxmlerror.obj)
+          ??$_Unfancy@D@std@@$$FYAPADPAD@Z		; main.obj
+          ?handleEvent@Boat@@QAEXAATSDL_Event@@@Z		; main.obj
+          __isa_available_init		; MSVCRT.lib(_cpu_disp_.obj)
+          _imp___free_dbg		; ucrtd.lib(ucrtbased.dll)
+          ?<MarshalDestroy>@exception_ptr@std@@$$FSMXPAV12@@Z		; main.obj
+          _mep@?InitializeNative@LanguageSupport@<CrtImplementationDetails>@@$$FAAEXXZ		; MSVCMRTD.lib(mstartup.obj)
+          _t2m@???__E?InitializedNative@CurrentDomain@<CrtImplementationDetails>@@$$Q2W4Progress@2@A@@YMXXZ@?A0x13efd873@@YMXXZ		; MSVCMRTD.lib(mstartup.obj)
+          ??_C@_0BK@JCLLEHFP@Memory?5allocation?5failed?4?$AA@		; tinyxml.lib(tinyxmlerror.obj)
+          _mep@?getHeight@LTexture@@$$FQAEHXZ		; main.obj
+          SDL_FreeSurface		; SDL2.lib(SDL2.dll)
+          ??_R0?AVtype_info@@@8		; MSVCRTD.lib(std_type_info_static.obj)
+          ??_C@_0EI@NOJHEJCJ@reinterpret_cast?$DMuintptr_t?5?$CK?$DO?$CI_P@		; main.obj
+          SDL_isspace		; SDL2.lib(SDL2.dll)
+          _mep@?_onexit_m_appdomain@@$$J0YMP6MHXZP6MHXZ@Z		; MSVCMRTD.lib(msilexit.obj)
+          _imp____CxxDetectRethrow		; vcruntime.lib(VCRUNTIME140.dll)
+          _mep@??0?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@$$FQAE@XZ		; main.obj
+          _mep@?DoNothing@DefaultDomain@<CrtImplementationDetails>@@$$FCGJPAX@Z		; MSVCMRTD.lib(mstartup.obj)
+          ??_R0?AVfailure@ios_base@std@@@8		; main.obj
+          _invalid_parameter		; ucrtd.lib(ucrtbased.dll)
+          _mep@???__E?InitializedVtables@CurrentDomain@<CrtImplementationDetails>@@$$Q2W4Progress@2@A@@YMXXZ@?A0x13efd873@@$$FYMXXZ		; MSVCMRTD.lib(mstartup.obj)
+          ??0Boat@@QAE@XZ		; main.obj
+          _mep@??$addressof@U_Container_proxy@std@@@std@@$$FYAPAU_Container_proxy@0@AAU10@@Z		; main.obj
+          _imp___CrtDbgReportW		; ucrtd.lib(ucrtbased.dll)
+          ?_app_exit_callback@@$$J0YMXXZ		; MSVCMRTD.lib(msilexit.obj)
+          __scrt_is_managed_app		; MSVCRT.lib(utility_desktop.obj)
+          _mep@??_M@$$FYMXPAXIIP6MX0@Z@Z		; MSVCMRTD.lib(mehvecdtr.obj)
+          _t2m@?UninitializeDefaultDomain@LanguageSupport@<CrtImplementationDetails>@@CAXXZ		; MSVCMRTD.lib(mstartup.obj)
+          _onexit_m		; MSVCMRTD.lib(msilexit.obj)
+          ??$__crt_fast_decode_pointer@PAP6AXXZ@@YAPAP6AXXZQAP6AXXZ@Z		; MSVCRT.lib(utility.obj)
+          _mep@?init@@$$FYA_NXZ		; main.obj
+          _t2m@?max_size@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIXZ		; main.obj
+          ??_R4bad_cast@std@@6B@		; main.obj
+          _t2m@??$_Debug_pointer@$$CBD@std@@YAXPBDPB_WI@Z		; main.obj
+          _mep@?getWidth@LTexture@@$$FQAEHXZ		; main.obj
+          _imp__isalpha		; ucrtd.lib(ucrtbased.dll)
+          _t2m@??$destroy@U_Container_proxy@std@@@?$allocator@U_Container_proxy@std@@@std@@QAEXPAU_Container_proxy@1@@Z		; main.obj
+          at_quick_exit		; MSVCRT.lib(utility.obj)
+          GetSystemTimeAsFileTime@4		; kernel32.lib(KERNEL32.dll)
+          _imp__isalnum		; ucrtd.lib(ucrtbased.dll)
+          __scrt_unhandled_exception_filter@4		; MSVCRT.lib(utility_desktop.obj)
+          ??_R2TiXmlElement@@8		; tinyxml.lib(tinyxml.obj)
+          _t2m@?assign@?$char_traits@D@std@@SAXAADABD@Z		; main.obj
+          ??_R1A@?0A@EA@TiXmlText@@8		; tinyxml.lib(tinyxml.obj)
+          abort		; ucrtd.lib(ucrtbased.dll)
+          ?setColor@LTexture@@QAEXEEE@Z		; main.obj
+          _mep@?__scrt_is_safe_for_managed_code@@$$FYA_NXZ		; MSVCMRTD.lib(mstartup.obj)
+          ??_C@_13LFIEIAHP@?$AAp?$AA?$AA@		; tinyxml.lib(tinyxmlparser.obj)
+          SDL_CreateWindow		; SDL2.lib(SDL2.dll)
+          __report_rangecheckfailure		; MSVCRTD.lib(gs_report.obj)
+          _mep@??1?$gcroot@P$AAVString@System@@@@$$FQAE@XZ		; MSVCMRTD.lib(mstartup.obj)
+          ??_C@_17FAPGLHLF@?$AAn?$AAo?$AAw?$AA?$AA@		; tinyxml.lib(tinyxmlparser.obj)
+          ??0ModuleLoadException@<CrtImplementationDetails>@@$$FQ$AAM@P$AAVString@System@@@Z		; MSVCMRTD.lib(mstartup.obj)
+          _t2m@??0_System_error@std@@QAE@ABV01@@Z		; main.obj
+          ??1exception@std@@$$FUAE@XZ		; main.obj
+          _mep@??$construct@U_Container_proxy@std@@U12@@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@$$FQAEXPAU_Container_proxy@1@$$QAU21@@Z		; main.obj
+          ??0locale@std@@$$FQAE@ABV01@@Z		; main.obj
+          _mep@?___CxxCallUnwindDtor@@$$J0YMXP6MXPAX@Z0@Z		; MSVCMRTD.lib(managdeh.obj)
+          _mep@???__FgWinTexture@@YMXXZ@?A0xf68777b6@@$$FYMXXZ		; main.obj
+          ??_C@_1M@JGKKHEFC@?$AAs?$AAt?$AAa?$AAr?$AAt?$AA?$AA@		; tinyxml.lib(tinyxmlparser.obj)
+          _mep@?__release_appdomain@@$$FYAXPAUIUnknown@@@Z		; MSVCMRTD.lib(mstartup.obj)
+          _t2m@?allocate@?$allocator@U_Container_proxy@std@@@std@@QAEPAU_Container_proxy@2@I@Z		; main.obj
+          _imp__fread		; ucrtd.lib(ucrtbased.dll)
+          GetModuleHandleW@4		; kernel32.lib(KERNEL32.dll)
+          ?_lock_Get@AtExitLock@<CrtImplementationDetails>@@$$FCMP$AAVObject@System@@XZ		; MSVCMRTD.lib(msilexit.obj)
+          ??_C@_09PNDCPLLD@?$DM?$CB?9?9?$CFs?9?9?$DO?$AA@		; tinyxml.lib(tinyxml.obj)
+          ??_C@_05DJDIECHG@?$DM?$DPxml?$AA@		; tinyxml.lib(tinyxmlparser.obj)
+          _imp__fseek		; ucrtd.lib(ucrtbased.dll)
+          _mep@?loadFromFile@LTexture@@$$FQAE_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z		; main.obj
+          ??_C@_0BF@KINCDENJ@bad?5array?5new?5length?$AA@		; MSVCRTD.lib(throw_bad_alloc.obj)
+          _t2m@?_Get_data@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QAEAAV?$_String_val@U?$_Simple_types@D@std@@@2@XZ		; main.obj
+          ?_onexit_m_appdomain@@$$J0YMP6MHXZP6MHXZ@Z		; MSVCMRTD.lib(msilexit.obj)
+          _t2m@?_Inside@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE_NPBD@Z		; main.obj
+          _mep@??0LTexture@@$$FQAE@XZ		; main.obj
+          _mep@?_Getal@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@$$FQAEAAU?$_Wrap_alloc@V?$allocator@D@std@@@2@XZ		; main.obj
+          _imp____std_exception_destroy		; vcruntime.lib(VCRUNTIME140.dll)
+          _imp__isspace		; ucrtd.lib(ucrtbased.dll)
+          ?_Orphan_all@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@$$FQAEXXZ		; main.obj
+          _mep@?move@Boat@@$$FQAEXXZ		; main.obj
+          _t2m@?InitializePerProcess@LanguageSupport@<CrtImplementationDetails>@@AAEXXZ		; MSVCMRTD.lib(mstartup.obj)
+          ?_Deallocate@std@@$$FYAXPAXII@Z		; main.obj
+          ???__EgTrapTexture@@YMXXZ@?A0xf68777b6@@$$FYMXXZ		; main.obj
+          ??1LanguageSupport@<CrtImplementationDetails>@@$$FQAE@XZ		; MSVCMRTD.lib(mstartup.obj)
+          ??_Eruntime_error@std@@$$FUAEPAXI@Z		; main.obj
+          _imp__SDL_DestroyTexture		; SDL2.lib(SDL2.dll)
+          ??_R3type_info@@8		; MSVCRTD.lib(std_type_info_static.obj)
+          _mep@?InitializeDefaultAppDomain@LanguageSupport@<CrtImplementationDetails>@@$$FAAEXXZ		; MSVCMRTD.lib(mstartup.obj)
+          ??0OpenMPWithMultipleAppdomainsException@<CrtImplementationDetails>@@$$FI$AAM@P$AAVSerializationInfo@Serialization@Runtime@System@@VStreamingContext@345@@Z		; MSVCMRTD.lib(mstartup.obj)
+          _t2m@??0?$allocator@X@std@@QAE@ABV01@@Z		; main.obj
+          ??1?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@$$FQAE@XZ		; main.obj
+          _mep@?_Get_data@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@$$FQBEABV?$_String_val@U?$_Simple_types@D@std@@@2@XZ		; main.obj
+          ?_Clamp_suffix_size@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQBEIII@Z		; main.obj
+          _mep@??_E_System_error@std@@$$FUAEPAXI@Z		; main.obj
+          ??_7bad_cast@std@@6B@		; main.obj
+          _t2m@?_Orphan_all@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QAEXXZ		; main.obj
+          _mep@??0_Container_base12@std@@$$FQAE@ABU01@@Z		; main.obj
+          ??_C@_0O@LGPLJGNM@version?$DN?$CC?$CFs?$CC?5?$AA@		; tinyxml.lib(tinyxml.obj)
+          ??_C@_0BK@JPCMNIIK@Error?5reading?5Attributes?4?$AA@		; tinyxml.lib(tinyxmlerror.obj)
+          _imp__ftell		; ucrtd.lib(ucrtbased.dll)
+          _imp__Sleep@4		; kernel32.lib(KERNEL32.dll)
+          _imp__fopen		; ucrtd.lib(ucrtbased.dll)
+          ?getPosX@Boat@@QAEHXZ		; main.obj
+          __scrt_set_unhandled_exception_filter		; MSVCRT.lib(utility_desktop.obj)
+          ??0ModuleLoadException@<CrtImplementationDetails>@@$$FI$AAM@P$AAVSerializationInfo@Serialization@Runtime@System@@VStreamingContext@345@@Z		; MSVCMRTD.lib(mstartup.obj)
+          _mep@?UninitializeDefaultDomain@LanguageSupport@<CrtImplementationDetails>@@$$FCAXXZ		; MSVCMRTD.lib(mstartup.obj)
+          _mep@?.cctor@@$$FYMXXZ		; MSVCMRTD.lib(mstartup.obj)
+          _t2m@??1?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@D@std@@@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@QAE@XZ		; main.obj
+          _t2m@???__FgBoatTexture@@YMXXZ@?A0xf68777b6@@YMXXZ		; main.obj
+          ??_C@_1JK@CLBMGJHH@?$AAc?$AA?3?$AA?2?$AAu?$AAs?$AAe?$AAr?$AAs?$AA?2?$AAj?$AAs?$AAa?$AAy?$AAr?$AAe?$AAs?$AA?2?$AAd?$AAo?$AAc?$AAu?$AAm?$AAe?$AAn?$AAt?$AAs?$AA?2?$AAb?$AAe?$AAa?$AAg?$AAl@		; tinyxml.lib(tinyxmlparser.obj)
+          ___CxxCallUnwindDtor		; MSVCMRTD.lib(managdeh.obj)
+          ??$?0U?$_Wrap_alloc@V?$allocator@D@std@@@std@@X@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@$$FQAE@$$QAU?$_Wrap_alloc@V?$allocator@D@std@@@1@@Z		; main.obj
+          _t2m@??$destroy@PAD@?$allocator_traits@V?$allocator@D@std@@@std@@SAXAAV?$allocator@D@1@PAPAD@Z		; main.obj
+          _imp___invalid_parameter		; ucrtd.lib(ucrtbased.dll)
+          _imp__fputc		; ucrtd.lib(ucrtbased.dll)
+          _t2m@???__EgLobsterTexture@@YMXXZ@?A0xf68777b6@@YMXXZ		; main.obj
+          ??$__vcrt_va_start_verify_argument_type@QBD@@$$FYAXXZ		; main.obj
+          SDL_ShowSimpleMessageBox		; SDL2.lib(SDL2.dll)
+          ?NeedsInitialization@DefaultDomain@<CrtImplementationDetails>@@$$FSA_NXZ		; MSVCMRTD.lib(mstartup.obj)
+          _GUID_cb2f6722_ab3a_11d2_9c40_00c04fa30a3e		; MSVCMRTD.lib(mstartup.obj)
+          ?c_str@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQBEPBDXZ		; main.obj
+          ?max_size@?$_Wrap_alloc@V?$allocator@D@std@@@std@@$$FQBEIU_Nil@2@@Z		; main.obj
+          _imp__SDL_PollEvent		; SDL2.lib(SDL2.dll)
+          _imp__fputs		; ucrtd.lib(ucrtbased.dll)
+          _imp__abort		; ucrtd.lib(ucrtbased.dll)
+          ?move@Lobster@@QAEXXZ		; main.obj
+          ??_R0?AVTiXmlComment@@@8		; tinyxml.lib(tinyxml.obj)
+          ?Enter@AtExitLock@<CrtImplementationDetails>@@$$FSAXXZ		; MSVCMRTD.lib(msilexit.obj)
+          ??_C@_1CM@CJJAKPEA@?$AAs?$AAr?$AAc?$AA?2?$AAt?$AAi?$AAn?$AAy?$AAx?$AAm?$AAl?$AAp?$AAa?$AAr?$AAs?$AAe?$AAr?$AA?4?$AAc?$AAp?$AAp?$AA?$AA@		; tinyxml.lib(tinyxmlparser.obj)
+          ??$?0$$V@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@D@std@@@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@$$FQAE@U_Zero_then_variadic_args_t@1@@Z		; main.obj
+          _t2m@?deallocate@?$allocator@U_Container_proxy@std@@@std@@QAEXPAU_Container_proxy@2@I@Z		; main.obj
+          ??_R2TiXmlText@@8		; tinyxml.lib(tinyxml.obj)
+          ??_R2TiXmlNode@@8		; tinyxml.lib(tinyxml.obj)
+          _imp__GetCommandLineW@0		; kernel32.lib(KERNEL32.dll)
+          __scrt_uninitialize_crt		; MSVCRT.lib(utility.obj)
+          fread		; ucrtd.lib(ucrtbased.dll)
+          _mep@??0LanguageSupport@<CrtImplementationDetails>@@$$FQAE@XZ		; MSVCMRTD.lib(mstartup.obj)
+          _mep@??$destroy@PAD@?$_Wrap_alloc@V?$allocator@D@std@@@std@@$$FQAEXPAPAD@Z		; main.obj
+          __CxxExceptionFilter		; vcruntime.lib(VCRUNTIME140.dll)
+          _mep@??$_Debug_pointer@$$CBD@std@@$$FYAXPBDPB_WI@Z		; main.obj
+          _mep@?<MarshalDestroy>@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FSMXPAV12@@Z		; main.obj
+          fputc		; ucrtd.lib(ucrtbased.dll)
+          _crt_at_quick_exit		; ucrtd.lib(ucrtbased.dll)
+          _t2m@??$destroy@PAD@?$_Wrap_alloc@V?$allocator@D@std@@@std@@QAEXPAPAD@Z		; main.obj
+          fputs		; ucrtd.lib(ucrtbased.dll)
+          ??_R3system_error@std@@8		; main.obj
+          ?DoCallBackInDefaultDomain@<CrtImplementationDetails>@@$$FYAXP6GJPAX@Z0@Z		; MSVCMRTD.lib(mstartup.obj)
+          _mep@?__dealloc_global_lock@?A0x27925454@@$$FYAXXZ		; MSVCMRTD.lib(msilexit.obj)
+          ??_C@_0BB@OAOJGGEI@standalone?$DN?$CC?$CFs?$CC?5?$AA@		; tinyxml.lib(tinyxml.obj)
+          __scrt_dllmain_after_initialize_c		; MSVCRT.lib(utility.obj)
+          ??_R4_System_error@std@@6B@		; main.obj
+          ??0bad_array_new_length@std@@QAE@XZ		; MSVCRTD.lib(throw_bad_alloc.obj)
+          _t2m@??$_Debug_pointer_if@$$CBD@std@@YAX_NPBDPB_WI@Z		; main.obj
+          ??_R1A@?0A@EA@bad_alloc@std@@8		; MSVCRTD.lib(throw_bad_alloc.obj)
+          ??_C@_0BI@CFPLBAOH@invalid?5string?5position?$AA@		; main.obj
+          _t2m@???__E?IsDefaultDomain@CurrentDomain@<CrtImplementationDetails>@@$$Q2_NA@@YMXXZ@?A0x13efd873@@YMXXZ		; MSVCMRTD.lib(mstartup.obj)
+          _t2m@?allocate@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAEPAU_Container_proxy@2@I@Z		; main.obj
+          _t2m@??0LanguageSupport@<CrtImplementationDetails>@@QAE@XZ		; MSVCMRTD.lib(mstartup.obj)
+          _t2m@???__EgBGTexture@@YMXXZ@?A0xf68777b6@@YMXXZ		; main.obj
+          _mep@??$?0$$V@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@D@std@@@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@$$FQAE@U_Zero_then_variadic_args_t@1@@Z		; main.obj
+          _mep@?_Initialize@LanguageSupport@<CrtImplementationDetails>@@$$FAAEXXZ		; MSVCMRTD.lib(mstartup.obj)
+          ??_R3exception@std@@8		; main.obj
+          ?_Mysize@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@$$FQBEABIXZ		; main.obj
+          _t2m@??1failure@ios_base@std@@UAE@XZ		; main.obj
+          SDL_SetRenderDrawColor		; SDL2.lib(SDL2.dll)
+          ??_C@_0CN@BLHJCAL@_Ptr_user?5?9?5_Ptr_container?5?$DM?$DN?5_N@		; main.obj
+          ??_C@_06CMNLMIOJ@?$DM?$DPxml?5?$AA@		; tinyxml.lib(tinyxml.obj)
+          _t2m@?ThrowModuleLoadException@<CrtImplementationDetails>@@YMXP$AAVString@System@@P$AAVException@3@@Z		; MSVCMRTD.lib(mstartup.obj)
+          _t2m@?_Adopt@_Iterator_base12@std@@QAEXPBU_Container_base12@2@@Z		; main.obj
+          _t2m@?RegisterModuleUninitializer@<CrtImplementationDetails>@@YMXP$AAVEventHandler@System@@@Z		; MSVCMRTD.lib(mstartup.obj)
+          ??_7system_error@std@@6B@		; main.obj
+          _t2m@?_lock_Construct@AtExitLock@<CrtImplementationDetails>@@CMXP$AAVObject@System@@@Z		; MSVCMRTD.lib(msilexit.obj)
+          _t2m@?_Clamp_suffix_size@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIII@Z		; main.obj
+          _mep@?_Orphan_all@_Container_base12@std@@$$FQAEXXZ		; main.obj
+          _t2m@?_lock_Get@AtExitLock@<CrtImplementationDetails>@@CMP$AAVObject@System@@XZ		; MSVCMRTD.lib(msilexit.obj)
+          _mep@?InitializeUninitializer@LanguageSupport@<CrtImplementationDetails>@@$$FAAEXXZ		; MSVCMRTD.lib(mstartup.obj)
+          ?_UninitializeDefaultDomain@LanguageSupport@<CrtImplementationDetails>@@$$FCGJPAX@Z		; MSVCMRTD.lib(mstartup.obj)
+          _mep@??0_Container_base12@std@@$$FQAE@XZ		; main.obj
+          _t2m@?deallocate@?$_Wrap_alloc@V?$allocator@D@std@@@std@@QAEXPADI@Z		; main.obj
+          _mep@?NeedsInitialization@DefaultDomain@<CrtImplementationDetails>@@$$FSA_NXZ		; MSVCMRTD.lib(mstartup.obj)
+          _mep@??0?$allocator@D@std@@$$FQAE@ABV01@@Z		; main.obj
+          ?_Grow@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQAE_NI_N@Z		; main.obj
+          _t2m@?Exit@AtExitLock@<CrtImplementationDetails>@@SAXXZ		; MSVCMRTD.lib(msilexit.obj)
+          ?_Mysize@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@$$FQAEAAIXZ		; main.obj
+          _mep@?assign@?$char_traits@D@std@@$$FSAXAADABD@Z		; main.obj
+          _t2m@??1?$_String_val@U?$_Simple_types@D@std@@@std@@QAE@XZ		; main.obj
+          _mep@?__get_default_appdomain@@$$FYAJPAPAUIUnknown@@@Z		; MSVCMRTD.lib(mstartup.obj)
+          __stdio_common_vfprintf		; ucrtd.lib(ucrtbased.dll)
+          _mep@??$__vcrt_va_start_verify_argument_type@QBD@@$$FYAXXZ		; main.obj
+          _mep@?getPosX@Boat@@$$FQAEHXZ		; main.obj
+          ??1type_info@@UAE@XZ		; MSVCRTD.lib(std_type_info_static.obj)
+          ??_C@_04FFDNBKGC@?$DM?$CB?9?9?$AA@		; tinyxml.lib(tinyxml.obj)
+          _t2m@?_Initialize@LanguageSupport@<CrtImplementationDetails>@@AAEXXZ		; MSVCMRTD.lib(mstartup.obj)
+          ??0?$allocator@X@std@@$$FQAE@ABV01@@Z		; main.obj
+          _t2m@?InitializePerAppDomain@LanguageSupport@<CrtImplementationDetails>@@AAEXXZ		; MSVCMRTD.lib(mstartup.obj)
+          _t2m@?Initialize@LanguageSupport@<CrtImplementationDetails>@@QAEXXZ		; MSVCMRTD.lib(mstartup.obj)
+          _t2m@?allocate@?$_Wrap_alloc@V?$allocator@D@std@@@std@@QAEPADI@Z		; main.obj
+          _t2m@??0?$_Wrap_alloc@V?$allocator@D@std@@@std@@QAE@XZ		; main.obj
+          _mep@?setColor@LTexture@@$$FQAEXEEE@Z		; main.obj
+          _TI3?AVbad_array_new_length@std@@		; MSVCRTD.lib(throw_bad_alloc.obj)
+          _mep@?__alloc_global_lock@?A0x27925454@@$$FYA_NXZ		; MSVCMRTD.lib(msilexit.obj)
+          _mep@?___CxxCallUnwindDelDtor@@$$J0YMXP6MXPAX@Z0@Z		; MSVCMRTD.lib(managdeh.obj)
+          _t2m@??1?$gcroot@P$AAVString@System@@@@QAE@XZ		; MSVCMRTD.lib(mstartup.obj)
+          SDL_RenderPresent		; SDL2.lib(SDL2.dll)
+          ??_R2TiXmlUnknown@@8		; tinyxml.lib(tinyxml.obj)
+          _imp__SDL_malloc		; SDL2.lib(SDL2.dll)
+          ?__crt_rotate_pointer_value@@YAIIH@Z		; MSVCRT.lib(utility.obj)
+          _mep@??$destroy@U_Container_proxy@std@@@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@$$FQAEXPAU_Container_proxy@1@@Z		; main.obj
+          ??$destroy@U_Container_proxy@std@@@?$allocator_traits@V?$allocator@U_Container_proxy@std@@@std@@@std@@$$FSAXAAV?$allocator@U_Container_proxy@std@@@1@PAU_Container_proxy@1@@Z		; main.obj
+          _mep@??1_Bxty@?$_String_val@U?$_Simple_types@D@std@@@std@@$$FQAE@XZ		; main.obj
+          __scrt_stub_for_acrt_thread_attach		; MSVCRTD.lib(ucrt_stubs.obj)
+          ??_R1A@?0A@EA@system_error@std@@8		; main.obj
+          ?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQAEAAV12@PBDI@Z		; main.obj
+          _mep@?pointer_to@?$pointer_traits@PAU_Container_proxy@std@@@std@@$$FSAPAU_Container_proxy@2@AAU32@@Z		; main.obj
+          _t2m@?InitializeUninitializer@LanguageSupport@<CrtImplementationDetails>@@AAEXXZ		; MSVCMRTD.lib(mstartup.obj)
+          ??_C@_04BECDPEPH@?$FN?$FN?$DO?6?$AA@		; tinyxml.lib(tinyxml.obj)
+          _mep@?RemoveRef@AtExitLock@<CrtImplementationDetails>@@$$FSAXXZ		; MSVCMRTD.lib(msilexit.obj)
+          _mep@??0?$_Wrap_alloc@V?$allocator@D@std@@@std@@$$FQAE@XZ		; main.obj
+          ??_C@_1JO@EKLKIEHP@?$AA?$CC?$AAr?$AAe?$AAi?$AAn?$AAt?$AAe?$AAr?$AAp?$AAr?$AAe?$AAt?$AA_?$AAc?$AAa?$AAs?$AAt?$AA?$DM?$AAu?$AAi?$AAn?$AAt?$AAp?$AAt?$AAr?$AA_?$AAt?$AA?5?$AA?$CK?$AA?$DO?$AA?$CI?$AA_@		; main.obj
+          fseek		; ucrtd.lib(ucrtbased.dll)
+          ?.cctor@@$$FYMXXZ		; MSVCMRTD.lib(mstartup.obj)
+          GetCurrentProcessId@0		; kernel32.lib(KERNEL32.dll)
+          ??_7exception@std@@6B@		; main.obj
+          ?__global_unlock@?A0x27925454@@$$FYA_NXZ		; MSVCMRTD.lib(msilexit.obj)
+          ftell		; ucrtd.lib(ucrtbased.dll)
+          _mep@??1_Container_base12@std@@$$FQAE@XZ		; main.obj
+          fopen		; ucrtd.lib(ucrtbased.dll)
+          _mep@?render@Boat@@$$FQAEXHH@Z		; main.obj
+          _mep@?Initialize@DefaultDomain@<CrtImplementationDetails>@@$$FSAXXZ		; MSVCMRTD.lib(mstartup.obj)
+          _imp___crt_at_quick_exit		; ucrtd.lib(ucrtbased.dll)
+          __scrt_stub_for_acrt_thread_detach		; MSVCRTD.lib(ucrt_stubs.obj)
+          _t2m@??_Ebad_cast@std@@UAEPAXI@Z		; main.obj
+          _t2m@??0_Container_proxy@std@@QAE@XZ		; main.obj
+          _imp__SDL_SetTextureColorMod		; SDL2.lib(SDL2.dll)
+          _mep@??0failure@ios_base@std@@$$FQAE@ABV012@@Z		; main.obj
+          ??_C@_09KGECPEDL@version?$DN?$CC?$AA@		; tinyxml.lib(tinyxml.obj)
+          _t2m@???__FgWinTexture@@YMXXZ@?A0xf68777b6@@YMXXZ		; main.obj
+          ??_C@_01MNNFJEPP@?$DM?$AA@		; tinyxml.lib(tinyxml.obj)
+          SDL_Quit		; SDL2.lib(SDL2.dll)
+          ??1_System_error@std@@$$FUAE@XZ		; main.obj
+          _imp__SDL_SetTextureAlphaMod		; SDL2.lib(SDL2.dll)
+          ?_Allocate@std@@$$FYAPAXII_N@Z		; main.obj
+          _mep@??$?0U?$_Wrap_alloc@V?$allocator@D@std@@@std@@$$V@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@D@std@@@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@$$FQAE@U_One_then_variadic_args_t@1@$$QAU?$_Wrap_alloc@V?$allocator@D@std@@@1@@Z		; main.obj
+          ?_Initialize@LanguageSupport@<CrtImplementationDetails>@@$$FAAEXXZ		; MSVCMRTD.lib(mstartup.obj)
+          _t2m@??_E_System_error@std@@UAEPAXI@Z		; main.obj
+          ?_Tidy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQAEX_NI@Z		; main.obj
+          ??_7TiXmlComment@@6B@		; tinyxml.lib(tinyxml.obj)
+          _imp__atof		; ucrtd.lib(ucrtbased.dll)
+          ?deallocate@?$allocator@D@std@@$$FQAEXPADI@Z		; main.obj
+          _imp__atoi		; ucrtd.lib(ucrtbased.dll)
+          __raise_securityfailure		; MSVCRTD.lib(gs_report.obj)
+          ???__E?InitializedVtables@CurrentDomain@<CrtImplementationDetails>@@$$Q2W4Progress@2@A@@YMXXZ@?A0x13efd873@@$$FYMXXZ		; MSVCMRTD.lib(mstartup.obj)
+          __report_securityfailureEx		; MSVCRTD.lib(gs_report.obj)
+          _t2m@???__E?InitializedVtables@CurrentDomain@<CrtImplementationDetails>@@$$Q2W4Progress@2@A@@YMXXZ@?A0x13efd873@@YMXXZ		; MSVCMRTD.lib(mstartup.obj)
+          _mep@?_lock_Destruct@AtExitLock@<CrtImplementationDetails>@@$$FCAXXZ		; MSVCMRTD.lib(msilexit.obj)
+          _mep@??_Esystem_error@std@@$$FUAEPAXI@Z		; main.obj
+          ?__alloc_global_lock@?A0x27925454@@$$FYA_NXZ		; MSVCMRTD.lib(msilexit.obj)
+          _mep@??$construct@PADAAPAD@?$allocator@D@std@@$$FQAEXPAPADAAPAD@Z		; main.obj
+          _mep@?move@?$char_traits@D@std@@$$FSAPADPADPBDI@Z		; main.obj
+          _mep@??$_Unfancy@U_Container_proxy@std@@@std@@$$FYAPAU_Container_proxy@0@PAU10@@Z		; main.obj
+          ??$?0U?$_Wrap_alloc@V?$allocator@D@std@@@std@@$$V@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@D@std@@@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@$$FQAE@U_One_then_variadic_args_t@1@$$QAU?$_Wrap_alloc@V?$allocator@D@std@@@1@@Z		; main.obj
+          ??_C@_0DI@GMJJAOBO@Error?5null?5?$CI0?$CJ?5or?5unexpected?5EOF@		; tinyxml.lib(tinyxmlerror.obj)
+          _t2m@?_Get_second@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@D@std@@@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@QBEABV?$_String_val@U?$_Simple_types@D@std@@@2@XZ		; main.obj
+          _mep@?getPosY@Trap@@$$FQAEHXZ		; main.obj
+          ??_R2type_info@@8		; MSVCRTD.lib(std_type_info_static.obj)
+          ??_C@_01PPODPGHN@?$DO?$AA@		; tinyxml.lib(tinyxml.obj)
+          _t2m@?_Mysize@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QAEAAIXZ		; main.obj
+          _t2m@?_Mysize@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QBEABIXZ		; main.obj
+          _t2m@??$__vcrt_va_start_verify_argument_type@QBD@@YAXXZ		; main.obj
+          _initialize_onexit_table		; ucrtd.lib(ucrtbased.dll)
+          _mep@??$?0U?$_Wrap_alloc@V?$allocator@D@std@@@std@@X@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@$$FQAE@$$QAU?$_Wrap_alloc@V?$allocator@D@std@@@1@@Z		; main.obj
+          _t2m@???__EgWinTexture@@YMXXZ@?A0xf68777b6@@YMXXZ		; main.obj
+          _mep@?setPosY@Trap@@$$FQAEXH@Z		; main.obj
+          _t2m@?_handle@AtExitLock@<CrtImplementationDetails>@@CMP$AA__ZVGCHandle@InteropServices@Runtime@System@@XZ		; MSVCMRTD.lib(msilexit.obj)
+          _imp__SDL_MapRGB		; SDL2.lib(SDL2.dll)
+          _t2m@??1_Bxty@?$_String_val@U?$_Simple_types@D@std@@@std@@QAE@XZ		; main.obj
+          ??_C@_1EO@HFHANCCF@?$AA?$CB?$AAF?$AAi?$AAn?$AAd?$AA?$CI?$AA?5?$AAT?$AAI?$AAX?$AAM?$AAL?$AA_?$AAS?$AAT?$AAR?$AAI?$AAN?$AAG?$AA?$CI?$AA?5?$AAa?$AAd?$AAd?$AAM?$AAe?$AA?9?$AA?$DO?$AAN?$AAa?$AAm?$AAe@		; tinyxml.lib(tinyxml.obj)
+          _imp__SDL_DestroyWindow		; SDL2.lib(SDL2.dll)
+          ??_R2TiXmlDeclaration@@8		; tinyxml.lib(tinyxml.obj)
+          ??0_Container_base12@std@@$$FQAE@ABU01@@Z		; main.obj
+          _imp___configure_narrow_argv		; ucrtd.lib(ucrtbased.dll)
+          ??_C@_01GEODFPGF@?8?$AA@		; tinyxml.lib(tinyxml.obj)
+          _guard_icall_checks_enforced		; MSVCRT.lib(guard_support.obj)
+          _mep@??$forward@V?$allocator@D@std@@@std@@$$FYA$$QAV?$allocator@D@0@AAV10@@Z		; main.obj
+          ?.cctor@ModuleUninitializer@<CrtImplementationDetails>@@$$FCMXXZ		; MSVCMRTD.lib(mstartup.obj)
+          ??0_Container_proxy@std@@$$FQAE@XZ		; main.obj
+          ??_R0?AVTiXmlText@@@8		; tinyxml.lib(tinyxml.obj)
+          ??_R0?AVTiXmlBase@@@8		; tinyxml.lib(tinyxml.obj)
+          SDL_Init		; SDL2.lib(SDL2.dll)
+          ??_C@_1DI@JGFAPJP@?$AA?$CK?$AAl?$AAe?$AAn?$AAg?$AAt?$AAh?$AA?5?$AA?$DO?$AA?$DN?$AA?5?$AA0?$AA?5?$AA?$CG?$AA?$CG?$AA?5?$AA?$CK?$AAl?$AAe?$AAn?$AAg?$AAt?$AAh?$AA?5?$AA?$DM?$AA?5?$AA5?$AA?$AA@		; tinyxml.lib(tinyxmlparser.obj)
+          _imp___CxxThrowException@8		; vcruntime.lib(VCRUNTIME140.dll)
+          ?_OptionsStorage@?1??__local_stdio_printf_options@@YAPA_KXZ@4_KA		; main.obj
+          ??0exception@std@@QAE@QBDH@Z		; MSVCRTD.lib(throw_bad_alloc.obj)
+          ??0ModuleUninitializer@<CrtImplementationDetails>@@$$FA$AAM@XZ		; MSVCMRTD.lib(mstartup.obj)
+          _t2m@??$construct@U_Container_proxy@std@@U12@@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAEXPAU_Container_proxy@1@$$QAU21@@Z		; main.obj
+          _t2m@??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV01@@Z		; main.obj
+          ??_R0?AVTiXmlAttribute@@@8		; tinyxml.lib(tinyxml.obj)
+          _initialize_narrow_environment		; ucrtd.lib(ucrtbased.dll)
+          _mep@??1LanguageSupport@<CrtImplementationDetails>@@$$FQAE@XZ		; MSVCMRTD.lib(mstartup.obj)
+          ??_C@_0BE@LMNLACIC@_Ptr_container?5?$CB?$DN?50?$AA@		; main.obj
+          _mep@?Cleanup@LanguageSupport@<CrtImplementationDetails>@@$$FAAMXP$AAVException@System@@@Z		; MSVCMRTD.lib(mstartup.obj)
+          _t2m@?_Xlen@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEXXZ		; main.obj
+          ??_C@_1CK@EOPGIILJ@?$AAi?$AAn?$AAv?$AAa?$AAl?$AAi?$AAd?$AA?5?$AAn?$AAu?$AAl?$AAl?$AA?5?$AAp?$AAo?$AAi?$AAn?$AAt?$AAe?$AAr?$AA?$AA@		; main.obj
+          _t2m@??0_Container_base12@std@@QAE@XZ		; main.obj
+          __security_init_cookie		; MSVCRTD.lib(gs_support.obj)
+          _wassert		; ucrtd.lib(ucrtbased.dll)
+          _mep@?AddRef@AtExitLock@<CrtImplementationDetails>@@$$FSAXXZ		; MSVCMRTD.lib(msilexit.obj)
+          SDL_free		; SDL2.lib(SDL2.dll)
+          ?_OptionsStorage@?1??__local_stdio_printf_options@@9@4_KA		; tinyxml.lib(tinyxml.obj)
+          ??$forward@U?$_Wrap_alloc@V?$allocator@D@std@@@std@@@std@@$$FYA$$QAU?$_Wrap_alloc@V?$allocator@D@std@@@0@AAU10@@Z		; main.obj
+          ?_Xlength_error@std@@YAXPBD@Z		; msvcprtd.lib(MSVCP140D.dll)
+          _mep@???__FgBoatTexture@@YMXXZ@?A0xf68777b6@@$$FYMXXZ		; main.obj
+          _t2m@??0failure@ios_base@std@@QAE@ABV012@@Z		; main.obj
+          ??_R3TiXmlAttribute@@8		; tinyxml.lib(tinyxml.obj)
+          SDL_main		; main.obj
+          _exit_callback		; MSVCMRTD.lib(msilexit.obj)
+          ??_C@_0L@ENAAEPMN@encoding?$DN?$CC?$AA@		; tinyxml.lib(tinyxml.obj)
+          ?ThrowModuleLoadException@<CrtImplementationDetails>@@$$FYMXP$AAVString@System@@@Z		; MSVCMRTD.lib(mstartup.obj)
+          ??_R2_System_error@std@@8		; main.obj
+          _t2m@?_Orphan_me@_Iterator_base12@std@@QAEXXZ		; main.obj
+          terminate		; ucrtd.lib(ucrtbased.dll)
+          ??_R4system_error@std@@6B@		; main.obj
+          _mep@?<MarshalCopy>@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FSMXPAV12@0@Z		; main.obj
+          ??_R1A@?0A@EA@TiXmlUnknown@@8		; tinyxml.lib(tinyxml.obj)
+          _mep@???__EgTrapTexture@@YMXXZ@?A0xf68777b6@@$$FYMXXZ		; main.obj
+          _mep@?_Alloc_proxy@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@$$FQAEXXZ		; main.obj
+          ?loadMedia@@YA_NXZ		; main.obj
+          ???__E?Initialized@CurrentDomain@<CrtImplementationDetails>@@$$Q2HA@@YMXXZ@?A0x13efd873@@$$FYMXXZ		; MSVCMRTD.lib(mstartup.obj)
+          ??$construct@U_Container_proxy@std@@U12@@?$allocator_traits@V?$allocator@U_Container_proxy@std@@@std@@@std@@$$FSAXAAV?$allocator@U_Container_proxy@std@@@1@PAU_Container_proxy@1@$$QAU31@@Z		; main.obj
+          ?HasNative@DefaultDomain@<CrtImplementationDetails>@@$$FSA_NXZ		; MSVCMRTD.lib(mstartup.obj)
+          _t2m@??$construct@PADAAPAD@?$allocator_traits@V?$allocator@D@std@@@std@@SAXAAV?$allocator@D@1@PAPADAAPAD@Z		; main.obj
+          _t2m@??_Esystem_error@std@@UAEPAXI@Z		; main.obj
+          ??1_Bxty@?$_String_val@U?$_Simple_types@D@std@@@std@@$$FQAE@XZ		; main.obj
+          ??_R1A@?0A@EA@bad_array_new_length@std@@8		; MSVCRTD.lib(throw_bad_alloc.obj)
+          ?_Getal@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@$$FQBEABU?$_Wrap_alloc@V?$allocator@D@std@@@2@XZ		; main.obj
+          ??_R1A@?0A@EA@TiXmlBase@@8		; tinyxml.lib(tinyxml.obj)
+          ??_C@_1IO@GOJOIIEP@?$AAn?$AAo?$AAd?$AAe?$AA?9?$AA?$DO?$AAG?$AAe?$AAt?$AAD?$AAo?$AAc?$AAu?$AAm?$AAe?$AAn?$AAt?$AA?$CI?$AA?$CJ?$AA?5?$AA?$DN?$AA?$DN?$AA?5?$AA0?$AA?5?$AA?$HM?$AA?$HM?$AA?5?$AAn?$AAo?$AAd?$AAe@		; tinyxml.lib(tinyxml.obj)
+          _mep@?_onexit_m@@$$J0YMP6MHXZP6MHXZ@Z		; MSVCMRTD.lib(msilexit.obj)
+          _mep@??4_Iterator_base12@std@@$$FQAEAAU01@ABU01@@Z		; main.obj
+          _imp__SDL_CreateTextureFromSurface		; SDL2.lib(SDL2.dll)
+          ?Initialize@DefaultDomain@<CrtImplementationDetails>@@$$FSAXXZ		; MSVCMRTD.lib(mstartup.obj)
+          __scrt_initialize_onexit_tables		; MSVCRT.lib(utility.obj)
+          ??_C@_0BJ@HFNMHALN@Out?5of?5memory?5?9?5aborting?$AA@		; SDL2main.lib(SDL_windows_main.obj)
+          ??1?$_String_val@U?$_Simple_types@D@std@@@std@@$$FQAE@XZ		; main.obj
+          __scrt_dllmain_exception_filter		; MSVCRT.lib(utility.obj)
+          ?getPosY@Lobster@@QAEHXZ		; main.obj
+          ??_7TiXmlText@@6B@		; tinyxml.lib(tinyxml.obj)
+          _mep@?ThrowNestedModuleLoadException@<CrtImplementationDetails>@@$$FYMXP$AAVException@System@@0@Z		; MSVCMRTD.lib(mstartup.obj)
+          _mep@?ThrowModuleLoadException@<CrtImplementationDetails>@@$$FYMXP$AAVString@System@@P$AAVException@3@@Z		; MSVCMRTD.lib(mstartup.obj)
+          ??_Efailure@ios_base@std@@$$FUAEPAXI@Z		; main.obj
+          _t2m@?_Getal@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QBEABU?$_Wrap_alloc@V?$allocator@D@std@@@2@XZ		; main.obj
+          _mep@?_Eos@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQAEXI@Z		; main.obj
+          _t2m@??0_Container_base12@std@@QAE@ABU01@@Z		; main.obj
+          ?_Debug_message@std@@YAXPB_W0I@Z		; msvcprtd.lib(MSVCP140D.dll)
+          ?NeedsUninitialization@DefaultDomain@<CrtImplementationDetails>@@$$FSA_NXZ		; MSVCMRTD.lib(mstartup.obj)
+          ??_R0?AVbad_cast@std@@@8		; main.obj
+          ??_C@_04OOMJJNCF@UTF8?$AA@		; tinyxml.lib(tinyxmlparser.obj)
+          _mep@?_initterm_m@@$$FYMXPBQ6MPBXXZ0@Z		; MSVCMRTD.lib(pureMSILcode.obj)
+          ??_7TiXmlDocument@@6B@		; tinyxml.lib(tinyxml.obj)
+          _mep@??$construct@PADAAPAD@?$_Wrap_alloc@V?$allocator@D@std@@@std@@$$FQAEXPAPADAAPAD@Z		; main.obj
+          _t2m@??0_Iterator_base12@std@@QAE@ABU01@@Z		; main.obj
+          ??$construct@PADAAPAD@?$_Wrap_alloc@V?$allocator@D@std@@@std@@$$FQAEXPAPADAAPAD@Z		; main.obj
+          _mep@?DomainUnload@LanguageSupport@<CrtImplementationDetails>@@$$FCMXP$AAVObject@System@@P$AAVEventArgs@4@@Z		; MSVCMRTD.lib(mstartup.obj)
+          ???__E?InitializedPerProcess@CurrentDomain@<CrtImplementationDetails>@@$$Q2W4Progress@2@A@@YMXXZ@?A0x13efd873@@$$FYMXXZ		; MSVCMRTD.lib(mstartup.obj)
+          _mep@??$destroy@U_Container_proxy@std@@@?$allocator_traits@V?$allocator@U_Container_proxy@std@@@std@@@std@@$$FSAXAAV?$allocator@U_Container_proxy@std@@@1@PAU_Container_proxy@1@@Z		; main.obj
+          _mep@?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQAEXII@Z		; main.obj
+          ??0?$allocator@D@std@@$$FQAE@ABV01@@Z		; main.obj
+          ??0_Container_base12@std@@$$FQAE@XZ		; main.obj
+          _mep@???__E?InitializedNative@CurrentDomain@<CrtImplementationDetails>@@$$Q2W4Progress@2@A@@YMXXZ@?A0x13efd873@@$$FYMXXZ		; MSVCMRTD.lib(mstartup.obj)
+          ?setBlendMode@LTexture@@QAEXW4SDL_BlendMode@@@Z		; main.obj
+          ?__release_appdomain@@$$FYAXPAUIUnknown@@@Z		; MSVCMRTD.lib(mstartup.obj)
+          _mep@??0exception_ptr@std@@$$FQAE@ABV01@@Z		; main.obj
+          ??_7runtime_error@std@@6B@		; main.obj
+          ?__scrt_is_safe_for_managed_code@@$$FYA_NXZ		; MSVCMRTD.lib(mstartup.obj)
+          SDL_iconv_string		; SDL2.lib(SDL2.dll)
+          ??$destroy@PAD@?$allocator@D@std@@$$FQAEXPAPAD@Z		; main.obj
+          _mep@??0_Container_proxy@std@@$$FQAE@XZ		; main.obj
+          UnhandledExceptionFilter@4		; kernel32.lib(KERNEL32.dll)
+          ??$forward@AAU?$_Wrap_alloc@V?$allocator@D@std@@@std@@@std@@$$FYAAAU?$_Wrap_alloc@V?$allocator@D@std@@@0@AAU10@@Z		; main.obj
+          SDL_RenderClear		; SDL2.lib(SDL2.dll)
+          ??0exception_ptr@std@@$$FQAE@ABV01@@Z		; main.obj
+          _t2m@?_Orphan_all@_Container_base12@std@@QAEXXZ		; main.obj
+          _imp__SDL_RenderPresent		; SDL2.lib(SDL2.dll)
+          ?_lock_Destruct@AtExitLock@<CrtImplementationDetails>@@$$FCAXXZ		; MSVCMRTD.lib(msilexit.obj)
+          ?getPosY@Boat@@QAEHXZ		; main.obj
+          _mep@?_Get_second@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@D@std@@@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@$$FQAEAAV?$_String_val@U?$_Simple_types@D@std@@@2@XZ		; main.obj
+          _mep@?SDL_main@@$$J0YAHHQAPAD@Z		; main.obj
+          ??_C@_0L@FLHGMILF@standalone?$AA@		; tinyxml.lib(tinyxmlparser.obj)
+          ?setPosX@Trap@@QAEXH@Z		; main.obj
+          ?__global_unlock@?A0x27925454@@YA_NXZ		; MSVCMRTD.lib(msilexit.obj)
+          _mep@?__ArrayUnwind@@$$FYMXPAXIIP6MX0@Z@Z		; MSVCMRTD.lib(mehvecdtr.obj)
+          ??0Lobster@@QAE@HH@Z		; main.obj
+          ??_R2bad_alloc@std@@8		; MSVCRTD.lib(throw_bad_alloc.obj)
+          ?_Xout_of_range@std@@YAXPBD@Z		; msvcprtd.lib(MSVCP140D.dll)
+          __guard_check_icall_fptr		; MSVCRT.lib(guard_support.obj)
+          _imp__SDL_RenderCopyEx		; SDL2.lib(SDL2.dll)
+          ?getPosX@Trap@@QAEHXZ		; main.obj
+          _imp__SDL_RenderClear		; SDL2.lib(SDL2.dll)
+          isalpha		; ucrtd.lib(ucrtbased.dll)
+          ?configure_argv@__scrt_narrow_argv_policy@@SAHXZ		; MSVCRT.lib(utility.obj)
+          _mep@?Initialize@LanguageSupport@<CrtImplementationDetails>@@$$FQAEXXZ		; MSVCMRTD.lib(mstartup.obj)
+          ??2@YAPAXI@Z		; MSVCRTD.lib(new_scalar.obj)
+          ??_C@_05NAOIJFC@Error?$AA@		; tinyxml.lib(tinyxmlerror.obj)
+          _initatexit_app_domain		; MSVCMRTD.lib(msilexit.obj)
+          ??_M@YMXPAXIIP6MX0@Z@Z		; MSVCMRTD.lib(mehvecdtr.obj)
+          isalnum		; ucrtd.lib(ucrtbased.dll)
+          _t2m@??$_Unfancy@D@std@@YAPADPAD@Z		; main.obj
+          _mep@?handleEvent@Trap@@$$FQAEXAATSDL_Event@@@Z		; main.obj
+          _t2m@?_Deallocate@std@@YAXPAXII@Z		; main.obj
+          _GUID_90f1a06e_7712_4762_86b5_7a5eba6bdb02		; MSVCMRTD.lib(mstartup.obj)
+          ??_C@_04PFOHOKJK@?5?5?5?5?$AA@		; tinyxml.lib(tinyxml.obj)
+          _mep@???__FgTrapTexture@@YMXXZ@?A0xf68777b6@@$$FYMXXZ		; main.obj
+          _mep@?_Get_first@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@D@std@@@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@$$FQBEABU?$_Wrap_alloc@V?$allocator@D@std@@@2@XZ		; main.obj
+          _onexit		; MSVCRT.lib(utility.obj)
+          ?_initatexit_app_domain@@$$J0YMHXZ		; MSVCMRTD.lib(msilexit.obj)
+          SDL_CreateTextureFromSurface		; SDL2.lib(SDL2.dll)
+          ?__global_lock@?A0x27925454@@YA_NXZ		; MSVCMRTD.lib(msilexit.obj)
+          _seh_filter_dll		; ucrtd.lib(ucrtbased.dll)
+          ??_7TiXmlNode@@6B@		; tinyxml.lib(tinyxml.obj)
+          ??_C@_04LOOHDCEI@?$CGgt?$DL?$AA@		; tinyxml.lib(tinyxmlparser.obj)
+          _t2m@?c_str@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEPBDXZ		; main.obj
+          ?_Bx@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@$$FQAEAAT_Bxty@?$_String_val@U?$_Simple_types@D@std@@@2@XZ		; main.obj
+          _atexit_helper		; MSVCMRTD.lib(msilexit.obj)
+          ??_7TiXmlDeclaration@@6B@		; tinyxml.lib(tinyxml.obj)
+          __scrt_dllmain_uninitialize_c		; MSVCRT.lib(utility.obj)
+          _t2m@?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z		; main.obj
+          _mep@?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQAEAAV12@PBD@Z		; main.obj
+          ??_Gbad_array_new_length@std@@UAEPAXI@Z		; MSVCRTD.lib(throw_bad_alloc.obj)
+          _imp___initialize_onexit_table		; ucrtd.lib(ucrtbased.dll)
+          ??1runtime_error@std@@$$FUAE@XZ		; main.obj
+          ?<MarshalDestroy>@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FSMXPAV12@@Z		; main.obj
+          ?SingletonDomainUnload@ModuleUninitializer@<CrtImplementationDetails>@@$$FA$AAMXP$AAVObject@System@@P$AAVEventArgs@4@@Z		; MSVCMRTD.lib(mstartup.obj)
+          ??_R4TiXmlComment@@6B@		; tinyxml.lib(tinyxml.obj)
+          _CrtDbgReportW		; ucrtd.lib(ucrtbased.dll)
+          __std_exception_destroy		; vcruntime.lib(VCRUNTIME140.dll)
+          ??0_System_error@std@@$$FQAE@ABV01@@Z		; main.obj
+          _GUID_90f1a06c_7712_4762_86b5_7a5eba6bdb02		; MSVCMRTD.lib(mstartup.obj)
+          _mep@?IsInitialized@AtExitLock@<CrtImplementationDetails>@@$$FSA_NXZ		; MSVCMRTD.lib(msilexit.obj)
+          ???__FgBoatTexture@@YMXXZ@?A0xf68777b6@@$$FYMXXZ		; main.obj
+          _mep@?length@?$char_traits@D@std@@$$FSAIPBD@Z		; main.obj
+          _t2m@??$forward@AAPAD@std@@YAAAPADAAPAD@Z		; main.obj
+          ?npos@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@2IB		; main.obj
+          _mep@?allocate@?$_Wrap_alloc@V?$allocator@D@std@@@std@@$$FQAEPADI@Z		; main.obj
+          _t2m@??$destroy@PAD@?$allocator@D@std@@QAEXPAPAD@Z		; main.obj
+          ??_R1A@?0A@EA@failure@ios_base@std@@8		; main.obj
+          _imp___purecall		; vcruntime.lib(VCRUNTIME140.dll)
+          _imp__SDL_SetMainReady		; SDL2.lib(SDL2.dll)
+          ??$destroy@PAD@?$allocator_traits@V?$allocator@D@std@@@std@@$$FSAXAAV?$allocator@D@1@PAPAD@Z		; main.obj
+          ??_R0?AVTiXmlDeclaration@@@8		; tinyxml.lib(tinyxml.obj)
+          ??_C@_0BA@JFNIOLAK@string?5too?5long?$AA@		; main.obj
+          @__security_check_cookie@4		; MSVCRTD.lib(_secchk_.obj)
+          ??_R4TiXmlAttribute@@6B@		; tinyxml.lib(tinyxml.obj)
+          ?_Adopt@_Iterator_base12@std@@$$FQAEXPBU_Container_base12@2@@Z		; main.obj
+          ?ArrayUnwindFilter@?A0xf45b0832@@YAHPAU_EXCEPTION_POINTERS@@@Z		; MSVCMRTD.lib(mehvecdtr.obj)
+          _t2m@??$?0D@?$allocator@U_Container_proxy@std@@@std@@QAE@ABV?$allocator@D@1@@Z		; main.obj
+          ??_R1A@?0A@EA@runtime_error@std@@8		; main.obj
+          ??_C@_0P@GHFPNOJB@bad?5allocation?$AA@		; MSVCRTD.lib(throw_bad_alloc.obj)
+          _t2m@??0?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QAE@XZ		; main.obj
+          ??_R2TiXmlAttribute@@8		; tinyxml.lib(tinyxml.obj)
+          SDL_DestroyTexture		; SDL2.lib(SDL2.dll)
+          _mep@??_Eexception@std@@$$FUAEPAXI@Z		; main.obj
+          ??_7failure@ios_base@std@@6B@		; main.obj
+          ??_C@_0BH@JJGGDJOP@Error?5reading?5end?5tag?4?$AA@		; tinyxml.lib(tinyxmlerror.obj)
+          ?handleEvent@Trap@@QAEXAATSDL_Event@@@Z		; main.obj
+          _imp___register_onexit_function		; ucrtd.lib(ucrtbased.dll)
+          tolower		; ucrtd.lib(ucrtbased.dll)
+          _mep@?close@@$$FYAXXZ		; main.obj
+          _register_onexit_function		; ucrtd.lib(ucrtbased.dll)
+          ??_C@_0BL@BMCKJPKK@Error?5parsing?5Declaration?4?$AA@		; tinyxml.lib(tinyxmlerror.obj)
+          ?Exit@AtExitLock@<CrtImplementationDetails>@@$$FSAXXZ		; MSVCMRTD.lib(msilexit.obj)
+          ??_R3TiXmlDocument@@8		; tinyxml.lib(tinyxml.obj)
+          ??_C@_0N@IHAMHLOK@standalone?$DN?$CC?$AA@		; tinyxml.lib(tinyxml.obj)
+          strncmp		; ucrtd.lib(ucrtbased.dll)
+          __scrt_initialize_crt		; MSVCRT.lib(utility.obj)
+          _mep@??0?$_Wrap_alloc@V?$allocator@D@std@@@std@@$$FQAE@$$QAU01@@Z		; main.obj
+          @_guard_check_icall_nop@4		; MSVCRT.lib(guard_support.obj)
+          ??$addressof@PAD@std@@$$FYAPAPADAAPAD@Z		; main.obj
+          ??_C@_1EE@PDHAHDDC@?$AA?$CC?$AA_?$AAP?$AAt?$AAr?$AA_?$AAc?$AAo?$AAn?$AAt?$AAa?$AAi?$AAn?$AAe?$AAr?$AA?5?$AA?$DM?$AA?5?$AA_?$AAP?$AAt?$AAr?$AA_?$AAu?$AAs?$AAe?$AAr?$AA?$CC?$AA?5?$AA?$CG?$AA?$CG?$AA?5@		; main.obj
+          _mep@?_Get_second@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@D@std@@@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@$$FQBEABV?$_String_val@U?$_Simple_types@D@std@@@2@XZ		; main.obj
+          ?render@Boat@@QAEXHH@Z		; main.obj
+          __scrt_get_show_window_mode		; MSVCRT.lib(utility_desktop.obj)
+          _t2m@?select_on_container_copy_construction@?$allocator_traits@V?$allocator@D@std@@@std@@SA?AV?$allocator@D@2@ABV32@@Z		; main.obj
+          ?_Get_data@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@$$FQAEAAV?$_String_val@U?$_Simple_types@D@std@@@2@XZ		; main.obj
+          _t2m@??$addressof@PAD@std@@YAPAPADAAPAD@Z		; main.obj
+          IsDebuggerPresent@0		; kernel32.lib(KERNEL32.dll)
+          _imp___seh_filter_dll		; ucrtd.lib(ucrtbased.dll)
+          _mep@?_Free_proxy@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@$$FQAEXXZ		; main.obj
+          _mep@??0_Bxty@?$_String_val@U?$_Simple_types@D@std@@@std@@$$FQAE@XZ		; main.obj
+          _app_exit_callback		; MSVCMRTD.lib(msilexit.obj)
+          ??$construct@PADAAPAD@?$allocator@D@std@@$$FQAEXPAPADAAPAD@Z		; main.obj
+          _imp__fclose		; ucrtd.lib(ucrtbased.dll)
+          ?loadFromFile@LTexture@@QAE_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z		; main.obj
+          _t2m@?DomainUnload@LanguageSupport@<CrtImplementationDetails>@@CMXP$AAVObject@System@@P$AAVEventArgs@4@@Z		; MSVCMRTD.lib(mstartup.obj)
+          ??_C@_01NOFIACDB@w?$AA@		; tinyxml.lib(tinyxml.obj)
+          _t2m@?what@exception@std@@UBEPBDXZ		; main.obj
+          _mep@??0Lobster@@$$FQAE@HH@Z		; main.obj
+          _mep@?_UninitializeDefaultDomain@LanguageSupport@<CrtImplementationDetails>@@$$FCGJPAX@Z		; MSVCMRTD.lib(mstartup.obj)
+          _imp____std_exception_copy		; vcruntime.lib(VCRUNTIME140.dll)
+          _imp__IsDebuggerPresent@0		; kernel32.lib(KERNEL32.dll)
+          _imp__SDL_ShowSimpleMessageBox		; SDL2.lib(SDL2.dll)
+          _t2m@?ThrowNestedModuleLoadException@<CrtImplementationDetails>@@YMXP$AAVException@System@@0@Z		; MSVCMRTD.lib(mstartup.obj)
+          ??_R0?AVbad_alloc@std@@@8		; MSVCRTD.lib(throw_bad_alloc.obj)
+          _imp___cexit		; ucrtd.lib(ucrtbased.dll)
+          __CxxDetectRethrow		; vcruntime.lib(VCRUNTIME140.dll)
+          __scrt_dllmain_crt_thread_attach		; MSVCRT.lib(utility.obj)
+          ?address@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@$$FQBEPAU_Container_proxy@2@AAU32@@Z		; main.obj
+          ???__E?InitializedPerAppDomain@CurrentDomain@<CrtImplementationDetails>@@$$Q2W4Progress@2@A@@YMXXZ@?A0x13efd873@@$$FYMXXZ		; MSVCMRTD.lib(mstartup.obj)
+          __scrt_dllmain_crt_thread_detach		; MSVCRT.lib(utility.obj)
+          _t2m@??1exception_ptr@std@@QAE@XZ		; main.obj
+          ?_Orphan_me@_Iterator_base12@std@@$$FQAEXXZ		; main.obj
+          _imp___initialize_narrow_environment		; ucrtd.lib(ucrtbased.dll)
+          _mep@???__EgBGTexture@@YMXXZ@?A0xf68777b6@@$$FYMXXZ		; main.obj
+          ??_R2system_error@std@@8		; main.obj
+          _mep@?_Myptr@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@$$FQBEPBDXZ		; main.obj
+          _mep@?setPosX@Trap@@$$FQAEXH@Z		; main.obj
+          ??_C@_1DG@HGDKEBPG@?$AA?$CC?$AA_?$AAP?$AAt?$AAr?$AA_?$AAc?$AAo?$AAn?$AAt?$AAa?$AAi?$AAn?$AAe?$AAr?$AA?5?$AA?$CB?$AA?$DN?$AA?5?$AA0?$AA?$CC?$AA?5?$AA?$CG?$AA?$CG?$AA?5?$AA0?$AA?$AA@		; main.obj
+          _t2m@?FromGUID@<CrtImplementationDetails>@@YM?AVGuid@System@@ABU_GUID@@@Z		; MSVCMRTD.lib(mstartup.obj)
+          _mep@?_lock_Construct@AtExitLock@<CrtImplementationDetails>@@$$FCMXP$AAVObject@System@@@Z		; MSVCMRTD.lib(msilexit.obj)
+          _t2m@?_lock_Set@AtExitLock@<CrtImplementationDetails>@@CMXP$AAVObject@System@@@Z		; MSVCMRTD.lib(msilexit.obj)
+          _t2m@?_Tidy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEX_NI@Z		; main.obj
+          _mep@??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQAE@ABV01@@Z		; main.obj
+          ??_C@_02DPKJAMEF@?$CFd?$AA@		; tinyxml.lib(tinyxml.obj)
+          _mep@??1_System_error@std@@$$FUAE@XZ		; main.obj
+          _CorExeMain@0		; MSCOREE.lib(mscoree.dll)
+          _t2m@?NeedsUninitialization@DefaultDomain@<CrtImplementationDetails>@@SA_NXZ		; MSVCMRTD.lib(mstartup.obj)
+          ??0?$_String_val@U?$_Simple_types@D@std@@@std@@$$FQAE@XZ		; main.obj
+          _t2m@?<MarshalCopy>@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@SMXPAV12@0@Z		; main.obj
+          _mep@??4?$gcroot@P$AAVString@System@@@@$$FQAMAAU0@P$AAVString@System@@@Z		; MSVCMRTD.lib(mstartup.obj)
+          ??0OpenMPWithMultipleAppdomainsException@<CrtImplementationDetails>@@$$FQ$AAM@XZ		; MSVCMRTD.lib(mstartup.obj)
+          ?_Myptr@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@$$FQBEPBDXZ		; main.obj
+          ??_C@_0P@CJGKNICB@encoding?$DN?$CC?$CFs?$CC?5?$AA@		; tinyxml.lib(tinyxml.obj)
+          ??_R1A@?0A@EA@_System_error@std@@8		; main.obj
+          ??$ResolveMethod@$$A6MPBXXZ@ThisModule@<CrtImplementationDetails>@@$$FSMP6MPBXXZP6MPBXXZ@Z		; MSVCMRTD.lib(pureMSILcode.obj)
+          _imp__SDL_DestroyRenderer		; SDL2.lib(SDL2.dll)
+          ?_initterm@@YMXPAP6AXXZ0@Z		; MSVCMRTD.lib(pureMSILcode.obj)
+          _mep@?Enter@AtExitLock@<CrtImplementationDetails>@@$$FSAXXZ		; MSVCMRTD.lib(msilexit.obj)
+          ??_R3TiXmlBase@@8		; tinyxml.lib(tinyxml.obj)
+          ??_U@YAPAXI@Z		; MSVCRTD.lib(new_array.obj)
+          ???__EgBoatTexture@@YMXXZ@?A0xf68777b6@@$$FYMXXZ		; main.obj
+          ??_7TiXmlUnknown@@6B@		; tinyxml.lib(tinyxml.obj)
+          ??_7bad_array_new_length@std@@6B@		; MSVCRTD.lib(throw_bad_alloc.obj)
+          _mep@?render@Lobster@@$$FQAEXHH@Z		; main.obj
+          _imp___crt_atexit		; ucrtd.lib(ucrtbased.dll)
+          ??$destroy@U_Container_proxy@std@@@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@$$FQAEXPAU_Container_proxy@1@@Z		; main.obj
+          _t2m@??B?$gcroot@P$AAVString@System@@@@QBMP$AAVString@System@@XZ		; MSVCMRTD.lib(mstartup.obj)
+          ?__scrt_throw_std_bad_array_new_length@@YAXXZ		; MSVCRTD.lib(throw_bad_alloc.obj)
+          ??_R2bad_array_new_length@std@@8		; MSVCRTD.lib(throw_bad_alloc.obj)
+          _mep@?free@LTexture@@$$FQAEXXZ		; main.obj
+          ??_C@_1FO@HPPHIJHG@?$AAs?$AAt?$AAr?$AAl?$AAe?$AAn?$AA?$CI?$AA?5?$AAe?$AAn?$AAt?$AAi?$AAt?$AAy?$AA?$FL?$AAi?$AA?$FN?$AA?4?$AAs?$AAt?$AAr?$AA?5?$AA?$CJ?$AA?5?$AA?$DN?$AA?$DN?$AA?5?$AAe?$AAn?$AAt?$AAi?$AAt@		; tinyxml.lib(tinyxmlparser.obj)
+          atof		; ucrtd.lib(ucrtbased.dll)
+          atoi		; ucrtd.lib(ucrtbased.dll)
+          @_guard_check_icall@4		; MSVCRT.lib(checkcfg.obj)
+          ??$construct@U_Container_proxy@std@@U12@@?$allocator@U_Container_proxy@std@@@std@@$$FQAEXPAU_Container_proxy@1@$$QAU21@@Z		; main.obj
+          _t2m@?RemoveRef@AtExitLock@<CrtImplementationDetails>@@SAXXZ		; MSVCMRTD.lib(msilexit.obj)
+          __report_gsfailure		; MSVCRTD.lib(gs_report.obj)
+          ?Handle@ThisModule@<CrtImplementationDetails>@@$$FCM?AVModuleHandle@System@@XZ		; MSVCMRTD.lib(pureMSILcode.obj)
+          _imp_?_Xout_of_range@std@@YAXPBD@Z		; msvcprtd.lib(MSVCP140D.dll)
+          _t2m@??0bad_cast@std@@QAE@ABV01@@Z		; main.obj
+          _mep@?allocate@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@$$FQAEPAU_Container_proxy@2@I@Z		; main.obj
+          _atexit_m		; MSVCMRTD.lib(msilexit.obj)
+          _t2m@?allocate@?$allocator@D@std@@QAEPADI@Z		; main.obj
+          ??_C@_03FONCMJME@?$DM?$CFs?$AA@		; tinyxml.lib(tinyxml.obj)
+          ?_getFiberPtrId@@YAPAXXZ		; MSVCMRTD.lib(mstartup.obj)
+          _mep@??0Trap@@$$FQAE@HH@Z		; main.obj
+          _t2m@??$ResolveMethod@$$A6MPBXXZ@ThisModule@<CrtImplementationDetails>@@SMP6MPBXXZP6MPBXXZ@Z		; MSVCMRTD.lib(pureMSILcode.obj)
+          _imp__IsProcessorFeaturePresent@4		; kernel32.lib(KERNEL32.dll)
+          ??_R0?AVTiXmlNode@@@8		; tinyxml.lib(tinyxml.obj)
+          ??_M@YMXPAXIHP6MX0@Z@Z		; MSVCMRTD.lib(mehvecdtr.obj)
+          ?copy@?$char_traits@D@std@@$$FSAPADPADPBDI@Z		; main.obj
+          ??_C@_1DG@LFHPEILE@?$AAs?$AAe?$AAn?$AAt?$AAi?$AAn?$AAe?$AAl?$AA?4?$AAp?$AAr?$AAe?$AAv?$AA?5?$AA?$DN?$AA?$DN?$AA?5?$AA?$CG?$AAs?$AAe?$AAn?$AAt?$AAi?$AAn?$AAe?$AAl?$AA?$AA@		; tinyxml.lib(tinyxml.obj)
+          _mep@???__EgWinTexture@@YMXXZ@?A0xf68777b6@@$$FYMXXZ		; main.obj
+          _configure_narrow_argv		; ucrtd.lib(ucrtbased.dll)
+          _t2m@??0locale@std@@QAE@ABV01@@Z		; main.obj
+          _mep@??$construct@PADAAPAD@?$allocator_traits@V?$allocator@D@std@@@std@@$$FSAXAAV?$allocator@D@1@PAPADAAPAD@Z		; main.obj
+          _imp_?_Debug_message@std@@YAXPB_W0I@Z		; msvcprtd.lib(MSVCP140D.dll)
+          ??_R3_System_error@std@@8		; main.obj
+          ??_C@_1FE@EHOANJMC@?$AAe?$AAr?$AAr?$AA?5?$AA?$DO?$AA?5?$AA0?$AA?5?$AA?$CG?$AA?$CG?$AA?5?$AAe?$AAr?$AAr?$AA?5?$AA?$DM?$AA?5?$AAT?$AAI?$AAX?$AAM?$AAL?$AA_?$AAE?$AAR?$AAR?$AAO?$AAR?$AA_?$AAS?$AAT?$AAR@		; tinyxml.lib(tinyxmlparser.obj)
+          ??_C@_1M@OLEIFDEL@?$AAs?$AAt?$AAa?$AAm?$AAp?$AA?$AA@		; tinyxml.lib(tinyxmlparser.obj)
+          ???__E?IsDefaultDomain@CurrentDomain@<CrtImplementationDetails>@@$$Q2_NA@@YMXXZ@?A0x13efd873@@$$FYMXXZ		; MSVCMRTD.lib(mstartup.obj)
+          _mep@??1runtime_error@std@@$$FUAE@XZ		; main.obj
+          _t2m@???__EgBGCloudsTexture@@YMXXZ@?A0xf68777b6@@YMXXZ		; main.obj
+          ?getWidth@LTexture@@QAEHXZ		; main.obj
+          ?Cleanup@LanguageSupport@<CrtImplementationDetails>@@$$FAAMXP$AAVException@System@@@Z		; MSVCMRTD.lib(mstartup.obj)
+          ??_R3failure@ios_base@std@@8		; main.obj
+          _mep@???__FgBGCloudsTexture@@YMXXZ@?A0xf68777b6@@$$FYMXXZ		; main.obj
+          ??_C@_1BO@NKFMJPA@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAA?$AAl?$AAl?$AAo?$AAc?$AAa?$AAt?$AAe?$AA?$AA@		; main.obj
+          _atexit_m_appdomain		; MSVCMRTD.lib(msilexit.obj)
+          _t2m@??$forward@U_Container_proxy@std@@@std@@YA$$QAU_Container_proxy@0@AAU10@@Z		; main.obj
+          ?_Get_data@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@$$FQBEABV?$_String_val@U?$_Simple_types@D@std@@@2@XZ		; main.obj
+          ?___CxxCallUnwindDelDtor@@$$J0YMXP6MXPAX@Z0@Z		; MSVCMRTD.lib(managdeh.obj)
+          _imp__SDL_iconv_string		; SDL2.lib(SDL2.dll)
+          ?Initialize@LanguageSupport@<CrtImplementationDetails>@@$$FQAEXXZ		; MSVCMRTD.lib(mstartup.obj)
+          _t2m@???__E?Initialized@CurrentDomain@<CrtImplementationDetails>@@$$Q2HA@@YMXXZ@?A0x13efd873@@YMXXZ		; MSVCMRTD.lib(mstartup.obj)
+          _mep@??0_Iterator_base12@std@@$$FQAE@ABU01@@Z		; main.obj
+          ??_C@_08NBDJLNFA@UTF?916LE?$AA@		; SDL2main.lib(SDL_windows_main.obj)
+          ??0failure@ios_base@std@@$$FQAE@ABV012@@Z		; main.obj
+          ??_R0?AVsystem_error@std@@@8		; main.obj
+          __stdio_common_vsscanf		; ucrtd.lib(ucrtbased.dll)
+          _t2m@??$addressof@U_Container_proxy@std@@@std@@YAPAU_Container_proxy@0@AAU10@@Z		; main.obj
+          ??_C@_1DG@DBLLEBDG@?$AAs?$AAe?$AAn?$AAt?$AAi?$AAn?$AAe?$AAl?$AA?4?$AAn?$AAe?$AAx?$AAt?$AA?5?$AA?$DN?$AA?$DN?$AA?5?$AA?$CG?$AAs?$AAe?$AAn?$AAt?$AAi?$AAn?$AAe?$AAl?$AA?$AA@		; tinyxml.lib(tinyxml.obj)
+          _mep@???__FgBGTexture@@YMXXZ@?A0xf68777b6@@$$FYMXXZ		; main.obj
+          _t2m@???__FgBGTexture@@YMXXZ@?A0xf68777b6@@YMXXZ		; main.obj
+          _mep@?ArrayUnwindFilter@?A0xf45b0832@@$$FYAHPAU_EXCEPTION_POINTERS@@@Z		; MSVCMRTD.lib(mehvecdtr.obj)
+          _mep@?FromGUID@<CrtImplementationDetails>@@$$FYM?AVGuid@System@@ABU_GUID@@@Z		; MSVCMRTD.lib(mstartup.obj)
+          ??$_Debug_pointer_if@$$CBD@std@@$$FYAX_NPBDPB_WI@Z		; main.obj
+          ?_lock_Construct@AtExitLock@<CrtImplementationDetails>@@$$FCMXP$AAVObject@System@@@Z		; MSVCMRTD.lib(msilexit.obj)
+          _imp___CorExeMain@0		; MSCOREE.lib(mscoree.dll)
+          _t2m@?_Alloc_proxy@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QAEXXZ		; main.obj
+          ?__global_lock@?A0x27925454@@$$FYA_NXZ		; MSVCMRTD.lib(msilexit.obj)
+          ??_Gexception@std@@UAEPAXI@Z		; MSVCRTD.lib(throw_bad_alloc.obj)
+          ??0LanguageSupport@<CrtImplementationDetails>@@$$FQAE@XZ		; MSVCMRTD.lib(mstartup.obj)
+          ?__dealloc_global_lock@?A0x27925454@@YAXXZ		; MSVCMRTD.lib(msilexit.obj)
+          ?_atexit_helper@@$$J0YMHP6MXXZPAIPAPAP6MXXZ2@Z		; MSVCMRTD.lib(msilexit.obj)
+          _mep@??1exception@std@@$$FUAE@XZ		; main.obj
+          _imp____acrt_iob_func		; ucrtd.lib(ucrtbased.dll)
+          _t2m@?Handle@ThisModule@<CrtImplementationDetails>@@CM?AVModuleHandle@System@@XZ		; MSVCMRTD.lib(pureMSILcode.obj)
+          TerminateProcess@8		; kernel32.lib(KERNEL32.dll)
+          ??$__crt_fast_encode_pointer@PAP6AXXZ@@YAPAP6AXXZQAP6AXXZ@Z		; MSVCRT.lib(utility.obj)
+          _mep@??_Ebad_cast@std@@$$FUAEPAXI@Z		; main.obj
+          IsProcessorFeaturePresent@4		; kernel32.lib(KERNEL32.dll)
+          ??_C@_01BJJEKLCA@?$CC?$AA@		; tinyxml.lib(tinyxml.obj)
+          ??_R2TiXmlComment@@8		; tinyxml.lib(tinyxml.obj)
+          _CxxThrowException@8		; vcruntime.lib(VCRUNTIME140.dll)
+          _t2m@??2@YAPAXIPAX@Z		; main.obj
+          ??1_Container_base12@std@@$$FQAE@XZ		; main.obj
+          ??0bad_array_new_length@std@@QAE@ABV01@@Z		; MSVCRTD.lib(throw_bad_alloc.obj)
+          _mep@?erase@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQAEAAV12@II@Z		; main.obj
+          ?_Free_proxy@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@$$FQAEXXZ		; main.obj
+          ??0?$_Wrap_alloc@V?$allocator@D@std@@@std@@$$FQAE@$$QAU01@@Z		; main.obj
+          _mep@?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQAEAAV12@ABV12@II@Z		; main.obj
+          ?<MarshalCopy>@exception_ptr@std@@$$FSMXPAV12@0@Z		; main.obj
+          SDL_SetTextureAlphaMod		; SDL2.lib(SDL2.dll)
+          SDL_SetTextureColorMod		; SDL2.lib(SDL2.dll)
+          _mep@?loadMedia@@$$FYA_NXZ		; main.obj
+          ??$move@AAU?$_Wrap_alloc@V?$allocator@D@std@@@std@@@std@@$$FYA$$QAU?$_Wrap_alloc@V?$allocator@D@std@@@0@AAU10@@Z		; main.obj
+          _mep@??$destroy@PAD@?$allocator@D@std@@$$FQAEXPAPAD@Z		; main.obj
+          _mep@?max_size@?$allocator_traits@V?$allocator@D@std@@@std@@$$FSAIABV?$allocator@D@2@@Z		; main.obj
+          ?__ArrayUnwind@@YMXPAXIIP6MX0@Z@Z		; MSVCMRTD.lib(mehvecdtr.obj)
+          _mep@???__E?IsDefaultDomain@CurrentDomain@<CrtImplementationDetails>@@$$Q2_NA@@YMXXZ@?A0x13efd873@@$$FYMXXZ		; MSVCMRTD.lib(mstartup.obj)
+          _mep@?_initatexit_m@@$$J0YMHXZ		; MSVCMRTD.lib(msilexit.obj)
+          ?render@LTexture@@QAEXHHPAUSDL_Rect@@NPAUSDL_Point@@W4SDL_RendererFlip@@@Z		; main.obj
+          ?InitializePerAppDomain@LanguageSupport@<CrtImplementationDetails>@@$$FAAEXXZ		; MSVCMRTD.lib(mstartup.obj)
+          _mep@???__EgBGCloudsTexture@@YMXXZ@?A0xf68777b6@@$$FYMXXZ		; main.obj
+          ??_R4TiXmlUnknown@@6B@		; tinyxml.lib(tinyxml.obj)
+          ?length@?$char_traits@D@std@@$$FSAIPBD@Z		; main.obj
+          _mep@?_initatexit_app_domain@@$$J0YMHXZ		; MSVCMRTD.lib(msilexit.obj)
+          ?_Myres@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@$$FQAEAAIXZ		; main.obj
+          _t2m@?_Grow@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE_NI_N@Z		; main.obj
+          _mep@?_Get_data@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@$$FQAEAAV?$_String_val@U?$_Simple_types@D@std@@@2@XZ		; main.obj
+          ??$destroy@U_Container_proxy@std@@@?$allocator@U_Container_proxy@std@@@std@@$$FQAEXPAU_Container_proxy@1@@Z		; main.obj
+          _purecall		; vcruntime.lib(VCRUNTIME140.dll)
+          ??_C@_1CG@JNLFBNGN@?$AA?$CC?$AAi?$AAn?$AAv?$AAa?$AAl?$AAi?$AAd?$AA?5?$AAa?$AAr?$AAg?$AAu?$AAm?$AAe?$AAn?$AAt?$AA?$CC?$AA?$AA@		; main.obj
+          _mep@?__global_lock@?A0x27925454@@$$FYA_NXZ		; MSVCMRTD.lib(msilexit.obj)
+          ?InitializeVtables@LanguageSupport@<CrtImplementationDetails>@@$$FAAEXXZ		; MSVCMRTD.lib(mstartup.obj)
+          _imp__tolower		; ucrtd.lib(ucrtbased.dll)
+          __scrt_stub_for_is_c_termination_complete		; MSVCRTD.lib(ucrt_stubs.obj)
+          __CxxQueryExceptionSize		; vcruntime.lib(VCRUNTIME140.dll)
+          _imp__memmove		; vcruntime.lib(VCRUNTIME140.dll)
+          _imp__SDL_SetTextureBlendMode		; SDL2.lib(SDL2.dll)
+          ??0bad_alloc@std@@QAE@ABV01@@Z		; MSVCRTD.lib(throw_bad_alloc.obj)
+          __scrt_release_startup_lock		; MSVCRT.lib(utility.obj)
+          _CT??_R0?AVexception@std@@@8??0exception@std@@QAE@ABV01@@Z12		; MSVCRTD.lib(throw_bad_alloc.obj)
+          _mep@?_Clamp_suffix_size@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQBEIII@Z		; main.obj
+          _mep@??0exception@std@@$$FQAE@ABV01@@Z		; main.obj
+          ??_C@_1CC@DMFNEMDE@?$AAc?$AAu?$AAr?$AAs?$AAo?$AAr?$AA?4?$AAc?$AAo?$AAl?$AA?5?$AA?$DO?$AA?$DN?$AA?5?$AA?9?$AA1?$AA?$AA@		; tinyxml.lib(tinyxmlparser.obj)
+          ???__EgWinTexture@@YMXXZ@?A0xf68777b6@@$$FYMXXZ		; main.obj
+          _t2m@??0?$allocator@_W@std@@QAE@ABV01@@Z		; main.obj
+          _mep@?_atexit_m@@$$J0YMHP6MXXZ@Z		; MSVCMRTD.lib(msilexit.obj)
+          _mep@??0system_error@std@@$$FQAE@ABV01@@Z		; main.obj
+          _t2m@?deallocate@?$allocator@D@std@@QAEXPADI@Z		; main.obj
+          _imp__GetSystemTimeAsFileTime@4		; kernel32.lib(KERNEL32.dll)
+          ___CxxCallUnwindVecDtor		; MSVCMRTD.lib(managdeh.obj)
+          ?getHeight@LTexture@@QAEHXZ		; main.obj
+          _t2m@?Enter@AtExitLock@<CrtImplementationDetails>@@SAXXZ		; MSVCMRTD.lib(msilexit.obj)
+          ??_C@_13COJANIEC@?$AA0?$AA?$AA@		; tinyxml.lib(tinyxml.obj)
+          _mep@?getPosX@Lobster@@$$FQAEHXZ		; main.obj
+          __scrt_acquire_startup_lock		; MSVCRT.lib(utility.obj)
+          ??_C@_17NHJOKMLJ@?$AAt?$AAa?$AAg?$AA?$AA@		; tinyxml.lib(tinyxmlparser.obj)
+          _t2m@?_Check_offset@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEXI@Z		; main.obj
+          _mep@?NeedsUninitialization@DefaultDomain@<CrtImplementationDetails>@@$$FSA_NXZ		; MSVCMRTD.lib(mstartup.obj)
+          _mep@??$construct@U_Container_proxy@std@@U12@@?$allocator_traits@V?$allocator@U_Container_proxy@std@@@std@@@std@@$$FSAXAAV?$allocator@U_Container_proxy@std@@@1@PAU_Container_proxy@1@$$QAU31@@Z		; main.obj
+          ?allocate@?$allocator@U_Container_proxy@std@@@std@@$$FQAEPAU_Container_proxy@2@I@Z		; main.obj
+          _mep@???__EgBoatTexture@@YMXXZ@?A0xf68777b6@@$$FYMXXZ		; main.obj
+          ?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQAEAAV12@PBD@Z		; main.obj
+          _mep@?__local_stdio_printf_options@@$$J0YAPA_KXZ		; main.obj
+          _imp__TerminateProcess@8		; kernel32.lib(KERNEL32.dll)
+          _imp__strncmp		; ucrtd.lib(ucrtbased.dll)
+          _mep@??0_System_error@std@@$$FQAE@ABV01@@Z		; main.obj
+          _initatexit_m		; MSVCMRTD.lib(msilexit.obj)
+          _CT??_R0?AVbad_array_new_length@std@@@8??0bad_array_new_length@std@@QAE@ABV01@@Z12		; MSVCRTD.lib(throw_bad_alloc.obj)
+          ??_R0?AVbad_array_new_length@std@@@8		; MSVCRTD.lib(throw_bad_alloc.obj)
+          _mep@?InitializePerAppDomain@LanguageSupport@<CrtImplementationDetails>@@$$FAAEXXZ		; MSVCMRTD.lib(mstartup.obj)
+          ???__FgBGCloudsTexture@@YMXXZ@?A0xf68777b6@@$$FYMXXZ		; main.obj
+          _crt_atexit		; ucrtd.lib(ucrtbased.dll)
+          ??_C@_1DC@POOIKBAO@?$AAI?$AAT?$AAE?$AAR?$AAA?$AAT?$AAO?$AAR?$AA?5?$AAL?$AAI?$AAS?$AAT?$AA?5?$AAC?$AAO?$AAR?$AAR?$AAU?$AAP?$AAT?$AAE?$AAD?$AA?$CB?$AA?$AA@		; main.obj
+          ??_R4TiXmlNode@@6B@		; tinyxml.lib(tinyxml.obj)
+          _t2m@??$construct@U_Container_proxy@std@@U12@@?$allocator_traits@V?$allocator@U_Container_proxy@std@@@std@@@std@@SAXAAV?$allocator@U_Container_proxy@std@@@1@PAU_Container_proxy@1@$$QAU31@@Z		; main.obj
+          ??_R4failure@ios_base@std@@6B@		; main.obj
+          ?_Get_second@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@D@std@@@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@$$FQAEAAV?$_String_val@U?$_Simple_types@D@std@@@2@XZ		; main.obj
+          ??_V@YAXPAX@Z		; MSVCRTD.lib(delete_array.obj)
+          _mep@?_Orphan_all@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@$$FQAEXXZ		; main.obj
+          ?ArrayUnwindFilter@?A0xf45b0832@@$$FYAHPAU_EXCEPTION_POINTERS@@@Z		; MSVCMRTD.lib(mehvecdtr.obj)
+          _mep@??$forward@AAU?$_Wrap_alloc@V?$allocator@D@std@@@std@@@std@@$$FYAAAU?$_Wrap_alloc@V?$allocator@D@std@@@0@AAU10@@Z		; main.obj
+          ??0bad_cast@std@@$$FQAE@ABV01@@Z		; main.obj
+          _t2m@??1?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QAE@XZ		; main.obj
+          _t2m@?_UninitializeDefaultDomain@LanguageSupport@<CrtImplementationDetails>@@CGJPAX@Z		; MSVCMRTD.lib(mstartup.obj)
+          ??0exception@std@@QAE@ABV01@@Z		; MSVCRTD.lib(throw_bad_alloc.obj)
+          ?getPosY@Trap@@QAEHXZ		; main.obj
+          printf		; main.obj
+          ??0?$allocator@D@std@@$$FQAE@XZ		; main.obj
+          ??_R0?AVexception@std@@@8		; main.obj
+          ?max_size@?$allocator_traits@V?$allocator@D@std@@@std@@$$FSAIABV?$allocator@D@2@@Z		; main.obj
+          Sleep@4		; kernel32.lib(KERNEL32.dll)
+          _t2m@?_lock_Destruct@AtExitLock@<CrtImplementationDetails>@@CAXXZ		; MSVCMRTD.lib(msilexit.obj)
+          _mep@?_Get_first@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@D@std@@@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@$$FQAEAAU?$_Wrap_alloc@V?$allocator@D@std@@@2@XZ		; main.obj
+          _mep@?what@exception@std@@$$FUBEPBDXZ		; main.obj
+          _mep@?_Check_offset@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQBEXI@Z		; main.obj
+          __scrt_dllmain_before_initialize_c		; MSVCRT.lib(utility.obj)
+          ?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQAEAAV12@ABV12@II@Z		; main.obj
+          _mep@??0?$allocator@D@std@@$$FQAE@XZ		; main.obj
+          _imp__SDL_isspace		; SDL2.lib(SDL2.dll)
+          ?_Eos@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQAEXI@Z		; main.obj
+          ?erase@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQAEAAV12@I@Z		; main.obj
+          ??_C@_1CC@LOFJFFDB@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAD?$AAe?$AAa?$AAl?$AAl?$AAo?$AAc?$AAa?$AAt?$AAe?$AA?$AA@		; main.obj
+          ?__ArrayUnwind@@$$FYMXPAXIIP6MX0@Z@Z		; MSVCMRTD.lib(mehvecdtr.obj)
+          _mep@??$ResolveMethod@$$A6MPBXXZ@ThisModule@<CrtImplementationDetails>@@$$FSMP6MPBXXZP6MPBXXZ@Z		; MSVCMRTD.lib(pureMSILcode.obj)
+          memmove		; vcruntime.lib(VCRUNTIME140.dll)
+          _t2m@?__get_default_appdomain@@YAJPAPAUIUnknown@@@Z		; MSVCMRTD.lib(mstartup.obj)
+          ?pointer_to@?$pointer_traits@PAU_Container_proxy@std@@@std@@$$FSAPAU_Container_proxy@2@AAU32@@Z		; main.obj
+          ??_C@_01NEMOKFLO@?$DN?$AA@		; tinyxml.lib(tinyxml.obj)
+          ??_R3TiXmlComment@@8		; tinyxml.lib(tinyxml.obj)
+          ?render@Lobster@@QAEXHH@Z		; main.obj
+          _imp____CxxUnregisterExceptionObject		; vcruntime.lib(VCRUNTIME140.dll)
+          ?what@exception@std@@$$FUBEPBDXZ		; main.obj
+          ?_Inside@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQAE_NPBD@Z		; main.obj
+          ??1system_error@std@@$$FUAE@XZ		; main.obj
+          ?what@exception@std@@UBEPBDXZ		; MSVCRTD.lib(throw_bad_alloc.obj)
+          ??_C@_02KBFACPPK@?$DM?$CB?$AA@		; tinyxml.lib(tinyxmlparser.obj)
+          _imp__SDL_CreateRenderer		; SDL2.lib(SDL2.dll)
+          _t2m@?_Myptr@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QBEPBDXZ		; main.obj
+          _t2m@?_Myptr@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QAEPADXZ		; main.obj
+          _imp__SDL_Quit		; SDL2.lib(SDL2.dll)
+          _mep@??$construct@U_Container_proxy@std@@U12@@?$allocator@U_Container_proxy@std@@@std@@$$FQAEXPAU_Container_proxy@1@$$QAU21@@Z		; main.obj
+          _except_handler4		; MSVCRT.lib(_chandler4gs_.obj)
+          ??0exception@std@@$$FQAE@ABV01@@Z		; main.obj
+          ??_R3bad_alloc@std@@8		; MSVCRTD.lib(throw_bad_alloc.obj)
+          _mep@???__E?InitializedPerProcess@CurrentDomain@<CrtImplementationDetails>@@$$Q2W4Progress@2@A@@YMXXZ@?A0x13efd873@@$$FYMXXZ		; MSVCMRTD.lib(mstartup.obj)
+          _t2m@?InitializeVtables@LanguageSupport@<CrtImplementationDetails>@@AAEXXZ		; MSVCMRTD.lib(mstartup.obj)
+          ??$_Unfancy@U_Container_proxy@std@@@std@@$$FYAPAU_Container_proxy@0@PAU10@@Z		; main.obj
+          ?_initterm_e@@YMHPAP6AHXZ0@Z		; MSVCMRTD.lib(pureMSILcode.obj)
+          _mep@?_lock_Set@AtExitLock@<CrtImplementationDetails>@@$$FCMXP$AAVObject@System@@@Z		; MSVCMRTD.lib(msilexit.obj)
+          _t2m@?_Myptr@?$_String_val@U?$_Simple_types@D@std@@@std@@QBEPBDXZ		; main.obj
+          ??_R3runtime_error@std@@8		; main.obj
+          _imp____stdio_common_vsscanf		; ucrtd.lib(ucrtbased.dll)
+          _mep@?max_size@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQBEIXZ		; main.obj
+          _t2m@?_Free_proxy@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QAEXXZ		; main.obj
+          _mep@?RegisterModuleUninitializer@<CrtImplementationDetails>@@$$FYMXP$AAVEventHandler@System@@@Z		; MSVCMRTD.lib(mstartup.obj)
+          _t2m@?_Myptr@?$_String_val@U?$_Simple_types@D@std@@@std@@QAEPADXZ		; main.obj
+          _execute_onexit_table		; ucrtd.lib(ucrtbased.dll)
+          _t2m@??1_Container_base12@std@@QAE@XZ		; main.obj
+          _mep@?_lock_Get@AtExitLock@<CrtImplementationDetails>@@$$FCMP$AAVObject@System@@XZ		; MSVCMRTD.lib(msilexit.obj)
+          ??_R1A@?0A@EA@exception@std@@8		; main.obj
+          _imp__SDL_free		; SDL2.lib(SDL2.dll)
+          _t2m@?UninitializeAppDomain@LanguageSupport@<CrtImplementationDetails>@@CAXXZ		; MSVCMRTD.lib(mstartup.obj)
+          _t2m@??$?0$$V@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@D@std@@@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@QAE@U_Zero_then_variadic_args_t@1@@Z		; main.obj
+          _t2m@?address@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QBEPAU_Container_proxy@2@AAU32@@Z		; main.obj
+          _imp__SDL_SetHint		; SDL2.lib(SDL2.dll)
+          _mep@??2@$$FYAPAXIPAX@Z		; main.obj
+          _mep@??$destroy@U_Container_proxy@std@@@?$allocator@U_Container_proxy@std@@@std@@$$FQAEXPAU_Container_proxy@1@@Z		; main.obj
+          _imp__SDL_Init		; SDL2.lib(SDL2.dll)
+          _mep@??$?0V?$allocator@D@std@@@?$_Wrap_alloc@V?$allocator@D@std@@@std@@$$FQAE@$$QAV?$allocator@D@1@@Z		; main.obj
+          ??_C@_07JDMHCBCA@?$CFs?$DN?$CC?$CFs?$CC?$AA@		; tinyxml.lib(tinyxml.obj)
+          _t2m@?_Xran@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEXXZ		; main.obj
+          ??_C@_1HA@NAPGMHAO@?$AA?$CC?$AA2?$AA?5?$AA?$CK?$AA?5?$AAs?$AAi?$AAz?$AAe?$AAo?$AAf?$AA?$CI?$AAv?$AAo?$AAi?$AAd?$AA?5?$AA?$CK?$AA?$CJ?$AA?5?$AA?$DM?$AA?$DN?$AA?5?$AA_?$AAP?$AAt?$AAr?$AA_?$AAu?$AAs?$AAe?$AAr@		; main.obj
+          _t2m@?InitializeNative@LanguageSupport@<CrtImplementationDetails>@@AAEXXZ		; MSVCMRTD.lib(mstartup.obj)
+          ??_R4runtime_error@std@@6B@		; main.obj
+          ?__ExceptionPtrCopy@@YAXPAXPBX@Z		; msvcprtd.lib(MSVCP140D.dll)
+          ??$forward@U_Container_proxy@std@@@std@@$$FYA$$QAU_Container_proxy@0@AAU10@@Z		; main.obj
+          ??_C@_1EI@MLOBABC@?$AA?$CC?$AA_?$AAC?$AAo?$AAu?$AAn?$AAt?$AA?5?$AA?$DM?$AA?$DN?$AA?5?$AA?$CI?$AAs?$AAi?$AAz?$AAe?$AA_?$AAt?$AA?$CJ?$AA?$CI?$AA?9?$AA1?$AA?$CJ?$AA?5?$AA?1?$AA?5?$AA_?$AAS?$AAz?$AA?$CC?$AA?5?$AA?$CG@		; main.obj
+          ??_R2TiXmlDocument@@8		; tinyxml.lib(tinyxml.obj)
+          ??_C@_02DPNDACHE@?$DM?1?$AA@		; tinyxml.lib(tinyxml.obj)
+          _mep@?max_size@?$_Wrap_alloc@V?$allocator@D@std@@@std@@$$FQBEIU_Nil@2@@Z		; main.obj
+          ?render@Trap@@QAEXHH@Z		; main.obj
+          __scrt_dllmain_uninitialize_critical		; MSVCRT.lib(utility.obj)
+          _imp_??0_Lockit@std@@QAE@H@Z		; msvcprtd.lib(MSVCP140D.dll)
+          _t2m@???__E?InitializedPerAppDomain@CurrentDomain@<CrtImplementationDetails>@@$$Q2W4Progress@2@A@@YMXXZ@?A0x13efd873@@YMXXZ		; MSVCMRTD.lib(mstartup.obj)
+          ??_R4TiXmlText@@6B@		; tinyxml.lib(tinyxml.obj)
+          ??$construct@U_Container_proxy@std@@U12@@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@$$FQAEXPAU_Container_proxy@1@$$QAU21@@Z		; main.obj
+          _mep@?setAlpha@LTexture@@$$FQAEXE@Z		; main.obj
+          __scrt_is_nonwritable_in_current_image		; MSVCRT.lib(utility.obj)
+          ?deallocate@?$_Wrap_alloc@V?$allocator@D@std@@@std@@$$FQAEXPADI@Z		; main.obj
+          ?_initterm_m@@$$FYMXPBQ6MPBXXZ0@Z		; MSVCMRTD.lib(pureMSILcode.obj)
+          _mep@?ThrowModuleLoadException@<CrtImplementationDetails>@@$$FYMXP$AAVString@System@@@Z		; MSVCMRTD.lib(mstartup.obj)
+          ??_C@_02DKCKIIND@?$CFs?$AA@		; tinyxml.lib(tinyxml.obj)
+          _CT??_R0?AVbad_alloc@std@@@8??0bad_alloc@std@@QAE@ABV01@@Z12		; MSVCRTD.lib(throw_bad_alloc.obj)
+          ??_C@_05POIKLDCH@?$DM?1?$CFs?$DO?$AA@		; tinyxml.lib(tinyxml.obj)
+          ???__E?InitializedNative@CurrentDomain@<CrtImplementationDetails>@@$$Q2W4Progress@2@A@@YMXXZ@?A0x13efd873@@$$FYMXXZ		; MSVCMRTD.lib(mstartup.obj)
+          ??_C@_06DDLNFFBN@?$CGquot?$DL?$AA@		; tinyxml.lib(tinyxmlparser.obj)
+          ?__ExceptionPtrDestroy@@YAXPAX@Z		; msvcprtd.lib(MSVCP140D.dll)
+          ?_Orphan_all@_Container_base12@std@@$$FQAEXXZ		; main.obj
+          _t2m@??$?0U?$_Wrap_alloc@V?$allocator@D@std@@@std@@$$V@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@D@std@@@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@QAE@U_One_then_variadic_args_t@1@$$QAU?$_Wrap_alloc@V?$allocator@D@std@@@1@@Z		; main.obj
+          ??1bad_cast@std@@$$FUAE@XZ		; main.obj
+          ??$addressof@U_Container_proxy@std@@@std@@$$FYAPAU_Container_proxy@0@AAU10@@Z		; main.obj
+  
+  Finished processing /ORDER options
+  Starting pass 2
+       * CIL library *(* CIL module *)
+       * linker generated manifest res *
+       .NETFramework,Version=v4.0.AssemblyAttributes.obj
+       main.obj
+       SDL2_image.lib(SDL2_image.dll)
+       SDL2_image.lib(SDL2_image.dll)
+       SDL2_image.lib(SDL2_image.dll)
+       SDL2_image.lib(SDL2_image.dll)
+       SDL2_image.lib(SDL2_image.dll)
+       SDL2.lib(SDL2.dll)
+       SDL2.lib(SDL2.dll)
+       SDL2.lib(SDL2.dll)
+       SDL2.lib(SDL2.dll)
+       SDL2.lib(SDL2.dll)
+       SDL2.lib(SDL2.dll)
+       SDL2.lib(SDL2.dll)
+       SDL2.lib(SDL2.dll)
+       SDL2.lib(SDL2.dll)
+       SDL2.lib(SDL2.dll)
+       SDL2.lib(SDL2.dll)
+       SDL2.lib(SDL2.dll)
+       SDL2.lib(SDL2.dll)
+       SDL2.lib(SDL2.dll)
+       SDL2.lib(SDL2.dll)
+       SDL2.lib(SDL2.dll)
+       SDL2.lib(SDL2.dll)
+       SDL2.lib(SDL2.dll)
+       SDL2.lib(SDL2.dll)
+       SDL2.lib(SDL2.dll)
+       SDL2.lib(SDL2.dll)
+       SDL2.lib(SDL2.dll)
+       SDL2.lib(SDL2.dll)
+       SDL2.lib(SDL2.dll)
+       SDL2.lib(SDL2.dll)
+       SDL2.lib(SDL2.dll)
+       SDL2.lib(SDL2.dll)
+       SDL2.lib(SDL2.dll)
+       SDL2.lib(SDL2.dll)
+       SDL2.lib(SDL2.dll)
+       SDL2main.lib(SDL_windows_main.obj)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       msvcprtd.lib(MSVCP140D.dll)
+       MSVCRTD.lib(_secchk_.obj)
+       MSVCRTD.lib(gs_cookie.obj)
+       MSVCRTD.lib(gs_report.obj)
+       MSVCRTD.lib(gs_support.obj)
+       MSVCRTD.lib(loadcfg.obj)
+       MSVCRTD.lib(fltused.obj)
+       MSVCRTD.lib(std_type_info_static.obj)
+       MSVCRTD.lib(delete_array.obj)
+       MSVCRTD.lib(delete_array_size.obj)
+       MSVCRTD.lib(delete_scalar.obj)
+       MSVCRTD.lib(delete_scalar_size.obj)
+       MSVCRTD.lib(new_array.obj)
+       MSVCRTD.lib(new_scalar.obj)
+       MSVCRTD.lib(throw_bad_alloc.obj)
+       MSVCRTD.lib(ucrt_stubs.obj)
+       MSVCMRTD.lib(msilexit.obj)
+       MSVCMRTD.lib(mstartup.obj)
+       MSVCMRTD.lib(pureMSILcode.obj)
+       MSVCMRTD.lib(managdeh.obj)
+       MSVCMRTD.lib(mehvecdtr.obj)
+       MSCOREE.lib(mscoree.dll)
+       MSCOREE.lib(mscoree.dll)
+       MSCOREE.lib(mscoree.dll)
+       MSVCRT.lib(_cpu_disp_.obj)
+       MSVCRT.lib(_sehprolg4_.obj)
+       MSVCRT.lib(_chandler4gs_.obj)
+       MSVCRT.lib(checkcfg.obj)
+       MSVCRT.lib(guard_support.obj)
+       MSVCRT.lib(ucrt_detection.obj)
+       MSVCRT.lib(argv_mode.obj)
+       MSVCRT.lib(initializers.obj)
+       MSVCRT.lib(utility.obj)
+       MSVCRT.lib(utility_desktop.obj)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       ucrtd.lib(ucrtbased.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+  Finished pass 2
+tinyxml.lib(tinyxml.obj) : warning LNK4099: PDB 'TinyXml.pdb' was not found with 'tinyxml.lib(tinyxml.obj)' or at 'C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\Debug\TinyXml.pdb'; linking object as if no debug info
+tinyxml.lib(tinystr.obj) : warning LNK4099: PDB 'TinyXml.pdb' was not found with 'tinyxml.lib(tinystr.obj)' or at 'C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\Debug\TinyXml.pdb'; linking object as if no debug info
+tinyxml.lib(tinyxmlparser.obj) : warning LNK4099: PDB 'TinyXml.pdb' was not found with 'tinyxml.lib(tinyxmlparser.obj)' or at 'C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\Debug\TinyXml.pdb'; linking object as if no debug info
+tinyxml.lib(tinyxmlerror.obj) : warning LNK4099: PDB 'TinyXml.pdb' was not found with 'tinyxml.lib(tinyxmlerror.obj)' or at 'C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\Debug\TinyXml.pdb'; linking object as if no debug info
+  LobsterHunter.vcxproj -> C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\Debug\LobsterHunter.exe
+  LobsterHunter.vcxproj -> C:\Users\jsayres\Documents\BeagleBone\Projects\LobsterHunter\Debug\LobsterHunter.pdb (Full PDB)

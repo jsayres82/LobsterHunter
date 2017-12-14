@@ -1,0 +1,10 @@
+﻿  main.cpp
+  Generating code
+  0 of 173 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+main.obj : warning LNK4248: unresolved typeref token (01000015) for 'SDL_Texture'; image may not run
+main.obj : warning LNK4248: unresolved typeref token (01000017) for 'SDL_Renderer'; image may not run
+main.obj : warning LNK4248: unresolved typeref token (0100001A) for 'SDL_Window'; image may not run
+  LobsterHunter.vcxproj -> C:\Users\jsayres\Source\Repos\LobsterHunter\Release\LobsterHunter.exe
